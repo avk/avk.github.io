@@ -7,7 +7,7 @@ layout: default
 
 # About
 
-Hi, I'm Arthur Klepchukov, a UX Designer and Engineer in San Francisco.
+Hi, I'm Arthur Klepchukov, a product designer in San Francisco.
 
 ## Goal
 
