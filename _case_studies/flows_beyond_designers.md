@@ -65,6 +65,8 @@ All these iterations were captured in different layers in my OmniGraffle documen
 
 This document was how I justified my time estimate to my product and engineering managers. It provided a basis for iOS and Android developers to follow (or push back on) my decisions for a consistent implementation. It helped QA test the delivered functionality. Finally, it helped us discuss what metrics we were recording and what they actually meant by mapping them to the best place in the flow.
 
+> This experience went live on [vevo.com](http://www.vevo.com/?ref=avkux) in Oct 2015. iOS and Android implementations followed.
+
 Obviously, flow documents take time to create but the exercise is worth doing. Start on a whiteboard. Jump to something digital like OmniGraffle when necessary. Realize that when the diagram feels too big, that’s precisely the value of the exercise. Don’t be afraid to break things down, question your assumptions, and pare down to the essentials of what your changes need to accomplish. You’ll still make all these decisions in code so I find it incredibly helpful to brainstorm them up front and start asking questions early.
 
 > This was the inaugural post to kick off the [Vevo Engineering Blog](http://blog.vevo.com/flows-arent-just-for-designers/)
