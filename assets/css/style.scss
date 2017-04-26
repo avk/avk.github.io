@@ -5,7 +5,17 @@
 
 @import "{{ site.theme }}";
 
+$tablet_width: 768px;
+
 header h1,
 header h2 {
   width: auto;
+}
+
+aside#sidebar {
+  @media only screen and (min-width: $tablet_width) {
+    position: fixed;
+    right: 5%;
+    top: 200px;
+  }
 }
