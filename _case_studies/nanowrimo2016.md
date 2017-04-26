@@ -1,10 +1,10 @@
 ---
 layout: default
-title: NaNoWriMo 2016
+title: 30-day Novel Challenge
 overview: Convince writers to start and finish new 50,000-word novels in 30 days using relatively new online writing software.
 ---
 
-# <small>Case Study</small>: <br />NaNoWriMo 2016
+# <small>Case Study</small>: <br />30-day Novel Challenge
 
 ## Overview
 
