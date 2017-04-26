@@ -1,0 +1,15 @@
+---
+layout: default
+title: Case Studies
+permalink: /case_studies/
+---
+
+<h1>Case Studies</h1>
+
+{% for case_study in site.case_studies %}
+  <div>
+    <a href="{{ case_study.url | relative_url }}" title="{{ case_study.title }}">
+      <h2>{{ case_study.title }}</h2>
+    </a>
+  </div>
+{% endfor %}

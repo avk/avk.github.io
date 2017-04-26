@@ -4,12 +4,26 @@
 // override Jekyll theme https://help.github.com/articles/customizing-css-and-html-in-your-jekyll-theme/
 
 @import "{{ site.theme }}";
+@import "nav.css";
 
 $tablet_width: 768px;
+$desktop_width: 1024px;
 
-header h1,
-header h2 {
-  width: auto;
+header {
+  padding: 30px 0 20px 0;
+  
+  h1, h2 {
+    width: auto;
+  }
+  
+  h1 {
+    float: left;
+    font-size: 40px;
+    margin-right: 10px;
+  }
+  h2 {
+    font-size: 18px;
+  }
 }
 
 aside#sidebar {

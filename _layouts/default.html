@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" media="screen" type="text/css">
     <link rel="stylesheet" href="{{ '/assets/css/print.css' | relative_url }}" media="print" type="text/css">
 
@@ -24,10 +25,31 @@
   <body>
     <header>
       <div class="inner">
-        <a href="{{ '/' | absolute_url }}">
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        </a>
-        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+        <nav>
+          <ul class="primary">
+            <a href="{{ '/' | absolute_url }}">
+              <h1>{{ site.title | default: site.github.repository_name }}</h1>
+            </a>
+            <li>
+              <a href="{{ '/' | absolute_url }}">
+                <i class="material-icons">face</i> 
+                <span class="title">About</span>
+              </a>
+            </li>
+            <li>
+              <a href="{{ '/case_studies/' | relative_url }}">
+                <i class="material-icons">work</i> 
+                <span class="title">Case Studies</span>
+              </a>
+            </li>
+            <li>
+              <a href="{{ '/contact/' | relative_url }}">
+                <i class="material-icons">mail_outline</i> 
+                <span class="title">Contact</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </header>
 
@@ -38,43 +60,6 @@
         </section>
 
         <aside id="sidebar">
-          <h2>
-            <a href="{{ '/' | absolute_url }}">About</a>
-          </h2>
-          
-          {% if site.social.email %}
-            <h2>
-              <a href="mailto:{{ site.social.email }}" title="Email">
-                <span class="icon icon-at"></span>
-                Email
-              </a>
-            </h2>
-          {% endif %}
-          {% if site.social.linkedin %}
-            <h2>
-              <a href="https://www.linkedin.com/in/{{ site.social.linkedin }}" target="_blank" title="LinkedIn">
-                <span class="icon icon-social-linkedin"></span>
-                LinkedIn
-              </a>
-            </h2>
-          {% endif %}
-          {% if site.social.github %}
-            <h2>
-              <a href="https://github.com/{{ site.social.github }}" target="_blank" title="GitHub">
-                <span class="icon icon-social-github"></span>
-                GitHub
-              </a>
-            </h2>
-          {% endif %}
-          {% if site.social.twitter %}
-            <h2>
-              <a href="https://twitter.com/{{ site.social.twitter }}" target="_blank" title="Twitter">
-                <span class="icon icon-social-twitter"></span>
-                Twitter
-              </a>
-            </h2>
-          {% endif %}
-
           <h2>Case Studies</h2>
           <ul>
           {% for case_study in site.case_studies %}
