@@ -4,7 +4,7 @@ title: Case Study Template
 published: false
 ---
 
-# Case Study: Template
+# <small>Case Study</small>: <br />Template
 
 ## Overview
 
@@ -26,10 +26,10 @@ who worked with you on the project? What was your team structure?
 
 did you have any constraints? Time, access to users, undefined problem, not enough people, too large of a scope, etc.
 
-## Design Process
+# Design Process
 
 What was your design process? Did you facilitate any design exercises? What deliverables were you responsible for? Speak to messiness.
 
-## Retrospective
+# Retrospective
 
 lessons learned — did you reach success metrics? Work through the right problem? What would you do better if you could do it again?

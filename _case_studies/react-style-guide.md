@@ -3,7 +3,7 @@ layout: default
 title: React-driven Style Guide
 ---
 
-# Case Study: React-driven Style Guide
+# <small>Case Study</small>: <br />React-driven Style Guide
 
 > I plan to give a talk on this topic at the May 2017 [ReactJS San Francisco meetup](https://www.meetup.com/ReactJS-San-Francisco/). 
 

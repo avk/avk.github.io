@@ -3,7 +3,7 @@ layout: default
 title: NaNoWriMo 2016
 ---
 
-# Case Study: NaNoWriMo 2016
+# <small>Case Study</small>: <br />NaNoWriMo 2016
 
 ## Overview
 
@@ -132,4 +132,4 @@ Unfortunately, this was not enough to drive more trials to become customers. Thi
 
 If I were to do this again, I would focus my efforts on testing our content to drive repeat use—perhaps treat our in-product NaNoWriMo advice as a funnel itself and look for leaks.
 
-[See the live experience, as of April 2017](https://www.therightmargin.com/nanowrimo?ref=avkux)
+[See the live experience, as of November 2016](https://www.therightmargin.com/nanowrimo?ref=avkux)
