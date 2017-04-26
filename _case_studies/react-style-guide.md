@@ -1,6 +1,7 @@
 ---
 layout: default
 title: React-driven Style Guide
+overview: Leveraging React for tighter design-engineering feedback loops and better quality production releases. 
 ---
 
 # <small>Case Study</small>: <br />React-driven Style Guide

@@ -11,5 +11,9 @@ permalink: /case_studies/
     <a href="{{ case_study.url | relative_url }}" title="{{ case_study.title }}">
       <h2>{{ case_study.title }}</h2>
     </a>
+    
+    <p>
+      {{ case_study.overview }}
+    </p>
   </div>
 {% endfor %}
