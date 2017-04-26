@@ -26,6 +26,7 @@ I want to find a __product design__ role at a company with a design team I colla
 * fluent in Russian
 * 3-time startup founder
 * worked across industries: government, music videos, academia, travel, creative writing
+* graduated from the University of California, Berkeley—Cognitive Science & Computer Science
 
 ## If I could wave a magic wand...
 My dream design job would be to work on an operating system that successfully challenges the desktop metaphor, in a way that mobile ones have not. 
