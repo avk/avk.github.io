@@ -58,21 +58,6 @@
         <section id="main-content">
           {{ content }}
         </section>
-
-        <aside id="sidebar">
-          <h2>Case Studies</h2>
-          <ul>
-          {% for case_study in site.case_studies %}
-            <li>
-              <a href="{{ case_study.url | relative_url }}" title="{{ case_study.title }}">
-                <h3>
-                  {{ case_study.title }}
-                </h3>
-              </a>
-            </li>
-          {% endfor %}
-          </ul>
-        </aside>
       </div>
     </div>
 
