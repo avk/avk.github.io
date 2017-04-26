@@ -2,6 +2,7 @@
 layout: default
 title: Note to Self Prototype
 overview: In 4 weeks, create, test, and launch a prototype to help writers continue writing across sessions by preserving mental context at the end of each session.
+date: 2017-03-31
 ---
 
 # <small>Case Study</small>: <br />Note to Self Prototype

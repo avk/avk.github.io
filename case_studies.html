@@ -6,10 +6,15 @@ permalink: /case_studies/
 
 <h1>Case Studies</h1>
 
-{% for case_study in site.case_studies %}
+{% assign case_studies = site.case_studies | sort:date | reverse %}
+{% for case_study in case_studies %}
   <div>
     <a href="{{ case_study.url | relative_url }}" title="{{ case_study.title }}">
-      <h2>{{ case_study.title }}</h2>
+      <h2>
+        {{ case_study.title }} 
+        &mdash;
+        <small>{{ case_study.date | date: "%b %d, %Y" }}</small>
+      </h2>
     </a>
     
     <p>
