@@ -9,8 +9,15 @@
 $tablet_width: 768px;
 $desktop_width: 1024px;
 
+$header_height: 100px;
+
 header {
-  padding: 30px 0 20px 0;
+  background-position-y: -20px;
+  opacity: 0.95;
+  padding: 20px 0 0 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
   
   h1, h2 {
     width: auto;
@@ -24,6 +31,10 @@ header {
   h2 {
     font-size: 18px;
   }
+}
+
+#content-wrapper {
+  padding-top: $header_height + 10px;
 }
 
 aside#sidebar {
