@@ -9,7 +9,7 @@ layout: default
 
 Hi, I'm Arthur Klepchukov, an empathetic product designer in San Francisco who loves words, trains, and the promise of an empty page.
 
-![Arthur Klepchukov]({{ site.url }}/assets/locomotive-art.jpg)
+![Arthur Klepchukov with a train]({{ site.url }}/assets/locomotive-art.jpg)
 
 ## Goal
 
@@ -33,6 +33,6 @@ Hi, I'm Arthur Klepchukov, an empathetic product designer in San Francisco who l
 ## If I could wave a magic wand...
 My dream design job would be to work on an operating system that successfully challenges the desktop metaphor, in a way that mobile ones have not. 
 
-## What's next?
+## All aboard! Next stop...
 
 > [See my case studies]({{ site.url }}/case_studies/) for examples of my work.

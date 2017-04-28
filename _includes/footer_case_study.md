@@ -1,3 +1,3 @@
-# What's next?
+## All aboard! Next stop...
 
 > [See more case studies](/case_studies/) or [get in touch](/contact/).
