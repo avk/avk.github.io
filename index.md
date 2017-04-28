@@ -9,7 +9,7 @@ layout: default
 
 # About
 
-Hi, I'm Arthur Klepchukov, a product designer in San Francisco.
+Hi, I'm Arthur Klepchukov, an empathetic product designer in San Francisco who loves words, trains, and the promise of an empty page.
 
 ## Goal
 
