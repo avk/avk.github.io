@@ -5,6 +5,8 @@
 layout: default
 ---
 
+![Arthur Klepchukov]({{ site.url }}/assets/locomotive-art.jpg)
+
 # About
 
 Hi, I'm Arthur Klepchukov, a product designer in San Francisco.
@@ -12,8 +14,6 @@ Hi, I'm Arthur Klepchukov, a product designer in San Francisco.
 ## Goal
 
 {% include goal.md %}
-
-![Arthur Klepchukov]({{ site.url }}/assets/locomotive-art.jpg)
 
 ## What makes me an empathetic designer
 * moved twenty times and lived in various parts of the United States
