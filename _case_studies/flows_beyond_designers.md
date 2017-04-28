@@ -5,6 +5,8 @@ overview: Introduce user flows to improve a typically overlooked and under-teste
 date: 2014-10-12
 ---
 
+![Work sample from this case study]({{ site.url }}/assets/vevo_flows/cover.png)
+
 # <small>Case Study</small>: <br />Flows Aren't Just for Designers
 
 ## Overview

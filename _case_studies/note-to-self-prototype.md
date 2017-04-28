@@ -5,6 +5,8 @@ overview: In 4 weeks, create, test, and launch a prototype to help writers conti
 date: 2017-03-31
 ---
 
+![Work sample from this case study]({{ site.url }}/assets/note_to_self/cover.jpg)
+
 # <small>Case Study</small>: <br />Note to Self Prototype
 
 ## Overview

@@ -5,6 +5,8 @@ overview: Leveraging React for tighter design-engineering feedback loops and bet
 date: 2015-12-20
 ---
 
+![Work sample from this case study]({{ site.url }}/assets/sg/cover.png)
+
 # <small>Case Study</small>: <br />React-driven Style Guide
 
 > I plan to give a talk on this topic at the May 2017 [ReactJS San Francisco meetup](https://www.meetup.com/ReactJS-San-Francisco/). 

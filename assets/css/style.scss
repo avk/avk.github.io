@@ -9,8 +9,6 @@
 $tablet_width: 768px;
 $desktop_width: 1024px;
 
-$header_height: 100px;
-
 body {
   font-size: 16px;
 }
@@ -38,7 +36,11 @@ header {
 }
 
 #content-wrapper {
-  padding-top: $header_height + 10px;
+  padding-top: 115px;
+  
+  @media only screen and (min-width: $tablet_width) {
+    padding-top: 70px;
+  }
 }
 
 aside#sidebar {

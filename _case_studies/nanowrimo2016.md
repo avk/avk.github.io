@@ -5,6 +5,8 @@ overview: Convince writers to start and finish new 50,000-word novels in 30 days
 date: 2016-11-30
 ---
 
+![Work sample from this case study]({{ site.url }}/assets/nnwm/cover.png)
+
 # <small>Case Study</small>: <br />30-day Novel Challenge
 
 ## Overview
