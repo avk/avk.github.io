@@ -5,11 +5,11 @@
 layout: default
 ---
 
-![Arthur Klepchukov]({{ site.url }}/assets/locomotive-art.jpg)
-
 # About
 
 Hi, I'm Arthur Klepchukov, an empathetic product designer in San Francisco who loves words, trains, and the promise of an empty page.
+
+![Arthur Klepchukov]({{ site.url }}/assets/locomotive-art.jpg)
 
 ## Goal
 
