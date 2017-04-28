@@ -135,3 +135,5 @@ Unfortunately, this was not enough to drive more trials to become customers. Thi
 If I were to do this again, I would focus my efforts on testing our content to drive repeat use—perhaps treat our in-product NaNoWriMo advice as a funnel itself and look for leaks.
 
 [See the live experience, as of November 2016](https://www.therightmargin.com/nanowrimo?ref=avkux)
+
+{% include footer_case_study.md %}

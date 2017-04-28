@@ -15,6 +15,8 @@ Hi, I'm Arthur Klepchukov, an empathetic product designer in San Francisco who l
 
 {% include goal.md %}
 
+[See What I Can Do](/case_studies/)
+
 ## What makes me an empathetic designer
 * moved twenty times and lived in various parts of the United States
 * born in Ukraine and have [visited in tumultuous times](https://arsenalofwords.com/2014/02/23/maidan-morning/){:target="_blank"}
@@ -30,3 +32,7 @@ Hi, I'm Arthur Klepchukov, an empathetic product designer in San Francisco who l
 
 ## If I could wave a magic wand...
 My dream design job would be to work on an operating system that successfully challenges the desktop metaphor, in a way that mobile ones have not. 
+
+## What's next?
+
+> [See my case studies]({{ site.url }}/case_studies/) for examples of my work.

@@ -33,3 +33,5 @@ What was your design process? Did you facilitate any design exercises? What deli
 # Retrospective
 
 lessons learned — did you reach success metrics? Work through the right problem? What would you do better if you could do it again?
+
+{% include footer_case_study.md %}

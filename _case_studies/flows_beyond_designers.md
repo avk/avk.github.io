@@ -71,3 +71,5 @@ This document was how I justified my time estimate to my product and engineering
 Obviously, flow documents take time to create but the exercise is worth doing. Start on a whiteboard. Jump to something digital like OmniGraffle when necessary. Realize that when the diagram feels too big, that’s precisely the value of the exercise. Don’t be afraid to break things down, question your assumptions, and pare down to the essentials of what your changes need to accomplish. You’ll still make all these decisions in code so I find it incredibly helpful to brainstorm them up front and start asking questions early.
 
 > This was the inaugural post to kick off the [Vevo Engineering Blog](http://blog.vevo.com/flows-arent-just-for-designers/)
+
+{% include footer_case_study.md %}

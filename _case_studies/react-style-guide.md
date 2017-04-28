@@ -141,3 +141,4 @@ If I were to repeat this process, I would consider new open source tools that em
 
 ![TheRightMargin's React-driven style guide]({{ site.url }}/assets/sg/full-style-guide.png)
 
+{% include footer_case_study.md %}
