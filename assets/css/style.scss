@@ -43,6 +43,32 @@ header {
   }
 }
 
+.case_study {
+  border-bottom: 2px dashed #ccc;
+  clear: both;
+  margin: 75px 0;
+  
+  @media only screen and (min-width: $tablet_width) {
+    border-bottom: none;
+  }
+  
+  img.cover {
+    @media only screen and (min-width: $tablet_width) {
+      float: left;
+      margin-right: 20px;
+      width: 200px;
+    }
+  }
+  
+  h2 {
+    @media only screen and (min-width: $tablet_width) {
+      bottom: 7px;
+      left: 30px;
+      position: relative;
+    }
+  }
+}
+
 aside#sidebar {
   @media only screen and (min-width: $tablet_width) {
     position: fixed;

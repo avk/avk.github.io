@@ -10,7 +10,15 @@ The following case studies demonstrate my skills across the spectrum of product 
 
 {% assign case_studies = site.case_studies | sort:date | reverse %}
 {% for case_study in case_studies %}
-  <div>
+  <div class="case_study">
+    <a href="{{ case_study.url | relative_url }}">
+      <img 
+        alt="Work sample from {{ case_study.title }}" 
+        class="cover"
+        src="{{ site.url }}{{ case_study.cover_image }}" 
+      />
+    </a>
+    
     <h2>
       <a href="{{ case_study.url | relative_url }}" title="{{ case_study.title }}">
         {{ case_study.title }} 

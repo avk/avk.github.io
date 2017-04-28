@@ -3,6 +3,7 @@ layout: default
 title: React-driven Style Guide
 overview: Leveraging React for tighter design-engineering feedback loops and better quality production releases. 
 date: 2015-12-20
+cover_image: /assets/sg/cover.png
 ---
 
 ![Work sample from this case study]({{ site.url }}/assets/sg/cover.png)

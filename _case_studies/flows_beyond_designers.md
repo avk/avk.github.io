@@ -3,6 +3,7 @@ layout: default
 title: Flows Aren't Just for Designers
 overview: Introduce user flows to improve a typically overlooked and under-tested product experience on a major consumer web property—vevo.com.
 date: 2014-10-12
+cover_image: /assets/vevo_flows/cover.png
 ---
 
 ![Work sample from this case study]({{ site.url }}/assets/vevo_flows/cover.png)

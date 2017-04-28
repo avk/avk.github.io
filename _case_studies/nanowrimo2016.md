@@ -3,6 +3,7 @@ layout: default
 title: 30-day Novel Challenge
 overview: Convince writers to start and finish new 50,000-word novels in 30 days using relatively new online writing software.
 date: 2016-11-30
+cover_image: /assets/nnwm/cover.png
 ---
 
 ![Work sample from this case study]({{ site.url }}/assets/nnwm/cover.png)
