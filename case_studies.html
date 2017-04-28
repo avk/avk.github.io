@@ -9,11 +9,11 @@ permalink: /case_studies/
 {% assign case_studies = site.case_studies | sort:date | reverse %}
 {% for case_study in case_studies %}
   <div>
-    <a href="{{ case_study.url | relative_url }}" title="{{ case_study.title }}">
-      <h2>
+    <h2>
+      <a href="{{ case_study.url | relative_url }}" title="{{ case_study.title }}">
         {{ case_study.title }} 
-      </h2>
-    </a>
+      </a>
+    </h2>
     
     <p>
       {{ case_study.overview }}
