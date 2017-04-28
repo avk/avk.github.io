@@ -6,6 +6,10 @@ permalink: /contact/
 
 # Contact 
 
+> As of May 2017, I'm looking for full-time work.
+
+{% include goal.md %}
+
 {% if site.social.email %}
   <h2>
     <a href="mailto:{{ site.social.email }}" title="Email">
