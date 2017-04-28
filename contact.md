@@ -4,6 +4,8 @@ title: Contact
 permalink: /contact/
 ---
 
+<img src="{{ site.url }}/assets/contact.png" alt="Let's get the gears rolling" style="float: right; margin: 0 0 100px 20px;" />
+
 # Contact 
 
 > As of May 2017, I'm looking for full-time work.
