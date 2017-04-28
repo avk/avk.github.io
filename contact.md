@@ -10,7 +10,7 @@ permalink: /contact/
   <h2>
     <a href="mailto:{{ site.social.email }}" title="Email">
       <span class="icon icon-at"></span>
-      Email
+      {{ site.social.email }}
     </a>
   </h2>
 {% endif %}
