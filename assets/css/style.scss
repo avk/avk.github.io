@@ -13,6 +13,14 @@ body {
   font-size: 16px;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.1;
+
+  @media only screen and (min-width: $tablet_width) {
+    line-height: 1.25;
+  }
+}
+
 header {
   background-position-y: -20px;
   opacity: 0.95;
