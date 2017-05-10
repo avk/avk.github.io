@@ -7,7 +7,7 @@ layout: default
 
 # About
 
-Hi, I'm Arthur Klepchukov, an empathetic product designer in San Francisco who loves words, trains, and the promise of an empty page.
+Hi, I'm Arthur Klepchukov, an empathetic UX designer in San Francisco who loves words, trains, and the promise of an empty page.
 
 ![Arthur Klepchukov with a train]({{ site.url }}/assets/locomotive-art.jpg)
 
