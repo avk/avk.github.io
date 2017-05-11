@@ -31,19 +31,19 @@
               <h1>{{ site.title | default: site.github.repository_name }}</h1>
             </a>
             <li>
-              <a href="{{ '/' | absolute_url }}">
-                <i class="material-icons">face</i> 
-                <span class="title">About</span>
-              </a>
-            </li>
-            <li>
-              <a href="{{ '/case_studies/' | relative_url }}">
+              <a href="{{ '/#case_studies' | absolute_url }}">
                 <i class="material-icons">work</i> 
                 <span class="title">Case Studies</span>
               </a>
             </li>
             <li>
-              <a href="{{ '/contact/' | relative_url }}">
+              <a href="{{ '/about/' | absolute_url }}">
+                <i class="material-icons">face</i> 
+                <span class="title">About</span>
+              </a>
+            </li>
+            <li>
+              <a href="{{ '/contact/' | absolute_url }}">
                 <i class="material-icons">mail_outline</i> 
                 <span class="title">Contact</span>
               </a>

@@ -1,21 +1,21 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
+title: About
+permalink: /about/
 ---
 
 # About
 
-Hi, I'm Arthur Klepchukov, an empathetic UX designer in San Francisco who loves words, trains, and the promise of an empty page.
+<img 
+  src="{{ site.url }}/assets/art_sq.jpg" 
+  alt="Let's get the gears rolling" 
+  style="float: right; margin: 0 0 100px 20px;" />
 
-![Arthur Klepchukov with a train]({{ site.url }}/assets/locomotive-art.jpg)
+Hi, I'm Arthur Klepchukov, an empathetic UX designer in San Francisco who loves words, trains, and the promise of an empty page.
 
 ## Goal
 
 {% include goal.md %}
-
-[See What I Can Do](/case_studies/)
 
 ## What makes me an empathetic designer
 * moved twenty times and lived in various parts of the United States
@@ -35,4 +35,9 @@ My dream design job would be to work on an operating system that successfully ch
 
 ## All aboard! Next stop...
 
-> [See my case studies]({{ site.url }}/case_studies/) for examples of my work.
+> [See my case studies]({{ site.url }}/) for examples of my work.
+
+<img 
+  alt="LEGO train" 
+  src="{{ site.url }}/assets/lego-train.jpg" 
+/>

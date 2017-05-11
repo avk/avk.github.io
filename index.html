@@ -1,18 +1,30 @@
 ---
 layout: default
 title: Case Studies
-permalink: /case_studies/
 ---
+
+<div class="blurb">
+  <img 
+    src="{{ site.url }}/assets/locomotive-art.jpg" 
+    alt="Arthur Klepchukov with a train" 
+    style="" />  
+  
+  <div class="pithy">
+    <h1>
+      Arthur Klepchukov
+      <br>
+      UX Designer
+    </h1>
+    <small>I love words, trains, and the promise of an empty page.</small>
+  </div>
+</div>
 
 <h1>Selected Case Studies</h1>
 
-<p>The following case studies demonstrate my skills across the spectrum of product development and my ability to collaborate with a variety of other roles and talents.
+<p>
+  <a name="case_studies"></a>
+  The following case studies demonstrate my skills across the spectrum of product development and my ability to collaborate with a variety of other roles and talents.
 </p>
-
-<img 
-  alt="LEGO train" 
-  src="{{ site.url }}/assets/lego-train.jpg" 
-/>
 
 {% assign case_studies = site.case_studies | sort:date | reverse %}
 {% for case_study in case_studies %}
@@ -33,6 +45,10 @@ permalink: /case_studies/
     
     <p>
       {{ case_study.overview }}
+      
+      <a href="{{ case_study.url | relative_url }}">
+        Read more.
+      </a>
     </p>
   </div>
 {% endfor %}

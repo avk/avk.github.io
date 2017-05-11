@@ -43,6 +43,24 @@ header {
   }
 }
 
+.blurb {
+  margin: 30px 0;
+  position: relative;
+  
+  .pithy {
+    color: white;
+    right: 25px;
+    position: absolute;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    top: 25px;
+    
+    h1 {
+      color: white !important;
+    }
+  }
+}
+
 .case_study {
   border-bottom: 2px dashed #ccc;
   clear: both;
