@@ -52,7 +52,8 @@ nav {
   a {
     text-decoration: none;
     // color: #fff;
-    color: #9ddcff; // from architect theme
+    // color: #9ddcff; // from architect theme
+    color: #999;
     display: block;
     
     .title {
@@ -96,7 +97,7 @@ nav {
   }
 
   ul.primary li a:hover {
-    color: #fff;
+    color: #666;
   }
 
   /* subs */

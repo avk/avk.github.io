@@ -10,11 +10,14 @@ $tablet_width: 768px;
 $desktop_width: 1024px;
 
 body {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 16px;
 }
 
 header {
-  background-position-y: -20px;
+  background-image: none;
+  background-color: rgba(255, 255, 255, 0.97);
+  border-bottom: solid 1px #efefef;
   opacity: 0.95;
   padding: 20px 0 0 0;
   position: fixed;
@@ -26,12 +29,41 @@ header {
   }
   
   h1 {
+    color: #333;
     float: left;
     font-size: 40px;
     margin-right: 10px;
   }
   h2 {
     font-size: 18px;
+  }
+  
+  a {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+  }
+}
+
+#main-content {
+  h1, h2, h3, h4, h5, h6 {
+    line-height: 1.25 !important;
+    text-indent: 0 !important;
+  }
+  
+  h2 {
+    border-bottom: 1px solid #efefef;
+    font-size: 24px;
+    margin-top: 50px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 20px;
+  }
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Cormorant Garamond",Courier,serif !important;
+  
+  &:before {
+    content: none !important;
   }
 }
 
@@ -61,6 +93,11 @@ header {
   }
 }
 
+blockquote {
+  font-family: Georgia, serif;
+  font-style: italic;
+}
+
 .case_study {
   border-bottom: 2px dashed #ccc;
   clear: both;
@@ -79,9 +116,11 @@ header {
   }
   
   h2 {
+    border-bottom: none !important;
+    text-align: left !important;
+    
     @media only screen and (min-width: $tablet_width) {
       bottom: 7px;
-      left: 30px;
       position: relative;
     }
   }
