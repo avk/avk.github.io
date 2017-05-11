@@ -126,6 +126,23 @@ blockquote {
   }
 }
 
+.logo {
+  display: block;
+  margin: 50px auto;
+  opacity: 0.6;
+  vertical-align: middle;
+  
+  @media only screen and (min-width: $desktop_width) {
+    display: inline-block;
+    margin: 20px;
+    opacity: 0.5;
+    
+    &:hover {
+      opacity: 1.0;
+    }
+  }
+}
+
 aside#sidebar {
   @media only screen and (min-width: $tablet_width) {
     position: fixed;
