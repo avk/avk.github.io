@@ -10,7 +10,7 @@ cover_image: /assets/sg/cover.png
 
 # <small>Case Study</small>: <br />React-driven Style Guide
 
-> I plan to give a talk on this topic at the May 2017 [ReactJS San Francisco meetup](https://www.meetup.com/ReactJS-San-Francisco/). 
+> I gave a talk on this topic at the May 2017 [ReactJS San Francisco meetup](https://www.meetup.com/ReactJS-San-Francisco/events/232716790/). 
 
 ## Overview
 
@@ -138,7 +138,7 @@ The style guide became our de-facto launching point for discussing new features 
 
 If I were to repeat this process, I would consider new open source tools that emerged to solve similar problems, such as [React Storybook](https://storybooks.js.org/).
 
-> I plan to give a talk on this topic at the May 2017 [ReactJS San Francisco meetup](https://www.meetup.com/ReactJS-San-Francisco/). 
+> I gave a talk on this topic at the May 2017 [ReactJS San Francisco meetup](https://www.meetup.com/ReactJS-San-Francisco/events/232716790/). 
 
 ## Final style guide
 
