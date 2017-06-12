@@ -2,6 +2,7 @@
 layout: default
 title: Note to Self Prototype
 overview: In 4 weeks, create, test, and launch a prototype to help writers continue writing across sessions by preserving mental context at the end of each session.
+skills: user research, user flows, wireframing, prototyping
 date: 2017-03-31
 cover_image: /assets/note_to_self/cover.jpg
 ---
@@ -13,6 +14,13 @@ cover_image: /assets/note_to_self/cover.jpg
 ## Overview
 
 In 4 weeks, create, test, and launch a prototype to help writers continue writing across sessions by preserving mental context at the end of each session.
+
+## Skills Used
+
+* user research
+* user flows
+* wireframing
+* prototyping
 
 ## Problem Definition
 

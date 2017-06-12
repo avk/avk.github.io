@@ -2,6 +2,7 @@
 layout: default
 title: Flows Aren't Just for Designers
 overview: Introduce user flows to improve a typically overlooked and under-tested product experience on a major consumer web property—vevo.com.
+skills: user flows, product metrics
 date: 2014-10-12
 cover_image: /assets/vevo_flows/cover.png
 ---
@@ -10,11 +11,16 @@ cover_image: /assets/vevo_flows/cover.png
 
 # <small>Case Study</small>: <br />Flows Aren't Just for Designers
 
+> This was the inaugural post to kick off the [Vevo Engineering Blog](http://blog.vevo.com/flows-arent-just-for-designers/)
+
 ## Overview
 
 Introduce user flows to improve a typically overlooked and under-tested product experience on a major consumer web property&mdash;vevo.com.
 
-> This was the inaugural post to kick off the [Vevo Engineering Blog](http://blog.vevo.com/flows-arent-just-for-designers/)
+## Skills Used
+
+* user flows
+* product metrics
 
 # Design Process (Blog Post)
 
