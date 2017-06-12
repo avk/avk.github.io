@@ -30,7 +30,7 @@ Our audience for this quality problem was our small, fast-moving startup team wh
 
 ## Team / Role
 
-As Senior UX Engineer, I worked on a team of four: 
+As Senior UX Designer & Engineer, I worked on a team of four: 
 * with our UX Designer to create tighter design-engineering feedback loops
 * with our full-stack engineer to define the smallest amount of effort to solve the problem
 * with our founder to reshape how we explored new features and regression tested what was implemented

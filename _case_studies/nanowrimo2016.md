@@ -45,7 +45,7 @@ We found two NaNoWriMo personas: plotters and pantsers. Plotters prepared before
 
 ## Team / Role
 
-As Senior UX Engineer, I worked: 
+As Senior UX Designer & Engineer, I worked: 
 * with our Founder and our UX designer to collect and synthesize NaNoWriMo best practices
 * with our head of marketing to create and iterate on a NaNoWriMo landing page and product language
 * to design and implement all product updates

@@ -80,7 +80,7 @@ I hypothesized the following traits of an ideal prototype tester:
 
 ## Team / Role
 
-As Senior UX Engineer, I worked: 
+As Senior UX Designer & Engineer, I worked: 
 * to define, test, and implement the prototype
 * with our UX designer to recruit users and run prototype tests
 * with our full-stack engineer to brainstorm technical feasibility of solutions
