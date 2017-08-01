@@ -1,1 +1,1 @@
-I'm looking for a __UX Designer__ position at a company with a talented design team. I care about fostering creativity in others—via products used to make creative work, things that enable learning or inspiration, or productivity tools that leave more room for a creative life.
+I'm passionate about being a __UX Designer__ at a company with a talented design team. I care about fostering creativity in others—via products used to make creative work, things that enable learning or inspiration, or productivity tools that leave more room for a creative life.

@@ -8,7 +8,7 @@ permalink: /contact/
 
 # Contact 
 
-> As of May 2017, I'm looking for full-time work.
+> As of July 2017, I've started my next design job at Submittable.
 
 {% include goal.md %}
 
