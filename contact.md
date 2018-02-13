@@ -8,8 +8,6 @@ permalink: /contact/
 
 # Contact 
 
-> As of July 2017, I've started my next design job at Submittable.
-
 {% include goal.md %}
 
 {% if site.social.email %}
