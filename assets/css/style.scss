@@ -159,6 +159,15 @@ aside#sidebar {
   }
 }
 
+.contact-gear {
+  float: right; 
+  margin: 10px;
+  
+  @media only screen and (min-width: $desktop_width) {
+    margin: 0 0 100px 20px;
+  }
+}
+
 a {
   text-decoration: underline;
 }
