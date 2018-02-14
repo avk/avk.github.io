@@ -139,13 +139,13 @@ blockquote {
 .logo {
   display: block;
   margin: 50px auto;
-  opacity: 0.6;
+  opacity: 1.0;
   vertical-align: middle;
   
   @media only screen and (min-width: $desktop_width) {
     display: inline-block;
     margin: 20px;
-    opacity: 0.5;
+    opacity: 0.75;
     
     &:hover {
       opacity: 1.0;
