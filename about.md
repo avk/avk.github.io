@@ -4,6 +4,11 @@ title: About
 permalink: /about/
 ---
 
+<img 
+  src="{{ site.url }}/assets/art-presenting-slim.jpg" 
+  alt="Presenting at the ReactJS San Francisco meetup" 
+  style="" />
+
 # About
 
 <img 
