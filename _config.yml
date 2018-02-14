@@ -24,8 +24,8 @@ google_analytics: "UA-10101367-9"
 social:
   email: arthur.klepchukov@gmail.com
   linkedin: arthurk
-  # twitter: artvankilmer
-  # github:  avk
+  twitter: artvankilmer
+  github:  avk
 
 collections:
   case_studies:

@@ -6,6 +6,8 @@
 @import "{{ site.theme }}";
 @import "nav.css";
 
+$color-link-blue: #2879d0;
+
 $tablet_width: 768px;
 $desktop_width: 1024px;
 
@@ -170,6 +172,39 @@ aside#sidebar {
 
 a {
   text-decoration: underline;
+}
+
+.btn {
+  background-color: #333;
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+  margin: 0 5px;
+  padding: 15px;
+  text-decoration: none;
+  
+  &:hover {
+    background-color: darken($color-link-blue, 10%);
+    color: #fff;
+  }
+  
+  &.btn-primary {
+    background-color: $color-link-blue;
+    
+    &:hover {
+      background-color: darken($color-link-blue, 10%);
+    }
+  }
+  
+  &.btn-secondary {
+    background-color: #efefef;
+    color: #333;
+    
+    &:hover {
+      background-color: darken(#efefef, 10%);
+      color: #333;
+    }
+  }
 }
 
 footer {
