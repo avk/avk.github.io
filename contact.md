@@ -2,6 +2,7 @@
 layout: default
 title: Contact
 permalink: /contact/
+last_modified_at: 2017-02-14
 ---
 
 <img src="{{ site.url }}/assets/contact-small.png" alt="Let's get the gears rolling" class="contact-gear" />
