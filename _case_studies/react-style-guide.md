@@ -35,7 +35,7 @@ While our new front-end architecture of [React.js](https://facebook.github.io/re
 
 Our audience for this quality problem was our small, fast-moving startup team whose mistakes cascaded to a subpar product experience. 
 
-## Team / Role
+## My Role on the Team
 
 As Senior UX Designer & Engineer, I worked on a team of four: 
 * with our UX Designer to create tighter design-engineering feedback loops

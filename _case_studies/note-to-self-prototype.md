@@ -88,7 +88,7 @@ I hypothesized the following traits of an ideal prototype tester:
     _This is an example behavior of item 1 with a corollary from productivity. GTD practices are a strong indicator of existing patterns we can tap into, though it may limit our audience if we only solved their problem._
 
 
-## Team / Role
+## My Role on the Team
 
 As Senior UX Designer & Engineer, I worked: 
 * to define, test, and implement the prototype

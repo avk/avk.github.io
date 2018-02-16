@@ -51,7 +51,7 @@ Our writing software at TheRightMargin helps writers break lofty goals (e.g. wri
 
 We found two NaNoWriMo personas: plotters and pantsers. Plotters prepared before November with research, outlines, and generally making room in their schedules and life for NaNoWriMo. Pantsers may have freed up more time for writing but did not do any preparatory work on their novels before November. We targeted largely plotters before November because it afforded more time to market and they already seemed more aligned with TheRightMargin's product philosophy.
 
-## Team / Role
+## My Role on the Team
 
 As Senior UX Designer & Engineer, I worked: 
 * with our Founder and our UX designer to collect and synthesize NaNoWriMo best practices
