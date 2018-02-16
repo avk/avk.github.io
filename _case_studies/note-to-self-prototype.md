@@ -11,6 +11,8 @@ cover_image: /assets/note_to_self/cover.jpg
 
 # <small>Case Study</small>: <br />Note to Self Prototype
 
+<a href="https://www.therightmargin.com/?ref=avkux" type="button" class="btn btn-success" target="_blank"><i class="material-icons">done</i>In Production</a> 
+
 ## Overview
 
 In 4 weeks, create, test, and launch a prototype to help writers continue writing across sessions by preserving mental context at the end of each session.
@@ -416,5 +418,7 @@ We hit our goals within our constraints, but it's too early to gauge success wit
 The prototype tests were successful in discovering viable solutions to the pain of continuing to write across sessions. Implementation proved to be the biggest challenge as we had to pick a version we can build within the remaining time, rather than the ideal one. The 30 minute interval and general entry point to the UI still feel like untested hypotheses. Usability testing or even screen captures of longer sessions could begin to illuminate their effectiveness in the product. 
 
 Production feels incomplete without the Prototype B implementation to close the loop on how to rebuild context by drawing attention to the note(s) to self from the previous session, after a reasonable interval of time. 
+
+<a href="https://www.therightmargin.com/?ref=avkux" type="button" class="btn btn-success" target="_blank"><i class="material-icons">done</i>In Production</a> 
 
 {% include footer_case_study.md %}

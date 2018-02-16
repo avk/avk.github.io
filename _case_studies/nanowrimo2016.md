@@ -11,6 +11,8 @@ cover_image: /assets/nnwm/cover.png
 
 # <small>Case Study</small>: <br />30-day Novel Challenge
 
+<a href="https://www.therightmargin.com/nanowrimo?ref=avkux" type="button" class="btn btn-success" target="_blank"><i class="material-icons">done</i>In Production</a> 
+
 ## Overview
 
 Convince writers to start and finish new 50,000-word novels in 30 days using relatively new online writing software.
@@ -143,6 +145,8 @@ Unfortunately, this was not enough to drive more trials to become customers. Thi
 
 If I were to do this again, I would focus my efforts on testing our content to drive repeat use—perhaps treat our in-product NaNoWriMo advice as a funnel itself and look for leaks.
 
-[See the live experience, as of November 2016](https://www.therightmargin.com/nanowrimo?ref=avkux)
+## See the live experience, as of November 2016:
+
+<a href="https://www.therightmargin.com/nanowrimo?ref=avkux" type="button" class="btn btn-success" target="_blank"><i class="material-icons">done</i>In Production</a> 
 
 {% include footer_case_study.md %}

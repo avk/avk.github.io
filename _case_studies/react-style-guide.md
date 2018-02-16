@@ -11,6 +11,8 @@ cover_image: /assets/sg/cover.png
 
 # <small>Case Study</small>: <br />React-driven Style Guide
 
+<a href="https://www.therightmargin.com/?ref=avkux" type="button" class="btn btn-secondary" target="_blank"><i class="material-icons">done</i>In Staging</a> 
+
 > I gave a talk on this topic at the May 2017 [ReactJS San Francisco meetup](https://www.meetup.com/ReactJS-San-Francisco/events/232716790/). 
 
 ## Overview
@@ -148,5 +150,7 @@ If I were to repeat this process, I would consider new open source tools that em
 ## Final style guide
 
 ![TheRightMargin's React-driven style guide]({{ site.url }}/assets/sg/full-style-guide.png)
+
+<a href="https://www.therightmargin.com/?ref=avkux" type="button" class="btn btn-secondary" target="_blank"><i class="material-icons">done</i>In Staging</a> 
 
 {% include footer_case_study.md %}

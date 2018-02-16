@@ -7,6 +7,7 @@
 @import "nav.css";
 
 $color-link-blue: #2879d0;
+$color-success-green: #228b22; // forestgreen
 
 $tablet_width: 768px;
 $desktop_width: 1024px;
@@ -179,7 +180,7 @@ a {
   border-radius: 5px;
   color: #fff;
   display: inline-block;
-  margin: 0 5px;
+  margin: 5px;
   padding: 15px;
   text-decoration: none;
   
@@ -204,6 +205,18 @@ a {
       background-color: darken(#efefef, 10%);
       color: #333;
     }
+  }
+  
+  &.btn-success {
+    background-color: $color-success-green;
+    
+    &:hover {
+      background-color: darken($color-success-green, 10%);
+    }
+  }
+  .material-icons {
+    font-size: 14px;
+    padding: 0 5px;
   }
 }
 

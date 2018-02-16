@@ -6,6 +6,8 @@ published: false
 
 # <small>Case Study</small>: <br />Template
 
+<a href="#" type="button" class="btn btn-success" target="_blank"><i class="material-icons">done</i>In Production</a> 
+
 ## Overview
 
 what’s the elevator pitch?
@@ -33,5 +35,7 @@ What was your design process? Did you facilitate any design exercises? What deli
 # Retrospective
 
 lessons learned — did you reach success metrics? Work through the right problem? What would you do better if you could do it again?
+
+<a href="#" type="button" class="btn btn-success" target="_blank"><i class="material-icons">done</i>In Production</a> 
 
 {% include footer_case_study.md %}
