@@ -38,6 +38,7 @@ markdown: kramdown
 theme: jekyll-theme-architect
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 exclude:
   - Gemfile
   - Gemfile.lock
