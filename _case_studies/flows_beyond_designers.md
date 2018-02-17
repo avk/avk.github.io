@@ -59,7 +59,7 @@ That’s better but wouldn’t it be better with clear areas of responsibility?
 ![Vevo social flows with areas of responsibility]({{ site.url }}/assets/vevo_flows/flows_resp.png)
 </a>
 
-Great, the large boxes help me separate the functionality into modules and expose opportunities for unit testing and code reuse. Now there’s only the instrumentation spec from my data researcher...
+Great, the large boxes help me separate the functionality into modules and expose opportunities for unit testing and code reuse. Now there’s only the instrumentation spec from my data researcher&hellip;
 
 <a href="{{ site.url }}/assets/vevo_flows/flows_metrics.png" target="_blank">
 ![Vevo social flows with metrics events]({{ site.url }}/assets/vevo_flows/flows_metrics.png)

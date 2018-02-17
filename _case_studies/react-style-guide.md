@@ -90,7 +90,7 @@ I took a step back and saw a connection between these points:
 
 * click testing all possible states is time-consuming (UX Designer)
 
-...because this requires remembering. But a regression testing script is an intimidating way to jog your memory.
+&hellip;because this requires remembering. But a regression testing script is an intimidating way to jog your memory.
 
 * Observation: the checklist begged to be nested by product feature or area, which usually mirrored a React component or set of nested components
 

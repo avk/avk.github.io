@@ -127,7 +127,7 @@ Thanks,
 — Art
 ```
 
-> The user responses were largely consistent with my hypothesis about leveraging existing behavior...
+> The user responses were largely consistent with my hypothesis about leveraging existing behavior&hellip;
 
 ```
 Yes, I'm always using a timer when I'm writing.
@@ -212,7 +212,7 @@ The only design goals **NOT** met by Prototype B were:
 
 5 of the 7 recruited users were available for an hour-long prototype test via screen sharing. 
 
-Rather than rely on static screens, which could not simulate writing, or taking a week (1/4 of our constrained time) to build the first prototype in our product, I tested a version of Prototypes A and B using the following script...
+Rather than rely on static screens, which could not simulate writing, or taking a week (1/4 of our constrained time) to build the first prototype in our product, I tested a version of Prototypes A and B using the following script&hellip;
 
 ### Prototype Test Script
 
@@ -327,7 +327,7 @@ You've finally managed to discover the secret to immortality. Suddenly, Death ap
 4.  Probably ***at the end of the doc***
 5.  Very useful ***at the beginning***. New chapter/new
     project/new section.
-6.  It depends when the best time is ...sometimes it’s ***in the middle*** of writing
+6.  It depends when the best time is &hellip;sometimes it’s ***in the middle*** of writing
 7.  ***Anytime you leave*** the writing session
 
 > Where is the answer most helpful? ***In the content***. *Biased by Google Doc prototype?*
@@ -340,7 +340,7 @@ You've finally managed to discover the secret to immortality. Suddenly, Death ap
 
 > Would you use this tactic in other writing tools / in the future? ***Consistently yes.***
 
-1.  Yes, definitely. ... Wants to set more intentions for writing.
+1.  Yes, definitely. &hellip; Wants to set more intentions for writing.
 2.  it's a new thing, but it has a lot of potential to give you prompts to move to the next step. but i think there is probably something that's already in TheRightMargin that's supposed to prompt you to the next deadline rather than to the next activity?
 3.  What you would do for me is integrate this in the document
 4.  Has not written that much before. The whole thing started with TheRightMargin. To break down tasks. It’s what he’s always wanted.
@@ -400,7 +400,7 @@ The UI _subtly_ draws attention to itself by pulsating the affordance at the bot
 
 ![Production build v1]({{ site.url }}/assets/note_to_self/production_pulse.gif)
 
-The feature can also be manually triggered at any other time, in case 30 minutes doesn't work for the current writing session...
+The feature can also be manually triggered at any other time, in case 30 minutes doesn't work for the current writing session&hellip;
 
 ![Production build v1]({{ site.url }}/assets/note_to_self/production_v1.gif)
 

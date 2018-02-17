@@ -113,11 +113,11 @@ The landing page I designed ([live as of April 2017](https://www.therightmargin.
 
 ## From zero-data view to actionable steps
 
-We learned that once November started, no one would be seeking new advice so anything we offered had to be baked into the product. So rather than giving NaNoWriMo sign ups an catch-all onboarding experience or a __zero-data__ view applicable to any writing project... 
+We learned that once November started, no one would be seeking new advice so anything we offered had to be baked into the product. So rather than giving NaNoWriMo sign ups an catch-all onboarding experience or a __zero-data__ view applicable to any writing project&hellip; 
 
 ![TheRightMargin's zero-data view]({{ site.url }}/assets/nnwm/zero-data.png)
 
-...we incorporated the best practices we learned into a writing project tailored to NaNoWriMo:
+&hellip;we incorporated the best practices we learned into a writing project tailored to NaNoWriMo:
 
 ![TheRightMargin's new NaNoWriMo project]({{ site.url }}/assets/nnwm/nnwm-data.png)
 
