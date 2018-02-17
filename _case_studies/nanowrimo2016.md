@@ -9,7 +9,7 @@ cover_image: /assets/nnwm/cover.png
 
 ![Work sample from this case study]({{ site.url }}/assets/nnwm/cover.png)
 
-# <small>Case Study</small>: <br />30-day Novel Challenge
+# <small>Case Study:</small> <br />30-day Novel Challenge
 
 <a href="https://www.therightmargin.com/nanowrimo?ref=avkux" type="button" class="btn btn-success" target="_blank"><i class="material-icons">done</i>In Production</a> 
 

@@ -9,7 +9,7 @@ cover_image: /assets/vevo_flows/cover.png
 
 ![Work sample from this case study]({{ site.url }}/assets/vevo_flows/cover.png)
 
-# <small>Case Study</small>: <br />Flows Aren't Just for Designers
+# <small>Case Study:</small> <br />Flows Aren't Just for Designers
 
 > This was the inaugural post to kick off the [Vevo Engineering Blog](http://blog.vevo.com/flows-arent-just-for-designers/)
 

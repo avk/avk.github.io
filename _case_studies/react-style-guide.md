@@ -9,7 +9,7 @@ cover_image: /assets/sg/cover.png
 
 ![Work sample from this case study]({{ site.url }}/assets/sg/cover.png)
 
-# <small>Case Study</small>: <br />React-driven Style Guide
+# <small>Case Study:</small> <br />React-driven Style Guide
 
 <a href="https://www.therightmargin.com/?ref=avkux" type="button" class="btn btn-secondary" target="_blank"><i class="material-icons">done</i>In Staging</a> 
 

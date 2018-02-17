@@ -4,7 +4,7 @@ title: Case Study Template
 published: false
 ---
 
-# <small>Case Study</small>: <br />Template
+# <small>Case Study:</small> <br />Template
 
 <a href="#" type="button" class="btn btn-success" target="_blank"><i class="material-icons">done</i>In Production</a> 
 
