@@ -5,17 +5,13 @@
 
 @import "{{ site.theme }}";
 @import "nav.css";
+@import "type.css";
 
 $color-link-blue: #2879d0;
 $color-success-green: #228b22; // forestgreen
 
 $tablet_width: 768px;
 $desktop_width: 1024px;
-
-body {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
-  font-size: 16px;
-}
 
 header {
   background-image: none;
@@ -34,48 +30,12 @@ header {
   h1 {
     color: #333;
     float: left;
-    font-size: 40px;
     margin-right: 10px;
-  }
-  h2 {
-    font-size: 18px;
-  }
-  
-  a {
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
   }
 }
 
 ol, ul {
   padding-left: 40px;
-}
-
-#main-content {
-  h1, h2, h3, h4, h5, h6 {
-    line-height: 1.25 !important;
-    text-indent: 0 !important;
-  }
-  
-  h1 {
-    border-bottom: 2px solid #efefef;
-  }
-  
-  h2 {
-    border-bottom: 1px dashed #ddd;
-    font-size: 24px;
-    // font-variant: small-caps;
-    margin-top: 50px;
-  }
-  h3 {
-    font-size: 20px;
-  }
-}
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Cormorant Garamond",Courier,serif !important;
-  
-  &:before {
-    content: none !important;
-  }
 }
 
 #content-wrapper {
@@ -104,18 +64,12 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-blockquote {
-  font-family: Georgia, serif;
-  font-style: italic;
-}
-
-.case_study {
-  border-bottom: 2px dashed #ccc;
+#main-content .case_study {
   clear: both;
   margin: 75px 0;
   
-  @media only screen and (min-width: $tablet_width) {
-    border-bottom: none;
+  h2 {
+    margin-top: 0 !important;
   }
   
   img.cover {
@@ -222,4 +176,10 @@ a {
 
 footer {
   text-align: center;
+  
+  @media only screen and (min-width: $tablet_width) {
+    br {
+      display: none;
+    }
+  }
 }
