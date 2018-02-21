@@ -20,7 +20,7 @@ what problems were you working through? How did you define success?
 
 who were the target users for the project? Why them? How did you decide they were the users? Any personas created?
 
-## Team / Role
+## My Role on the Team
 
 who worked with you on the project? What was your team structure?
 
