@@ -48,7 +48,6 @@ ol, ul {
 }
 
 .blurb {
-  margin: 30px 0;
   position: relative;
   
   .pithy {
@@ -71,9 +70,17 @@ ol, ul {
   }
 }
 
+.intro {
+  background-color: #fff;
+  margin-top: 0;
+  padding: 30px;
+}
+
 #main-content .case_study {
   clear: both;
-  margin: 75px 0;
+  margin: 0;
+  margin-bottom: 75px;
+  margin-top: 20px;
   
   h2 {
     margin-top: 0 !important;
