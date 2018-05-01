@@ -25,6 +25,7 @@ _I'm currently the Senior UX Designer at Submittable._
 
 {% include goal.md %}
 
+<a name="testimonials"></a>
 ## Skills
 
 I'm proficient in user flows, wireframing, prototyping, and product metrics.
