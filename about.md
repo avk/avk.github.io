@@ -23,11 +23,11 @@ Hi, I'm Arthur Klepchukov, an empathetic UX designer in the D.C. suburbs who lov
 
 {% include goal.md %}
 
-<a name="testimonials"></a>
 ## Skills
 
 I'm proficient in user flows, wireframing, prototyping, and product metrics.
 
+<a name="testimonials"></a>
 # How we'll work together
 
 ## Christine Lee, <small>UX Designer</small>

@@ -19,7 +19,7 @@ header {
   border-bottom: solid 1px #efefef;
   opacity: 0.95;
   padding: 20px 0 0 0;
-  position: fixed;
+  // position: fixed;
   width: 100%;
   z-index: 1000;
   
@@ -39,10 +39,11 @@ ol, ul {
 }
 
 #content-wrapper {
-  padding-top: 115px;
+  // padding-top: 115px;
+  padding-top: 0;
   
   @media only screen and (min-width: $tablet_width) {
-    padding-top: 70px;
+    // padding-top: 70px;
   }
 }
 
