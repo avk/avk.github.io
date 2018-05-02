@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Note to Self Prototype
-overview: In 4 weeks, create, test, and launch a prototype to help writers continue writing across sessions by preserving mental context at the end of each session.
+title: Note to Self Productivity Feature
+overview: In 4 weeks, designed, tested, and launched a unique feature to successfully help writers continue writing across working sessions.
 skills: user research, user flows, wireframing, prototyping
 date: 2017-03-31
 cover_image: /assets/note_to_self/cover.jpg
@@ -15,7 +15,7 @@ cover_image: /assets/note_to_self/cover.jpg
 
 ## Overview
 
-In 4 weeks, create, test, and launch a prototype to help writers continue writing across sessions by preserving mental context at the end of each session.
+In 4 weeks, designed, tested, and launched a unique feature to successfully help writers continue writing across working sessions.
 
 ## Skills Used
 

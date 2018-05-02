@@ -12,24 +12,27 @@ last_modified_at: 2017-02-14
   
   <div class="pithy">
     <h1>
-      Arthur Klepchukov
-      <br>
-      UX Designer
+      Designing for Impact
     </h1>
-    <small>user flows, wireframing, prototyping</small>
+    <small>
+      in startups, government, music videos, 
+      <br>
+      academia, travel, creative writing, &amp; more
+    </small>
   </div>
 </div>
 
-<h1>Select UX Case Studies</h1>
-
-<p>
-  <a name="case_studies"></a>
-  The following case studies demonstrate my skills across the spectrum of UX design and my ability to collaborate with a variety of other roles.
+<p class="intro">
+  I'm a <strong>UX Designer</strong> who has worked in diverse industries at the intersection of design, product, and engineering. Together, we can discover the right things to create to accomplish both user and business goals.
 </p>
+
+<a name="case_studies"></a>
+
+<h2>Case Studies</h2>
 
 {% assign case_studies = site.case_studies | sort:date | reverse %}
 {% for case_study in case_studies %}
-  <div class="case_study">
+  <article class="case_study">
     <a href="{{ case_study.url | relative_url }}">
       <img 
         alt="Work sample from {{ case_study.title }}" 
@@ -38,6 +41,7 @@ last_modified_at: 2017-02-14
       />
     </a>
     
+    <section class="summary">
     <h2>
       <a href="{{ case_study.url | relative_url }}" title="{{ case_study.title }}">
         {{ case_study.title }} 
@@ -45,19 +49,22 @@ last_modified_at: 2017-02-14
     </h2>
     
     <p>
-      <em>Skills: {{ case_study.skills }}</em>
-      <br>
-      
+      <strong>Approach</strong>: 
+      <em class="skills">{{ case_study.skills }}</em>
+    </p>
+    <p>
+      <strong>Impact</strong>: 
       {{ case_study.overview }}
       
       <a href="{{ case_study.url | relative_url }}">
-        Read more&thinsp;&rarr;
+        See how&thinsp;&rarr;
       </a>
     </p>
-  </div>
+    </section>
+  </article>
 {% endfor %}
 
-<h1>Past Experience</h1>
+<h2>Where I've Made an Impact</h2>
 
 <img 
   alt="Vevo, LLC" 
@@ -102,3 +109,7 @@ last_modified_at: 2017-02-14
   class="logo"
   src="{{ site.url }}/assets/logos/suiteness.png" 
 />
+
+<p style="text-align: center;">
+  <a href="{{ '/about/#testimonials' | absolute_url }}">How do others describe my impact?</a>
+</p>

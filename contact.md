@@ -5,6 +5,11 @@ permalink: /contact/
 last_modified_at: 2017-02-14
 ---
 
+<img 
+  src="{{ site.url }}/assets/art-reading.jpg" 
+  alt="Invited to read my fiction in San Francisco" 
+  style="" />
+
 <img src="{{ site.url }}/assets/contact-small.png" alt="Let's get the gears rolling" class="contact-gear" />
 
 # Contact 

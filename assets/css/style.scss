@@ -19,7 +19,7 @@ header {
   border-bottom: solid 1px #efefef;
   opacity: 0.95;
   padding: 20px 0 0 0;
-  position: fixed;
+  // position: fixed;
   width: 100%;
   z-index: 1000;
   
@@ -39,15 +39,15 @@ ol, ul {
 }
 
 #content-wrapper {
-  padding-top: 115px;
+  // padding-top: 115px;
+  padding-top: 0;
   
   @media only screen and (min-width: $tablet_width) {
-    padding-top: 70px;
+    // padding-top: 70px;
   }
 }
 
 .blurb {
-  margin: 30px 0;
   position: relative;
   
   .pithy {
@@ -61,15 +61,31 @@ ol, ul {
     h1 {
       color: white !important;
     }
+    
+    small {
+      @media only screen and (max-width: $tablet_width) {
+        display: none;
+      }
+    }
   }
+}
+
+.intro {
+  background-color: #fff;
+  margin-top: 0;
+  padding: 30px;
 }
 
 #main-content .case_study {
   clear: both;
-  margin: 75px 0;
+  margin: 0;
+  margin-bottom: 75px;
+  margin-top: 20px;
   
-  h2 {
-    margin-top: 0 !important;
+  .summary {
+    @media only screen and (min-width: $tablet_width) {
+      margin-left: 220px;
+    }
   }
   
   img.cover {
@@ -80,12 +96,16 @@ ol, ul {
     }
   }
   
+  .skills {
+    color: #888;
+  }
+  
   h2 {
     border-bottom: none !important;
+    margin-top: 0 !important;
     text-align: left !important;
     
     @media only screen and (min-width: $tablet_width) {
-      bottom: 7px;
       position: relative;
     }
   }

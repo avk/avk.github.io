@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Flows Aren't Just for Designers
-overview: Introduce user flows to improve a typically overlooked and under-tested product experience on a major consumer web property—vevo.com.
+overview: Introduced user flows to improve an overlooked and under-tested sign up experience on a major consumer web property—vevo.com.
 skills: user flows, product metrics
 date: 2014-10-12
 cover_image: /assets/vevo_flows/cover.png
@@ -15,7 +15,7 @@ cover_image: /assets/vevo_flows/cover.png
 
 ## Overview
 
-Introduce user flows to improve a typically overlooked and under-tested product experience on a major consumer web property&mdash;vevo.com.
+Introduced user flows to improve an overlooked and under-tested sign up experience on a major consumer web property&mdash;vevo.com.
 
 ## Skills Used
 
