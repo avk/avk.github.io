@@ -82,8 +82,10 @@ ol, ul {
   margin-bottom: 75px;
   margin-top: 20px;
   
-  h2 {
-    margin-top: 0 !important;
+  .summary {
+    @media only screen and (min-width: $tablet_width) {
+      margin-left: 220px;
+    }
   }
   
   img.cover {
@@ -94,12 +96,16 @@ ol, ul {
     }
   }
   
+  .skills {
+    color: #888;
+  }
+  
   h2 {
     border-bottom: none !important;
+    margin-top: 0 !important;
     text-align: left !important;
     
     @media only screen and (min-width: $tablet_width) {
-      bottom: 7px;
       position: relative;
     }
   }

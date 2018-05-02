@@ -32,7 +32,7 @@ last_modified_at: 2017-02-14
 
 {% assign case_studies = site.case_studies | sort:date | reverse %}
 {% for case_study in case_studies %}
-  <div class="case_study">
+  <article class="case_study">
     <a href="{{ case_study.url | relative_url }}">
       <img 
         alt="Work sample from {{ case_study.title }}" 
@@ -41,6 +41,7 @@ last_modified_at: 2017-02-14
       />
     </a>
     
+    <section class="summary">
     <h2>
       <a href="{{ case_study.url | relative_url }}" title="{{ case_study.title }}">
         {{ case_study.title }} 
@@ -48,16 +49,19 @@ last_modified_at: 2017-02-14
     </h2>
     
     <p>
-      <em>Skills: {{ case_study.skills }}</em>
-      <br>
-      
+      <strong>Approach</strong>: 
+      <em class="skills">{{ case_study.skills }}</em>
+    </p>
+    <p>
+      <strong>Impact</strong>: 
       {{ case_study.overview }}
       
       <a href="{{ case_study.url | relative_url }}">
-        Read more&thinsp;&rarr;
+        See how&thinsp;&rarr;
       </a>
     </p>
-  </div>
+    </section>
+  </article>
 {% endfor %}
 
 <h2>I've Worked With</h2>

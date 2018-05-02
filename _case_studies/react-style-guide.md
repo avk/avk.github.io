@@ -1,8 +1,8 @@
 ---
 layout: default
-title: React-driven Style Guide
-overview: Leveraging React for tighter design-engineering feedback loops and better quality production releases. 
-skills: prototyping
+title: React-driven Living Style Guide
+overview: Enabled tighter design-engineering feedback loops, faster regression testing, and higher quality production releases. 
+skills: prototyping, engineering
 date: 2015-12-20
 cover_image: /assets/sg/cover.png
 ---
@@ -17,11 +17,12 @@ cover_image: /assets/sg/cover.png
 
 ## Overview
 
-Leveraging React for tighter design-engineering feedback loops and better quality production releases. 
+Enabled tighter design-engineering feedback loops, faster regression testing, and higher quality production releases. 
 
 ## Skills Used
 
 * prototyping
+* engineering
 
 ## Problem Definition
 

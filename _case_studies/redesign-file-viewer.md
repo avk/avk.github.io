@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Redesign File Viewer
-overview: Wireframe & redesign a file viewer for displaying 50+ file types online&mdash;a core part of the review workflow for 9000+ organizations.
+title: Redesign File Viewer for 9,000+ organizations
+overview: Redesigned a file viewer to consistently display 50+ file types leading to &quot;as close to a perfect release as we&apos;ve had.&quot;
 skills: wireframing, visual design
 date: 2018-01-31
 cover_image: /assets/file_viewer/production-text-fullscreen.png
@@ -19,7 +19,7 @@ Wireframe & redesign a file viewer for displaying 50+ file types online&mdash;a 
 
 ## Problem Definition
 
-Submittable provides online tools to manage submissions and applications. A core part of this product involves reviewing various uploaded files to judge any given submission. Our previous file viewer implementation and interface depended on a Box library that Box would discontinue. This external deadline created an opportunity to revisit the UX for reviewing any kind of file Submittable accepts. The previous file viewer had discordant interfaces for viewing text-based files, images, audio, and video. It was responsible for over 50 distinct file types if we count file extensions. We defined success as a consistent interface that was no longer dependent on Box.
+Submittable provides online tools to manage submissions and applications. A core part of this product involves reviewing various uploaded files to judge any given submission. Our previous file viewer implementation and interface depended on a Box library that Box would discontinue. This external deadline created an opportunity to revisit the UX for reviewing any kind of file Submittable accepts. The previous file viewer had discordant interfaces for viewing text-based files, images, audio, and video. It was responsible for over 50 distinct file types. We defined success as a consistent interface that was no longer dependent on Box.
 
 ## Audience
 

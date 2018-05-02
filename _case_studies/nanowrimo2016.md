@@ -1,8 +1,8 @@
 ---
 layout: default
 title: 30-day Novel Challenge
-overview: Convince writers to start and finish new 50,000-word novels in 30 days using relatively new online writing software.
-skills: user flows, product metrics
+overview: 7 new novels drafted in untested online writing software with a 27% sign up rate and a 6x increase in time on site.
+skills: user flows, product metrics, visual design
 date: 2016-11-30
 cover_image: /assets/nnwm/cover.png
 ---
@@ -15,12 +15,13 @@ cover_image: /assets/nnwm/cover.png
 
 ## Overview
 
-Convince writers to start and finish new 50,000-word novels in 30 days using relatively new online writing software.
+Convince writers to start and finish new 50,000-word novels in 30 days using  new online writing software.
 
 ## Skills Used
 
 * user flows
 * product metrics
+* visual design
 
 ## Problem Definition
 
