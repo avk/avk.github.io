@@ -32,21 +32,21 @@ I'm proficient in user flows, wireframing, prototyping, and product metrics.
 
 ## Christine Lee, <small>UX Designer</small>
 
-"His dedication to understanding the "why" behind everything we wanted to build pushed our team to deepen our understanding of the user, think about how to prototype things more creatively, and improve the quality of our research and prototypes. &hellip; I found him very capable of doing all types of user research - exploratory, in-depth, remote, in situ, surveys, guerrilla - and trusted him to take on a full cycle of prototyping and testing when we had several concepts happening at once."
+> &hellip; trusted him to take on a full cycle of prototyping and testing&hellip;
 
-> "&hellip; pushed our team to deepen our understanding of the user&hellip;"
+"His dedication to understanding the "why" behind everything we wanted to build pushed our team to deepen our understanding of the user, think about how to prototype things more creatively, and improve the quality of our research and prototypes. &hellip; I found him very capable of doing all types of user research - exploratory, in-depth, remote, in situ, surveys, guerrilla - and trusted him to take on a full cycle of prototyping and testing when we had several concepts happening at once."
 
 ## Will Sullivan, <small>Head of Marketing</small>
 
-"Art has the ability to think across UX, design, engineering, analytics, and marketing. His approaches are always even-keeled and thoughtful and he is comfortable leading projects or supporting other team members who may be running specific experiments. &hellip; I found his deep empathy for the user to be his greatest attribute."
+> &hellip; is comfortable leading projects or supporting other team members&hellip;
 
-> "&hellip; found his deep empathy for the user to be his greatest attribute."
+"Art has the ability to think across UX, design, engineering, analytics, and marketing. His approaches are always even-keeled and thoughtful and he is comfortable leading projects or supporting other team members who may be running specific experiments. &hellip; I found his deep empathy for the user to be his greatest attribute."
 
 ## Elyse Kolker Gordon, <small>Web Lead</small>
 
-"Art is one of the best teammates I've ever worked with. He always looks out for the team's best interest and is a a natural leader, pushing anyone he is working with to the next level. As an engineer he is detailed oriented and always looking to up his game with best practices and improvements in tooling and workflow. He also has a passion for UX and truly cares about the user."
+> &hellip; a natural leader, pushing anyone he is working with to the next level.
 
-> "&hellip; one of the best teammates I've ever worked with."
+"Art is one of the best teammates I've ever worked with. He always looks out for the team's best interest and is a natural leader, pushing anyone he is working with to the next level. As an engineer he is detailed oriented and always looking to up his game with best practices and improvements in tooling and workflow. He also has a passion for UX and truly cares about the user."
 
 # What makes me an empathetic designer
 * 3-time **startup founder**
