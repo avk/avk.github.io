@@ -26,44 +26,6 @@ last_modified_at: 2018-05-02
   I'm a <strong>UX Designer</strong> who has worked in diverse industries at the intersection of design, product, and engineering. Together, we can discover the right things to create to accomplish both user and business goals.
 </p>
 
-<a name="case_studies"></a>
-
-<h2>Case Studies</h2>
-
-{% assign case_studies = site.case_studies | sort:date | reverse %}
-{% for case_study in case_studies %}
-  <article class="case_study">
-    <a href="{{ case_study.url | relative_url }}">
-      <img 
-        alt="Work sample from {{ case_study.title }}" 
-        class="cover"
-        src="{{ site.url }}{{ case_study.cover_image }}" 
-      />
-    </a>
-    
-    <section class="summary">
-    <h2>
-      <a href="{{ case_study.url | relative_url }}" title="{{ case_study.title }}">
-        {{ case_study.title }} 
-      </a>
-    </h2>
-    
-    <p>
-      <strong>Approach</strong>: 
-      <em class="skills">{{ case_study.skills }}</em>
-    </p>
-    <p>
-      <strong>Impact</strong>: 
-      {{ case_study.overview }}
-      
-      <a href="{{ case_study.url | relative_url }}">
-        See how&thinsp;&rarr;
-      </a>
-    </p>
-    </section>
-  </article>
-{% endfor %}
-
 <h2>Where I've Made an Impact</h2>
 
 <img 
@@ -113,3 +75,41 @@ last_modified_at: 2018-05-02
 <p style="text-align: center;">
   <a href="{{ '/about/#testimonials' | absolute_url }}">How do others describe my impact?</a>
 </p>
+
+<a name="case_studies"></a>
+
+<h2>Case Studies</h2>
+
+{% assign case_studies = site.case_studies | sort:date | reverse %}
+{% for case_study in case_studies %}
+  <article class="case_study">
+    <a href="{{ case_study.url | relative_url }}">
+      <img 
+        alt="Work sample from {{ case_study.title }}" 
+        class="cover"
+        src="{{ site.url }}{{ case_study.cover_image }}" 
+      />
+    </a>
+    
+    <section class="summary">
+    <h2>
+      <a href="{{ case_study.url | relative_url }}" title="{{ case_study.title }}">
+        {{ case_study.title }} 
+      </a>
+    </h2>
+    
+    <p>
+      <strong>Approach</strong>: 
+      <em class="skills">{{ case_study.skills }}</em>
+    </p>
+    <p>
+      <strong>Impact</strong>: 
+      {{ case_study.overview }}
+      
+      <a href="{{ case_study.url | relative_url }}">
+        See how&thinsp;&rarr;
+      </a>
+    </p>
+    </section>
+  </article>
+{% endfor %}
