@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Note to Self Productivity Feature
-overview: In 4 weeks, designed, tested, and launched a unique feature to successfully help writers continue writing across working sessions.
+overview: In 4 weeks, designed, tested, and launched a unique feature to successfully help writers continue writing across multiple creative sessions.
 skills: user research, user flows, wireframing, prototyping
 date: 2017-03-31
 cover_image: /assets/note_to_self/cover.jpg
@@ -15,7 +15,7 @@ cover_image: /assets/note_to_self/cover.jpg
 
 ## Overview
 
-In 4 weeks, designed, tested, and launched a unique feature to successfully help writers continue writing across working sessions.
+In 4 weeks, designed, tested, and launched a unique feature to successfully help writers continue writing across multiple creative sessions.
 
 ## Skills Used
 

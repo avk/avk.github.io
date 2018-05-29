@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Redesign File Viewer for 9,000+ organizations
-overview: Redesigned a file viewer to consistently display 50+ file types leading to &quot;as close to a perfect release as we&apos;ve had.&quot;
+overview: 50+ file types consistently displayed on desktop & mobile in "as close to a perfect release as we've had."
 skills: wireframing, visual design
 date: 2018-01-31
 cover_image: /assets/file_viewer/production-text-fullscreen.png
