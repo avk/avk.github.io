@@ -45,6 +45,19 @@ ol, ul {
   @media only screen and (min-width: $tablet_width) {
     // padding-top: 70px;
   }
+  
+  #main-content {
+    padding: 0;
+    width: 900px;
+    
+    @media only screen and (min-width: $tablet_width) {
+      padding: 0 20px;
+    }
+  }
+}
+
+#hero {
+  width: 100%;
 }
 
 .blurb {
@@ -78,6 +91,10 @@ ol, ul {
   background-color: #fff;
   margin-top: 0;
   padding: 30px;
+  
+  @media only screen and (min-width: $tablet_width) {
+    padding: 30px 100px;
+  }
 }
 
 #main-content .case_study {
@@ -89,6 +106,7 @@ ol, ul {
   .summary {
     @media only screen and (min-width: $tablet_width) {
       margin-left: 220px;
+      margin-right: 60px;
     }
   }
   
@@ -121,9 +139,14 @@ ol, ul {
   opacity: 1.0;
   vertical-align: middle;
   
-  @media only screen and (min-width: $desktop_width) {
+  @media only screen and (max-width: $tablet_width) and (orientation: landscape) {
     display: inline-block;
-    margin: 20px;
+    margin: 50px;
+  }
+  
+  @media only screen and (min-width: $tablet_width) {
+    display: inline-block;
+    margin: 30px;
     opacity: 0.75;
     
     &:hover {
@@ -195,6 +218,12 @@ a {
   .material-icons {
     font-size: 14px;
     padding: 0 5px;
+  }
+}
+
+.not-mobile {
+  @media only screen and (max-width: $tablet_width) {
+    display: none;
   }
 }
 

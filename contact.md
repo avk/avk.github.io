@@ -8,7 +8,7 @@ last_modified_at: 2018-05-02
 <img 
   src="{{ site.url }}/assets/art-reading.jpg" 
   alt="Invited to read my fiction in San Francisco" 
-  style="" />
+  id="hero" />
 
 <img src="{{ site.url }}/assets/contact-small.png" alt="Let's get the gears rolling" class="contact-gear" />
 

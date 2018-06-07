@@ -8,7 +8,7 @@ last_modified_at: 2018-05-02
 <img 
   src="{{ site.url }}/assets/art-presenting-slim.jpg" 
   alt="Presenting at the ReactJS San Francisco meetup" 
-  style="" />
+  id="hero" />
 
 # About
 
