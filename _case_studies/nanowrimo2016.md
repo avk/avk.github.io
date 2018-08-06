@@ -25,7 +25,7 @@ Convince writers to start and finish new 50,000-word novels in 30 days using  ne
 
 ## Problem Definition
 
-Every November, hundreds of thousands of writers around the world attempt to write 50,000 words of a new novel by Nov. 30 as part of National Novel Writing Month (NaNoWriMo). Reaching the 50k word count is winning NaNoWriMo. We wanted to entice at least 2016 NaNoWriMo participants to start (and ideally write) a new 50,000-word novel in 30 days using our online writing software at TheRightMargin.
+Every November, hundreds of thousands of writers around the world attempt to write 50,000 words of a new novel by Nov. 30 as part of National Novel Writing Month (NaNoWriMo). Reaching the 50k word count is winning NaNoWriMo. We wanted to entice 2016 NaNoWriMo participants to start (and ideally write) a new 50,000-word novel in 30 days using our online writing software at TheRightMargin.
 
 ### Hypothesis
 Creating a template of NaNoWriMo best practices, putting those best practices into our software, and giving the template away to NaNoWriMo participants via extended trials (through Nov. 30), would lead to more NaNoWriMo winners and customers for TheRightMargin.
