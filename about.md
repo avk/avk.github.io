@@ -17,7 +17,7 @@ last_modified_at: 2018-05-02
   alt="Let's get the gears rolling"
   style="float: right; margin: 25px 0 25px 20px;" />
 
-Hi, I'm Arthur Klepchukov, a UX designer who loves words, trains, and the promise of an empty page. I'm a 3-time startup founder, <abbr title="University of California, Berkeley">UC Berkeley</abbr> graduate, and at the intersection of design, product, and engineering. I'm enjoy discovering the right things to create, not just building unvalidated visions. I'm often the first to ask why, seek metrics, or start sketching flows. I crave understanding both users and how a product or service can fit into the broader world.
+Hi, I'm Arthur Klepchukov, a UX designer who loves words, trains, and the promise of an empty page. I'm a 3-time startup founder, <abbr title="University of California, Berkeley">UC Berkeley</abbr> graduate, and at the intersection of design, product, and engineering. I enjoy discovering the right things to create, not just building unvalidated visions. I'm often the first to ask why, seek metrics, or start sketching flows. I crave understanding both users and how a product or service can fit into the broader world.
 
 ## Goal
 
