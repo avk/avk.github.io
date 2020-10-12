@@ -10,11 +10,14 @@ last_modified_at: 2018-05-02
   alt="Invited to read my fiction in San Francisco"
   id="hero" />
 
-<img src="{{ site.url }}/assets/contact-small.png" alt="Let's get the gears rolling" class="contact-gear" />
-
 # Contact
 
 {% include goal.md %}
+
+<img
+  src="{{ site.url }}/assets/contact.png"
+  alt="Let's get the gears rolling"
+  class="contact-gear" />
 
 Let's get the gears rolling!
 

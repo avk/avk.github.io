@@ -164,12 +164,9 @@ aside#sidebar {
 }
 
 .contact-gear {
-  float: right;
-  margin: 10px;
-
-  @media only screen and (min-width: $desktop_width) {
-    margin: 0 0 100px 20px;
-  }
+  float: left;
+  margin: 12px;
+  width: 170px;
 }
 
 a {
@@ -230,6 +227,19 @@ a {
 abbr[title] {
   border-bottom: none;
   cursor: help;
+}
+
+.head-shot {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  width: 66vw;
+
+  @media only screen and (min-width: $tablet_width) {
+    float: right;
+    margin: 12px 0 25px 20px;
+    width: 200px;
+  }
 }
 
 footer {
