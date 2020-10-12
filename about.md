@@ -17,7 +17,7 @@ last_modified_at: 2018-05-02
   alt="Let's get the gears rolling"
   style="float: right; margin: 25px 0 25px 20px;" />
 
-Hi, I'm Arthur Klepchukov, a UX designer who loves words, trains, and the promise of an empty page. I'm a 3-time startup founder, UC Berkeley graduate, and at the intersection of design, product, and engineering. I'm enjoy discovering the right things to create, not just building unvalidated visions. I'm often the first to ask why, seek metrics, or start sketching flows. I crave understanding both users and how a product or service can fit into the broader world.
+Hi, I'm Arthur Klepchukov, a UX designer who loves words, trains, and the promise of an empty page. I'm a 3-time startup founder, <abbr title="University of California, Berkeley">UC Berkeley</abbr> graduate, and at the intersection of design, product, and engineering. I'm enjoy discovering the right things to create, not just building unvalidated visions. I'm often the first to ask why, seek metrics, or start sketching flows. I crave understanding both users and how a product or service can fit into the broader world.
 
 ## Goal
 
@@ -53,7 +53,7 @@ My perpetual interests include: effective writing, typography, information archi
 # What makes me a better designer
 * 3-time **startup founder**
 * worked **across industries**: government, music videos, academia, travel, creative writing
-* graduated from **UC Berkeley**—Cognitive Science & Computer Science
+* graduated from **<abbr title="University of California, Berkeley">UC Berkeley</abbr>**—Cognitive Science & Computer Science
 * moved twenty times and lived in various parts of the United States
 * host weekly writing meetups and read at open mic nights
 * fluent in Russian
