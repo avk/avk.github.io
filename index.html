@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Case Studies
-last_modified_at: 2018-05-02
+last_modified_at: 2020-10-12
 ---
 
 <div class="blurb">
-  <img 
-    src="{{ site.url }}/assets/locomotive-art.jpg" 
-    alt="Arthur Klepchukov with a train" 
-    id="hero" />  
-  
+  <img
+    src="{{ site.url }}/assets/locomotive-art.jpg"
+    alt="Arthur Klepchukov with a train"
+    id="hero" />
+
   <div class="pithy">
     <h1>
       Designing for Impact
     </h1>
     <small>
-      in startups, government, music videos, 
+      in startups, government, music videos,
       <br>
       academia, travel, creative writing, &amp; more
     </small>
@@ -28,54 +28,102 @@ last_modified_at: 2018-05-02
 
 <h2>Where I've Made an Impact</h2>
 
-<img 
-  alt="Vevo, LLC" 
+<img
+  alt="Vevo, LLC"
   class="logo"
-  src="{{ site.url }}/assets/logos/vevo.png" 
+  src="{{ site.url }}/assets/logos/vevo.png"
 />
-<img 
-  alt="Submittable" 
+<img
+  alt="Submittable"
   class="logo"
-  src="{{ site.url }}/assets/logos/submittable.png" 
+  src="{{ site.url }}/assets/logos/submittable.png"
 />
-<img 
-  alt="Votizen" 
+<img
+  alt="Votizen"
   class="logo"
-  src="{{ site.url }}/assets/logos/votizen.png" 
+  src="{{ site.url }}/assets/logos/votizen.png"
 />
 
-<img 
-  alt="Venrock" 
+<img
+  alt="Venrock"
   class="logo"
-  src="{{ site.url }}/assets/logos/venrock.png" 
+  src="{{ site.url }}/assets/logos/venrock.png"
 />
-<img 
-  alt="University of California, Berkeley" 
+<img
+  alt="University of California, Berkeley"
   class="logo"
-  src="{{ site.url }}/assets/logos/berkeley.png" 
+  src="{{ site.url }}/assets/logos/berkeley.png"
 />
-<img 
-  alt="National Institute for Standards and Technology (NIST)" 
+<img
+  alt="National Institute for Standards and Technology (NIST)"
   class="logo"
-  src="{{ site.url }}/assets/logos/nist.svg" 
+  src="{{ site.url }}/assets/logos/nist.svg"
   width="150px"
 />
 
 <br class="not-mobile" />
-<img 
-  alt="TheRightMargin" 
+<img
+  alt="TheRightMargin"
   class="logo"
-  src="{{ site.url }}/assets/logos/trm.png" 
+  src="{{ site.url }}/assets/logos/trm.png"
 />
-<img 
-  alt="Suiteness" 
+<img
+  alt="Suiteness"
   class="logo"
-  src="{{ site.url }}/assets/logos/suiteness.png" 
+  src="{{ site.url }}/assets/logos/suiteness.png"
 />
 
-<p style="text-align: center;">
-  <a href="{{ '/about/#testimonials' | absolute_url }}">How do others describe my impact?</a>
-</p>
+
+
+
+
+<h2>How we'll work together</h2>
+
+<h3>Christine Yeh, <small>UX Designer</small></h3>
+
+<div class="testimonial">
+  <blockquote cite="https://www.linkedin.com/in/hichristineyeh/">
+    <p>
+      His dedication to understanding the &ldquo;why&rdquo; behind everything we wanted to build pushed our team to deepen our understanding of the user, think about how to prototype things more creatively, and improve the quality of our research and prototypes. &hellip; I found him very capable of doing all types of user research&mdash;exploratory, in-depth, remote, in situ, surveys, guerrilla&mdash;and trusted him to take on a full cycle of prototyping and testing when we had several concepts happening at once.
+    </p>
+  </blockquote>
+
+  <q class="testimonial__pullquote">
+    &hellip; trusted him to take on a full cycle of prototyping and testing&hellip;
+  </q>
+</div>
+
+<h3>Will Sullivan, <small>Head of Marketing</small></h3>
+
+<div class="testimonial">
+  <blockquote cite="https://www.linkedin.com/in/wb-sullivan/">
+    <p>
+      Art has the ability to think across UX, design, engineering, analytics, and marketing. His approaches are always even-keeled and thoughtful and he is comfortable leading projects or supporting other team members who may be running specific experiments. &hellip; I found his deep empathy for the user to be his greatest attribute.
+    </p>
+  </blockquote>
+
+  <q class="testimonial__pullquote">
+    &hellip; is comfortable leading projects or supporting other team members&hellip;
+  </q>
+</div>
+
+<h3>Elyse Kolker Gordon, <small>Web Lead</small></h3>
+
+<div class="testimonial">
+  <blockquote cite="https://www.linkedin.com/in/elyse-kolker-gordon/">
+    <p>
+      Art is one of the best teammates I&apos;ve ever worked with. He always looks out for the team&apos;s best interest and is a natural leader, pushing anyone he is working with to the next level. As an engineer he is detailed oriented and always looking to up his game with best practices and improvements in tooling and workflow. He also has a passion for UX and truly cares about the user.
+    </p>
+  </blockquote>
+
+  <q class="testimonial__pullquote">
+    &hellip; a natural leader, pushing anyone he is working with to the next level.
+  </q>
+</div>
+
+
+
+
 
 <a name="case_studies"></a>
 
@@ -85,26 +133,26 @@ last_modified_at: 2018-05-02
 {% for case_study in case_studies %}
   <article class="case_study">
     <a href="{{ case_study.url | relative_url }}">
-      <img 
-        alt="Work sample from {{ case_study.title }}" 
+      <img
+        alt="Work sample from {{ case_study.title }}"
         class="cover"
-        src="{{ site.url }}{{ case_study.cover_image }}" 
+        src="{{ site.url }}{{ case_study.cover_image }}"
       />
     </a>
-    
+
     <section class="summary">
     <h2>
       <a href="{{ case_study.url | relative_url }}" title="{{ case_study.title }}">
-        {{ case_study.title }} 
+        {{ case_study.title }}
       </a>
     </h2>
-    
+
     <p>
-      <strong>Approach</strong>: 
+      <strong>Approach</strong>:
       <em class="skills">{{ case_study.skills }}</em>
     </p>
     <p>
-      <strong>Impact</strong>: 
+      <strong>Impact</strong>:
       {{ case_study.overview }}
       <a href="{{ case_study.url | relative_url }}">
         See how&thinsp;&rarr;
