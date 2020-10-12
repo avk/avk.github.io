@@ -242,6 +242,27 @@ abbr[title] {
   }
 }
 
+.testimonial {
+  display: flex;
+  flex-direction: column;
+
+  @media only screen and (min-width: $tablet_width) {
+    flex-direction: row;
+  }
+}
+.testimonial .testimonial__pullquote {
+  align-self: center;
+  flex: 1 1 0;
+  margin-left: 36px;
+  background-color: cornsilk;
+  padding: 24px 12px;
+  transform: rotate(2deg);
+  box-shadow: 2px 2px 4px beige;
+}
+.testimonial blockquote {
+  flex: 2 1 0;
+}
+
 footer {
   text-align: center;
 
