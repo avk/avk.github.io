@@ -5,27 +5,29 @@ permalink: /about/
 last_modified_at: 2018-05-02
 ---
 
-<img 
-  src="{{ site.url }}/assets/art-presenting-slim.jpg" 
-  alt="Presenting at the ReactJS San Francisco meetup" 
+<img
+  src="{{ site.url }}/assets/art-presenting-slim.jpg"
+  alt="Presenting at the ReactJS San Francisco meetup"
   id="hero" />
 
 # About
 
-<img 
-  src="{{ site.url }}/assets/art_sq.jpg" 
-  alt="Let's get the gears rolling" 
+<img
+  src="{{ site.url }}/assets/art_sq.jpg"
+  alt="Let's get the gears rolling"
   style="float: right; margin: 25px 0 25px 20px;" />
 
-Hi, I'm Arthur Klepchukov, an empathetic UX designer in the D.C. suburbs who loves words, trains, and the promise of an empty page. I'm a 3x startup founder, UC Berkeley graduate, and at the intersection of design, product, and engineering. I'm passionate about discovering the right things to create, not just building unvalidated visions. I'm often the first to ask why, seek metrics, or start sketching flows. I crave understanding both users and how a product or service can fit into the broader world.
+Hi, I'm Arthur Klepchukov, a UX designer who loves words, trains, and the promise of an empty page. I'm a 3-time startup founder, UC Berkeley graduate, and at the intersection of design, product, and engineering. I'm enjoy discovering the right things to create, not just building unvalidated visions. I'm often the first to ask why, seek metrics, or start sketching flows. I crave understanding both users and how a product or service can fit into the broader world.
 
 ## Goal
 
 {% include goal.md %}
 
-## Skills
+## Key Skills
 
-I'm proficient in user flows, wireframing, prototyping, and product metrics.
+I'm best at user flows, wireframing, prototyping, and product metrics.
+
+My perpetual interests include: effective writing, typography, information architecture, HTML & CSS, and the power of the web.
 
 <a name="testimonials"></a>
 # How we'll work together
@@ -48,7 +50,7 @@ I'm proficient in user flows, wireframing, prototyping, and product metrics.
 
 "Art is one of the best teammates I've ever worked with. He always looks out for the team's best interest and is a natural leader, pushing anyone he is working with to the next level. As an engineer he is detailed oriented and always looking to up his game with best practices and improvements in tooling and workflow. He also has a passion for UX and truly cares about the user."
 
-# What makes me an empathetic designer
+# What makes me a better designer
 * 3-time **startup founder**
 * worked **across industries**: government, music videos, academia, travel, creative writing
 * graduated from **UC Berkeley**—Cognitive Science & Computer Science
@@ -57,13 +59,13 @@ I'm proficient in user flows, wireframing, prototyping, and product metrics.
 * fluent in Russian
 
 # If I could wave a magic wand&hellip;
-My dream design job would be to work on an operating system that successfully challenges the desktop metaphor, in a way that mobile ones have not. 
+My dream design job would be to work on an operating system that successfully challenges the desktop metaphor, in a way that mobile ones have not.
 
 ## All aboard! Next stop&hellip;
 
 > [See my case studies]({{ site.url }}/) for examples of my work.
 
-<img 
-  alt="LEGO train" 
-  src="{{ site.url }}/assets/lego-train.jpg" 
+<img
+  alt="LEGO train"
+  src="{{ site.url }}/assets/lego-train.jpg"
 />
