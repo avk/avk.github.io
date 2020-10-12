@@ -8,14 +8,14 @@ $desktop_width: 1024px;
 
 /* A simple, css only, (some-what) responsive menu */
 /*
-body { 
+body {
   background: #ccc;
   font-family: helvetica, arial, serif;
   font-size: 13px;
   text-transform: uppercase;
   text-align: center;
 }*/
- 
+
 /*.wrap {
   display: inline-block;
   -webkit-box-shadow: 0 0 70px #fff;
@@ -51,23 +51,23 @@ nav {
   // box-shadow: 2px 2px 3px #888;
   // border-bottom-right-radius: 8px;
   // border-bottom-left-radius: 8px;
-  
+
   @media only screen and (max-width: $tablet_width) {
     width: 90%;
-    margin: 0 35px;
+    margin: 0;
   }
-  
+
   @media only screen and (min-width: $tablet_width) {
     margin-left: 20px;
   }
-  
+
   a {
     text-decoration: none;
     // color: #fff;
     // color: #9ddcff; // from architect theme
-    color: #999;
+    // color: #999;
     display: block;
-    
+
     .title {
       bottom: 5px;
       position: relative;
@@ -109,7 +109,7 @@ nav {
   }
 
   ul.primary li a:hover {
-    color: #666;
+    color: #222;
   }
 
   /* subs */
@@ -157,7 +157,7 @@ nav {
 
   ul.primary li:hover > a{
     // color: #000;
-  } 
+  }
 
 }
 
@@ -165,29 +165,29 @@ nav {
   // .decor {
   //   padding: 3px;
   // }
-  // 
+  //
   // .wrap {
   //   width: 100%;
   //   margin-top: 0px;
   // }
-  
+
   nav {
     ul.primary {
       padding-left: 0;
 
       li {
         // float: none;
-        
+
         a {
-          padding: 10px 30px;
+          padding: 10px 5px;
         }
       }
 
-      .title {
+      .material-icons {
         display: none;
       }
     }
-    
+
     ul.primary li:hover a {
       background: none;
       // color: #8B8B8B;
@@ -199,20 +199,20 @@ nav {
       // background: #272727;
       // color: #fff;
     }
-    
+
     ul.sub {
-      display: block;  
+      display: block;
       position: static;
       box-shadow: none;
       width: 100%;
     }
-    
+
     ul.sub li a {
       background: #272727;
     	border: none;
       color: #8B8B8B;
     }
-    
+
     ul.sub li a:hover {
       color: #ccc;
       background: none;
