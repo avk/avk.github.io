@@ -263,6 +263,23 @@ abbr[title] {
   flex: 2 1 0;
 }
 
+.next-stop {
+  position: relative;
+}
+.next-stop figcaption {
+  text-align: center;
+  background-color: cornsilk;
+  padding: 24px;
+  margin: 0;
+
+  @media only screen and (min-width: $tablet_width) {
+    bottom: 36px;
+    opacity: 0.8;
+    position: absolute;
+    width: 66%;
+  }
+}
+
 footer {
   text-align: center;
 

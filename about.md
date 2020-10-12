@@ -47,11 +47,18 @@ My perpetual interests include: effective writing, typography, information archi
 # If I could wave a magic wand&hellip;
 My dream design job would be to work on an operating system that successfully challenges the desktop metaphor, in a way that mobile ones have not.
 
+
+
+
+
 ## All aboard! Next stop&hellip;
 
-> [See my case studies]({{ site.url }}/) for examples of my work.
-
-<img
-  alt="LEGO train"
-  src="{{ site.url }}/assets/lego-train.jpg"
-/>
+<figure class="next-stop">
+  <img
+    alt="LEGO train"
+    src="{{ site.url }}/assets/lego-train.jpg"
+  />
+  <figcaption>
+    <a href="{{ site.url }}/#case_studies">See my case studies</a> for examples of my work.
+  </figcaption>
+</figure>
