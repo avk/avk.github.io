@@ -60,29 +60,26 @@ ol, ul {
   width: 100%;
 }
 
-.blurb {
+#main-content .hero-fig {
+  margin: 0;
   position: relative;
 
-  .pithy {
-    color: white;
-    right: 25px;
-    position: absolute;
-    text-align: center;
-    text-shadow: 1px 1px 2px black;
-    top: 25px;
-
-    @media only screen and (max-width: $tablet_width) {
-      right: 15px;
+  .hero-fig__caption {
+    @media only screen and (min-width: $tablet_width) {
+      bottom: 36px;
+      position: absolute;
+      width: 50%;
     }
+  }
 
-    h1 {
-      color: white !important;
-    }
-
-    small {
-      @media only screen and (max-width: $tablet_width) {
-        display: none;
-      }
+  h1.hero-fig__caption__copy {
+    @media only screen and (min-width: $tablet_width) {
+      color: white;
+      font-size: 5rem;
+      font-size: 10rem !important;
+      line-height: 7.5rem;
+      text-align: left;
+      text-shadow: 2px 2px 4px #222;
     }
   }
 }
