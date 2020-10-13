@@ -11,7 +11,7 @@ cover_image: /assets/vevo_flows/cover.png
 
 # <small>Case Study:</small> <br />Flows Aren't Just for Designers
 
-> This was the inaugural post to kick off the [Vevo Engineering Blog](http://blog.vevo.com/flows-arent-just-for-designers/)
+> This was the inaugural post to kick off the [Vevo Engineering Blog](https://web.archive.org/web/20161205044129/http://blog.vevo.com/flows-arent-just-for-designers/)
 
 ## Overview
 
@@ -30,7 +30,7 @@ I start with user flows. A flow is essentially a series of steps a user can perf
 
 But you’re a dev! Why start with flows? Shouldn’t a designer, a product manager, or someone dedicated to user experience take care of this? Possibly, but even if they have, that doesn’t absolve you of the responsibility of a solid implementation. A visual designer may not be aware of all the possible error states triggered by your app. A UX designer may not know what data is available at every step. A PM may not know that necessary API calls don’t exist. A data researcher may run reports based on assumptions about where metrics calls occur. If no one breaks down the flows, you end up shipping something incomplete. And until a feature flow is documented and shared, everyone has a different flow in their head. As a dev, you’re the last line of defense against a half-baked product.
 
-> If no one breaks down the flows, you end up shipping something incomplete. 
+> If no one breaks down the flows, you end up shipping something incomplete.
 
 Vevo presented a great opportunity to show flows in action when we added Google+ as a sign up option last year. The spec was:
 
@@ -79,6 +79,6 @@ This document was how I justified my time estimate to my product and engineering
 
 Obviously, flow documents take time to create but the exercise is worth doing. Start on a whiteboard. Jump to something digital like OmniGraffle when necessary. Realize that when the diagram feels too big, that’s precisely the value of the exercise. Don’t be afraid to break things down, question your assumptions, and pare down to the essentials of what your changes need to accomplish. You’ll still make all these decisions in code so I find it incredibly helpful to brainstorm them up front and start asking questions early.
 
-> This was the inaugural post to kick off the [Vevo Engineering Blog](http://blog.vevo.com/flows-arent-just-for-designers/)
+> This was the inaugural post to kick off the [Vevo Engineering Blog](https://web.archive.org/web/20161205044129/http://blog.vevo.com/flows-arent-just-for-designers/)
 
 {% include footer_case_study.md %}
