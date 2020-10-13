@@ -22,8 +22,8 @@ $lh-small: $size-small * 1.3;
 $weight-regular: 400;
 $weight-bold: 700;
 
-body, 
-div, 
+body,
+div,
 p {
   font-family: $family-body;
   font-weight: $weight-regular;
@@ -49,13 +49,13 @@ pre code {
 }
 
 header nav {
-  font-family: $family-headings !important; 
+  font-family: $family-headings !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $family-headings !important; 
+  font-family: $family-headings !important;
   font-weight: $weight-bold;
-  
+
   &:before {
     content: none !important;
   }
@@ -71,7 +71,7 @@ blockquote {
   font-style: italic;
   margin: 20px;
   padding-left: 10px !important;
-  
+
   p {
     font-family: Georgia, serif !important;
     padding-bottom: 30px;
@@ -88,7 +88,7 @@ blockquote {
     margin-bottom: $lh-regular / 2 !important;
     margin-top: $lh-regular * 2 !important;
   }
-  
+
   h1:first-of-type {
     margin-top: 0 !important;
   }
@@ -97,7 +97,7 @@ blockquote {
   h3 + h4 {
     margin-top: 0 !important;
   }
-  
+
   h1 small { color: #666; }
   h2 small { color: #666; }
   
