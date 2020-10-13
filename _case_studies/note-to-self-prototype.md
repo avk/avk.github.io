@@ -9,7 +9,7 @@ cover_image: /assets/note_to_self/cover.jpg
 
 ![Work sample from this case study]({{ site.url }}/assets/note_to_self/cover.jpg)
 
-# <small>Case Study:</small> <br />Note to Self Prototype
+# <small>Case Study:</small> <br />Note to Self Productivity Feature
 
 <a href="https://www.therightmargin.com/?ref=avkux" type="button" class="btn btn-success" target="_blank"><i class="material-icons">done</i>In Production</a>
 

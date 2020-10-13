@@ -9,7 +9,7 @@ cover_image: /assets/file_viewer/production-text-fullscreen.png
 
 ![Work sample from this case study]({{ site.url }}/assets/file_viewer/production-text-fullscreen.png)
 
-# <small>Case Study:</small> <br />Redesign File Viewer
+# <small>Case Study:</small> <br />Redesign File Viewer for 9,000+ organizations
 
 <a href="https://www.submittable.com/" type="button" class="btn btn-success" target="_blank"><i class="material-icons">done</i>In Production</a>
 
