@@ -279,6 +279,25 @@ abbr[title] {
   }
 }
 
+details {
+  cursor: pointer;
+  padding-left: 3px; // why? align the triangle under headings
+}
+
+details[closed] {
+  color: #555;
+}
+
+details[open] {
+  color: #000;
+
+  p,
+  blockquote {
+    // why? indent most common elements when details expanded to make headings and hierarchy stand out
+    padding-left: 24px;
+  }
+}
+
 footer {
   text-align: center;
 
