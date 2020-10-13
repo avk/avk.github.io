@@ -17,6 +17,11 @@ cover_image: /assets/file_viewer/production-text-fullscreen.png
 
 Wireframe & redesign a file viewer for displaying 50+ file types online&mdash;a core part of the review workflow for 9000+ organizations.
 
+## Skills Used
+
+* wireframing
+* visual design
+
 ## Problem Definition
 
 <details>

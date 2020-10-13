@@ -19,14 +19,10 @@ In 4 weeks, designed, tested, and launched a unique feature to successfully help
 
 ## Skills Used
 
-<details>
-  <ul>
-    <li>user research</li>
-    <li>user flows</li>
-    <li>wireframing</li>
-    <li>prototyping</li>
-  </ul>
-</details>
+* user research
+* user flows
+* wireframing
+* prototyping
 
 ## Problem Definition
 
