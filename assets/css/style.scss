@@ -5,14 +5,58 @@
 
 @import "{{ site.theme }}";
 
+$color-link: blue;
+$color-interactive: red;
+$color-visited: grey;
+
+a:link {
+  border-bottom-color: $color-link;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  color: $color-link;
+  text-decoration: none;
+}
+a:visited {
+  border-bottom-color: $color-visited;
+  color: $color-visited;
+}
+a:hover,
+a:visited:hover {
+  border-bottom-color: $color-interactive;
+  color: $color-interactive;
+}
+a:focus,
+a:visited:focus {
+  border-bottom-color: $color-interactive;
+  color: $color-interactive;
+  outline: 1px solid $color-interactive;
+}
+a:active {
+  border-bottom-color: $color-visited;
+  color: $color-visited;
+  outline: none;
+}
+
+
+
+
+
+a:link.site-title,
+a:visited.site-title,
+a:hover.site-title,
+a:active.site-title,
+{
+  border: none;
+  color: black;
+}
+
 .site-nav {
   .page-link {
     margin-right: 0 !important;
     padding: 18px 36px;
-    text-decoration: underline;
   }
   .current-page {
-    text-decoration: none;
+    border-bottom-color: transparent;
   }
 }
 
@@ -22,4 +66,12 @@
 
 @media (min-width: 768px) {
   .site-nav .page-link { padding: 12px; }
+}
+
+.site-footer {
+  .social-media-list a:hover *,
+  a:link, a:visited, a:hover, a:active {
+    border: none;
+    text-decoration: none; // why? override minima theme
+  }
 }
