@@ -21,11 +21,11 @@ url: "https://avk.github.io" # the base hostname & protocol for your site, e.g. 
 timezone: America/Los_Angeles
 google_analytics: "UA-10101367-9"
 
-social:
-  email: arthur.klepchukov@gmail.com
-  linkedin: arthurk
-  twitter: artvankilmer
-  github:  avk
+email: arthur.klepchukov@gmail.com
+# used by minima theme's social include
+linkedin_username: arthurk
+twitter_username: artvankilmer
+github_username: avk
 
 collections:
   case_studies:
@@ -34,8 +34,7 @@ collections:
 
 # Build settings
 markdown: kramdown
-# theme: minima
-theme: jekyll-theme-architect
+theme: minima
 plugins:
   - jekyll-sitemap
 exclude:

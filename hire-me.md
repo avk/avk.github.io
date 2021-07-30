@@ -21,22 +21,10 @@ last_modified_at: 2021-07-28
 
 Let's get the gears rolling!
 
-<a href="mailto:{{ site.social.email }}" title="Email" type="button" class="btn btn-primary">
-  <span class="icon icon-at"></span>
+<a href="mailto:{{ site.email }}" title="Email" type="button" class="btn btn-primary">
   Email me
 </a>
-<a href="https://www.linkedin.com/in/{{ site.social.linkedin }}" target="_blank" title="LinkedIn" class="btn btn-secondary">
-  <span class="icon icon-social-linkedin"></span>
+or let's connect on
+<a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank" title="LinkedIn" class="btn btn-secondary">
   LinkedIn
 </a>
-
-<hr />
-
-I'm also on
-<a href="https://github.com/{{ site.social.github }}" target="_blank" title="GitHub">
-  <span class="icon icon-social-github"></span>
-  GitHub</a>
-and
-<a href="https://twitter.com/{{ site.social.twitter }}" target="_blank" title="Twitter">
-  <span class="icon icon-social-twitter"></span>
-  Twitter</a>.
