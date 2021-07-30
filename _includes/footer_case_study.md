@@ -8,7 +8,7 @@
     src="{{ site.url }}/assets/lego-train.jpg"
   />
   <figcaption>
-    <a href="{{ '/#case_studies' | absolute_url }}">
+    <a href="{{ '/case-studies' | absolute_url }}">
       See more case studies</a>
     or
     <a href="{{ '/hire-me/' | absolute_url }}">

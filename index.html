@@ -76,47 +76,6 @@ last_modified_at: 2020-10-12
 
 
 
-<a name="case_studies"></a>
-
-<h2>Design Case Studies</h2>
-
-{% assign case_studies = site.case_studies | sort:date | reverse %}
-{% for case_study in case_studies %}
-  <article class="case_study">
-    <a href="{{ case_study.url | relative_url }}">
-      <img
-        alt="Work sample from {{ case_study.title }}"
-        class="cover"
-        src="{{ site.url }}{{ case_study.cover_image }}"
-      />
-    </a>
-
-    <section class="summary">
-    <h2>
-      <a href="{{ case_study.url | relative_url }}" title="{{ case_study.title }}">
-        {{ case_study.title }}
-      </a>
-    </h2>
-
-    <p>
-      <strong>Approach</strong>:
-      <em class="skills">{{ case_study.skills }}</em>
-    </p>
-    <p>
-      <strong>Impact</strong>:
-      {{ case_study.overview }}
-      <a href="{{ case_study.url | relative_url }}">
-        See how&thinsp;&rarr;
-      </a>
-    </p>
-    </section>
-  </article>
-{% endfor %}
-
-
-
-
-
 <h2>
   All aboard! Next stop&hellip;
 </h2>

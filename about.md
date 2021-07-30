@@ -59,6 +59,6 @@ My dream design job would be to work on an operating system that successfully ch
     src="{{ site.url }}/assets/lego-train.jpg"
   />
   <figcaption>
-    <a href="{{ site.url }}/#case_studies">See my case studies</a> for examples of my work.
+    <a href="{{ site.url }}/case-studies">See my case studies</a> for examples of my work.
   </figcaption>
 </figure>

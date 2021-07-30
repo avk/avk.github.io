@@ -28,6 +28,11 @@ linkedin_username: arthurk
 twitter_username: artvankilmer
 github_username: avk
 
+header_pages:
+  - case-studies.md
+  - about.md
+  - hire-me.md
+
 collections:
   case_studies:
     output: true
