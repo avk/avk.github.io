@@ -7,9 +7,19 @@
 
 .site-nav {
   .page-link {
+    margin-right: 0 !important;
+    padding: 18px 36px;
     text-decoration: underline;
   }
   .current-page {
     text-decoration: none;
   }
+}
+
+@media (orientation: landscape) {
+  .site-nav .page-link { padding: 12px; }
+}
+
+@media (min-width: 768px) {
+  .site-nav .page-link { padding: 12px; }
 }
