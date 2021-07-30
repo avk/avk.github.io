@@ -37,7 +37,6 @@ markdown: kramdown
 # theme: minima
 theme: jekyll-theme-architect
 plugins:
-  - jekyll-feed
   - jekyll-sitemap
 exclude:
   - Gemfile
