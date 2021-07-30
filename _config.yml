@@ -31,6 +31,7 @@ github_username: avk
 header_pages:
   - case-studies.md
   - about.md
+  - resume.md
   - hire-me.md
 
 collections:
