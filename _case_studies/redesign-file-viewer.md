@@ -11,7 +11,7 @@ cover_image: /assets/file_viewer/production-text-fullscreen.png
 
 # <small>Case Study:</small> <br />Redesign File Viewer for 9,000+ organizations
 
-<a href="https://www.submittable.com/" type="button" class="btn btn-success" target="_blank"><i class="material-icons">done</i>In Production</a>
+<a href="https://www.submittable.com/" type="button" class="btn btn-success" target="_blank">&#10004; In Production</a>
 
 ## Overview
 

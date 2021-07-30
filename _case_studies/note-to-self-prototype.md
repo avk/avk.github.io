@@ -11,7 +11,7 @@ cover_image: /assets/note_to_self/cover.jpg
 
 # <small>Case Study:</small> <br />Note to Self Productivity Feature
 
-<a href="https://www.therightmargin.com/?ref=avkux" type="button" class="btn btn-success" target="_blank"><i class="material-icons">done</i>In Production</a>
+<a href="https://www.therightmargin.com/?ref=avkux" type="button" class="btn btn-success" target="_blank">&#10004; In Production</a>
 
 ## Overview
 
@@ -829,6 +829,6 @@ You've finally managed to discover the secret to immortality. Suddenly, Death ap
 
 <hr>
 
-<a href="https://www.therightmargin.com/?ref=avkux" type="button" class="btn btn-success" target="_blank"><i class="material-icons">done</i>In Production</a>
+<a href="https://www.therightmargin.com/?ref=avkux" type="button" class="btn btn-success" target="_blank">&#10004; In Production</a>
 
 {% include footer_case_study.md %}

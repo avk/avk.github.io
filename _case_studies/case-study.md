@@ -6,7 +6,7 @@ published: false
 
 # <small>Case Study:</small> <br />Template
 
-<a href="#" type="button" class="btn btn-success" target="_blank"><i class="material-icons">done</i>In Production</a>
+<a href="#" type="button" class="btn btn-success" target="_blank">&#10004; In Production</a>
 
 ## Overview
 
@@ -66,6 +66,6 @@ what’s the elevator pitch?
   </p>
 </details>
 
-<a href="#" type="button" class="btn btn-success" target="_blank"><i class="material-icons">done</i>In Production</a>
+<a href="#" type="button" class="btn btn-success" target="_blank">&#10004; In Production</a>
 
 {% include footer_case_study.md %}
