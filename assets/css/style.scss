@@ -4,6 +4,7 @@
 // override Jekyll theme https://help.github.com/articles/customizing-css-and-html-in-your-jekyll-theme/
 
 @import "{{ site.theme }}";
+@import "images.css";
 
 $color-link: blue;
 $color-interactive: red;

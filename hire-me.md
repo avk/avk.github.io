@@ -18,14 +18,6 @@ last_modified_at: 2021-07-28
 
 
 
-## Ideally&hellip;
-
-{% include goal.md %}
-
-
-
-
-
 <article>
 
   <h2>How we'll work together</h2>
@@ -83,6 +75,14 @@ last_modified_at: 2021-07-28
   </section>
 
 </article>
+
+
+
+
+
+## Ideally&hellip;
+
+{% include goal.md %}
 
 
 
