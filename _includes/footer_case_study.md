@@ -11,7 +11,7 @@
     <a href="{{ '/#case_studies' | absolute_url }}">
       See more case studies</a>
     or
-    <a href="{{ '/contact/' | absolute_url }}">
+    <a href="{{ '/hire-me/' | absolute_url }}">
       get in touch</a>.
   </figcaption>
 </figure>

@@ -1,8 +1,8 @@
 ---
 layout: default
-title: About
+title: about
 permalink: /about/
-last_modified_at: 2018-05-02
+last_modified_at: 2021-07-28
 ---
 
 <img

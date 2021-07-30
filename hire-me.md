@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Contact
-permalink: /contact/
-last_modified_at: 2018-05-02
+title: hire me
+permalink: /hire-me/
+last_modified_at: 2021-07-28
 ---
 
 <img
@@ -10,7 +10,7 @@ last_modified_at: 2018-05-02
   alt="Invited to read my fiction in San Francisco"
   id="hero" />
 
-# Contact
+# Let's get in touch
 
 {% include goal.md %}
 
