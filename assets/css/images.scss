@@ -1,6 +1,37 @@
 ---
 ---
 
+.logos {
+  display: grid;
+  grid-gap: 36px;
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
+  align-items: center;
+  padding: 24px 0;
+}
+.logo {
+  opacity: 1.0;
+}
+@media only screen and (min-width: 768px) {
+  .logos {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .logo {
+    filter: grayscale(100%);
+    opacity: 0.66;
+
+    &:hover {
+      filter: grayscale(0%);
+      opacity: 1.0;
+    }
+  }
+}
+
+
+
+
+
 .head-shot {
   border-radius: 50%;
   display: block;
