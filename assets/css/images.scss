@@ -1,6 +1,24 @@
 ---
 ---
 
+// why? to break out of .wrapper
+// https://css-tricks.com/full-width-containers-limited-width-parents/
+.full-width {
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  max-height: 275px;
+  overflow: hidden;
+  width: 100vw;
+
+  img {
+    width: 100%;
+  }
+}
+
+
+
+
+
 .logos {
   display: grid;
   grid-gap: 36px;

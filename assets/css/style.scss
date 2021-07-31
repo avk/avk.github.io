@@ -6,6 +6,10 @@
 @import "{{ site.theme }}";
 @import "images.css";
 
+.page-content {
+  padding: 0; // why? resetting minima theme
+}
+
 $color-link: blue;
 $color-interactive: red;
 $color-visited: grey;
