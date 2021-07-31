@@ -80,7 +80,7 @@ last_modified_at: 2021-07-28
 
 
 
-## Ideally&hellip;
+## Alignment—beyond visuals
 
 {% include goal.md %}
 
