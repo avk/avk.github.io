@@ -43,6 +43,3 @@ My perpetual interests include: effective writing, typography, information archi
 * host weekly writing meetups and read at open mic nights
 * fluent in Russian
 * regulary <a href="https://arsenalofwords.com/" target="_blank">get my writing published</a>
-
-# If I could wave a magic wand&hellip;
-My dream design job would be to work on an operating system that successfully challenges the desktop metaphor, in a way that mobile ones have not.
