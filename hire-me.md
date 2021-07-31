@@ -5,10 +5,12 @@ permalink: /hire-me/
 last_modified_at: 2021-07-28
 ---
 
-<img
-  src="{{ site.url }}/assets/art-presenting-slim.jpg"
-  alt="Arthur Klepchukov presenting at the ReactJS San Francisco meetup"
-/>
+<figure class="full-width" style="max-height: 350px;">
+  <img
+    src="{{ site.url }}/assets/art-presenting-slim.jpg"
+    alt="Arthur Klepchukov presenting at the ReactJS San Francisco meetup"
+  />
+</figure>
 
 # Let's design together
 
