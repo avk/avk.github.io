@@ -6,11 +6,11 @@ last_modified_at: 2021-07-28
 ---
 
 <img
-  src="{{ site.url }}/assets/contact.png"
-  alt="Let's get the gears rolling"
-  class="contact-gear" />
+  src="{{ site.url }}/assets/art-presenting-slim.jpg"
+  alt="Arthur Klepchukov presenting at the ReactJS San Francisco meetup"
+/>
 
-# Let's get the gears rolling
+# Let's design together
 
 {% include contact_cta.html %}
 

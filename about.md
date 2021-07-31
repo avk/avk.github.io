@@ -5,13 +5,6 @@ permalink: /about/
 last_modified_at: 2021-07-28
 ---
 
-<!-- <img
-  src="{{ site.url }}/assets/art-presenting-slim.jpg"
-  alt="Presenting at the ReactJS San Francisco meetup"
-  id="hero"
-  class="not-mobile"
-  /> -->
-
 <img
   class="head-shot"
   src="{{ site.url }}/assets/2019-AVK-square.jpg"
