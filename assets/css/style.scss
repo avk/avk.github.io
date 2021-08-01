@@ -5,6 +5,7 @@
 
 @import "{{ site.theme }}";
 @import "images.css";
+@import "typography.css";
 
 .page-content {
   padding: 0; // why? resetting minima theme
