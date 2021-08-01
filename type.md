@@ -36,6 +36,7 @@ In my younger and more vulnerable years my father gave me some advice that I’v
   <p>
     In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since. <mark>Whenever you feel like criticizing anyone</mark>, he told me, just remember that all the people in this world haven’t had the advantages that you’ve had.
   </p>
+  <cite>&mdash;Nick Carraway, <strong>The Great Gatsby</strong>, Chapter 1</cite>
 </blockquote>
 
 ## mark outside blockquote

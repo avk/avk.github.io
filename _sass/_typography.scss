@@ -78,6 +78,59 @@ h4 { margin-top: $leading * 1.5 !important; }
 h5 { margin-top: $leading * 1.0 !important; }
 h6 { margin-top: $leading * 1.0 !important; }
 
+blockquote {
+  border-left: 3px solid $color-primary-2;
+  color: $color-neutral-2;
+
+  letter-spacing: normal;
+  font-size: ms(0);
+  font-style: normal;
+
+  padding-left: 1rem;
+  position: relative;
+  margin-left: 0.5rem;
+}
+blockquote p:first-child:first-letter {
+  float: left;
+  font-size: ms(5);
+  font-weight: 700;
+  line-height: 1;
+  padding-left: 3px;
+  padding-right: 9px;
+  padding-top: 9px;
+}
+
+// adapted from https://webdevtrick.com/stylish-css-blockquote/
+blockquote:before {
+  background-color: $color-lighest;
+  content: "";
+  height: 2em;
+  left: -4px;
+  margin-top: -1em;
+  position: absolute;
+  top: 50%;
+  width: 5px;
+}
+blockquote:after {
+  content: "“";
+  position: absolute;
+  top: 50%;
+  color: $color-primary-8;
+  left: 0;
+  text-align: center;
+  text-indent: -2rem;
+  width: 1rem;
+  margin-top: 0.5rem;
+  font-size: 5rem;
+}
+
+@media (min-width: 768px) {
+  blockquote {
+    padding-left: 1rem;
+    margin-left: -1rem;
+  }
+}
+
 mark {
   background-color: $color-primary-1;
   padding-left: 3px;
