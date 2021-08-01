@@ -27,3 +27,19 @@ In my younger and more vulnerable years my father gave me some advice that I’v
 ###### Sixth and Last Heading, for Completeness Sake
 
 In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since. Whenever you feel like criticizing anyone, he told me, just remember that all the people in this world haven’t had the advantages that you’ve had.
+
+# Quotes
+
+## blockquote with mark
+
+<blockquote cite="https://www.linkedin.com/in/jimlane/">
+  <p>
+    In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since. <mark>Whenever you feel like criticizing anyone</mark>, he told me, just remember that all the people in this world haven’t had the advantages that you’ve had.
+  </p>
+</blockquote>
+
+## mark outside blockquote
+
+<p>
+  In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since. <mark>Whenever you feel like criticizing anyone</mark>, he told me, just remember that all the people in this world haven’t had the advantages that you’ve had.
+</p>
