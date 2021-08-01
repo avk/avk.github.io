@@ -14,6 +14,7 @@ $color-primary-8: #004B23; // darkest
 
 $color-neutral-1: #ccc;
 $color-neutral-2: #666;
+$color-lighest: white;
 $color-darkest: $color-primary-8;
 
 $color-action: $color-primary-3;
@@ -21,12 +22,10 @@ $color-interactive: $color-primary-4;
 $color-link: $color-primary-5;
 $color-visited: $color-primary-7;
 
+$z-top: 1000;
+
 // override Jekyll theme https://help.github.com/articles/customizing-css-and-html-in-your-jekyll-theme/
 @import "{{ site.theme }}";
 @import "typography";
 @import "nav";
 @import "images";
-
-.page-content {
-  padding: 0; // why? resetting minima theme
-}

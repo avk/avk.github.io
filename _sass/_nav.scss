@@ -43,6 +43,24 @@ a:active.site-title,
   color: $color-darkest;
 }
 
+$header-height: 60px;
+
+.site-header {
+  background-color: $color-lighest;
+  box-sizing: border-box; // why? to accurately offset content w/ fixed position
+  border-top: none; // why? resetting minima theme
+  box-shadow: 1px 1px 3px $color-primary-1;
+  height: $header-height;
+  position: fixed;
+  width: 100%;
+  z-index: $z-top;
+}
+
+.page-content {
+  background-color: $color-lighest;
+  padding-top: $header-height; // why? resetting minima theme
+}
+
 .site-nav {
   .page-link {
     border-bottom-color: $color-link;
