@@ -64,6 +64,7 @@ $header-height: 60px;
 .site-nav {
   .page-link {
     border-bottom-color: $color-link;
+    border-bottom-style: none;
     margin-right: 0 !important;
     padding: 18px 36px;
 
@@ -74,15 +75,31 @@ $header-height: 60px;
   .current-page {
     border-bottom-color: transparent;
     color: $color-link;
+
+    &:after {
+      content: " \2713";
+      font-size: ms(-2);
+      color: $color-neutral-2;
+    }
   }
 }
 
 @media (orientation: landscape) {
-  .site-nav .page-link { padding: 12px; }
+  .site-nav .page-link {
+    padding: 12px;
+  }
 }
 
 @media (min-width: 768px) {
-  .site-nav .page-link { padding: 12px; }
+  .site-nav .page-link {
+    border-bottom-style: dashed;
+    padding: 12px;
+  }
+  .site-nav .current-page {
+    &:after {
+      content: "";
+    }
+  }
 }
 
 .site-footer {
