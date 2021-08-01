@@ -35,6 +35,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  color: $color-primary-8;
+
   font-family: $base-font-family-headings !important;
 
   // font-size: set individually
