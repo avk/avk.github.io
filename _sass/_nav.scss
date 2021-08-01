@@ -1,0 +1,78 @@
+a:link {
+  border-bottom-color: $color-link;
+  border-bottom-style: dashed;
+  border-bottom-width: 1px;
+  color: $color-link;
+  text-decoration: none;
+}
+a:visited {
+  border-bottom-color: $color-neutral-1;
+  color: $color-visited;
+}
+a:hover,
+a:visited:hover {
+  border-bottom-color: $color-interactive;
+  border-bottom-style: solid;
+  color: $color-interactive;
+}
+a:focus,
+a:visited:focus {
+  border-bottom-color: transparent;
+  color: $color-interactive;
+  outline: none;
+}
+a:focus-visible {
+  outline: 1px solid $color-interactive;
+}
+a:active {
+  border-bottom-color: $color-visited;
+  color: $color-visited;
+  outline: none;
+}
+
+
+
+
+
+a:link.site-title,
+a:visited.site-title,
+a:hover.site-title,
+a:active.site-title,
+{
+  border: none;
+  color: $color-darkest;
+}
+
+.site-nav {
+  .page-link {
+    border-bottom-color: $color-link;
+    margin-right: 0 !important;
+    padding: 18px 36px;
+
+    &:focus {
+      border-bottom-color: transparent;
+    }
+  }
+  .current-page {
+    border-bottom-color: transparent;
+    color: $color-link;
+  }
+}
+
+@media (orientation: landscape) {
+  .site-nav .page-link { padding: 12px; }
+}
+
+@media (min-width: 768px) {
+  .site-nav .page-link { padding: 12px; }
+}
+
+.site-footer {
+  color: $color-neutral-2;
+
+  .social-media-list a:hover *,
+  a:link, a:visited, a:hover, a:active {
+    border: none;
+    text-decoration: none; // why? override minima theme
+  }
+}

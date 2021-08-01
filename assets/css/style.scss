@@ -1,22 +1,16 @@
 ---
 ---
 
-// override Jekyll theme https://help.github.com/articles/customizing-css-and-html-in-your-jekyll-theme/
-
-@import "{{ site.theme }}";
-@import "images.css";
-@import "typography.css";
-
 // why? green pallete from
 // https://coolors.co/004b23-006400-007200-008000-38b000-70e000-9ef01a-ccff33
-$color-primary-1: #CCFF33;
+$color-primary-1: #CCFF33; // lightest
 $color-primary-2: #9EF01A;
 $color-primary-3: #70E000;
 $color-primary-4: #38B000;
 $color-primary-5: #008000;
 $color-primary-6: #007200;
 $color-primary-7: #006400;
-$color-primary-8: #004B23;
+$color-primary-8: #004B23; // darkest
 
 $color-neutral-1: #ccc;
 $color-neutral-2: #666;
@@ -27,89 +21,12 @@ $color-interactive: $color-primary-4;
 $color-link: $color-primary-5;
 $color-visited: $color-primary-7;
 
+// override Jekyll theme https://help.github.com/articles/customizing-css-and-html-in-your-jekyll-theme/
+@import "{{ site.theme }}";
+@import "typography";
+@import "nav";
+@import "images";
+
 .page-content {
   padding: 0; // why? resetting minima theme
-}
-
-h1, h2, h3, h4, h5, h6 {
-  color: $color-darkest;
-}
-
-a:link {
-  border-bottom-color: $color-link;
-  border-bottom-style: dashed;
-  border-bottom-width: 1px;
-  color: $color-link;
-  text-decoration: none;
-}
-a:visited {
-  border-bottom-color: $color-neutral-1;
-  color: $color-visited;
-}
-a:hover,
-a:visited:hover {
-  border-bottom-color: $color-interactive;
-  border-bottom-style: solid;
-  color: $color-interactive;
-}
-a:focus,
-a:visited:focus {
-  border-bottom-color: transparent;
-  color: $color-interactive;
-  outline: none;
-}
-a:focus-visible {
-  outline: 1px solid $color-interactive;
-}
-a:active {
-  border-bottom-color: $color-visited;
-  color: $color-visited;
-  outline: none;
-}
-
-
-
-
-
-a:link.site-title,
-a:visited.site-title,
-a:hover.site-title,
-a:active.site-title,
-{
-  border: none;
-  color: $color-darkest;
-}
-
-.site-nav {
-  .page-link {
-    border-bottom-color: $color-link;
-    margin-right: 0 !important;
-    padding: 18px 36px;
-
-    &:focus {
-      border-bottom-color: transparent;
-    }
-  }
-  .current-page {
-    border-bottom-color: transparent;
-    color: $color-link;
-  }
-}
-
-@media (orientation: landscape) {
-  .site-nav .page-link { padding: 12px; }
-}
-
-@media (min-width: 768px) {
-  .site-nav .page-link { padding: 12px; }
-}
-
-.site-footer {
-  color: $color-neutral-2;
-
-  .social-media-list a:hover *,
-  a:link, a:visited, a:hover, a:active {
-    border: none;
-    text-decoration: none; // why? override minima theme
-  }
 }
