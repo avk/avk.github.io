@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Redesign File Viewer for 9,000+ organizations
+title: Redesign File Viewer for 9,000+ Creative Orgs
 overview: 50+ file types consistently displayed on desktop & mobile in "as close to a perfect release as we've had."
 skills: wireframing, visual design
 date: 2018-01-31
@@ -9,7 +9,7 @@ cover_image: /assets/file_viewer/production-text-fullscreen.png
 
 ![Work sample from this case study]({{ site.url }}/assets/file_viewer/production-text-fullscreen.png)
 
-# <small>Case Study:</small> <br />Redesign File Viewer for 9,000+ organizations
+# <small>Case Study:</small> <br />Redesign File Viewer for 9,000+ Creative Orgs
 
 <a href="https://www.submittable.com/" type="button" class="btn btn-success" target="_blank">&#10004; In Production</a>
 
