@@ -1,0 +1,40 @@
+---
+---
+
+// adapted from
+// https://www.smashingmagazine.com/2011/11/how-to-set-up-a-print-style-sheet/
+
+$base-font-size: 18px;
+
+@media print {
+  // why? hide irrelevant navigation since not actionable on paper
+  .site-header,
+  .site-footer {
+    display: none;
+  }
+
+  // why? take up maximum space on the page
+  main {
+    background: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  // why? show external links
+  main a[href^="mailto:"]:after,
+  main a[href^="http://"]:after,
+  main a[href^="https://"]:after {
+    content: " (" attr(href) ")";
+  }
+
+  // why? internal links
+  main a[href^="#"]:after {
+    display: none;
+  }
+
+  // why? break long links for legibility
+  main a {
+    word-wrap: break-word;
+  }
+}
