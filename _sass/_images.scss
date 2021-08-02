@@ -47,6 +47,17 @@
 
 
 
+.case_study {
+  // why? hide decorative border behind image-only links
+  a:link, a:visited, a:hover, a:focus, a:active {
+    border-bottom: none;
+  }
+}
+
+
+
+
+
 .head-shot {
   border-radius: 50%;
   display: block;
