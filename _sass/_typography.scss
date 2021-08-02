@@ -191,3 +191,48 @@ code {
 .offset-top {
   margin-top: $leading;
 }
+
+
+
+
+
+// why? only target mobile tables
+// https://css-tricks.com/responsive-data-tables/
+@media only screen and (max-width: 768px) {
+  /* why? Force table to not be like tables anymore */
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+
+  // why? hide excessive page breaks for formatting
+  table br {
+    display: none;
+  }
+
+  /* Hide table headers (but not display: none;, for accessibility) */
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  // why? space out jobs (every two rows) from each other
+  .resume-items tr:nth-of-type(even) {
+    margin-bottom: $leading;
+  }
+
+  td:empty {
+    display: none;
+  }
+
+  td:first-of-type {
+    background-color: $color-primary-8;
+    color: $color-lighest;
+  }
+
+  td {
+    /* why? Behave like a "row" */
+    border: none;
+    border-bottom: 1px solid $color-neutral-0;
+  }
+}
