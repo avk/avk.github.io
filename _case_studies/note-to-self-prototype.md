@@ -308,8 +308,6 @@ We condensed 10 initial concepts to the following two prototypes.
 
 </details>
 
----
-
 ### Prototype B: when returning to a project, ask users if the next milestone is still what they want to work on
 
 <details>
