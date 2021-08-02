@@ -3,7 +3,7 @@ layout: default
 title: 30-day Novel Challenge
 overview: 27% sign up rate, 6x increase in time on site, and 7 new novels drafted in untested online writing software.
 skills: user flows, product metrics, visual design
-date: 2016-11-30
+date: 2017-04-30
 cover_image: /assets/nnwm/cover.png
 ---
 
