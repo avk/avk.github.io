@@ -5,7 +5,7 @@ permalink: /resume/
 last_modified_at: 2021-07-30
 ---
 
-# Art's Resume
+# Art's resume
 
 [Download PDF][1] or explore my <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank">LinkedIn profile</a>.
 
