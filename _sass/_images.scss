@@ -52,6 +52,12 @@
   a:link, a:visited, a:hover, a:focus, a:active {
     border-bottom: none;
   }
+
+  .cover {
+    background-color: $color-neutral-1;
+    border-radius: 9px;
+    padding: 12px;
+  }
 }
 
 

@@ -4,10 +4,10 @@ title: React-driven Living Style Guide
 overview: Enabled tighter design-engineering feedback loops, faster regression testing, and higher quality production releases.
 skills: prototyping, engineering
 date: 2015-12-20
-cover_image: /assets/sg/cover.png
+cover_image: /assets/sg/first-components.png
 ---
 
-![Work sample from this case study]({{ site.url }}/assets/sg/cover.png)
+![Work sample from this case study]({{ site.url }}/assets/sg/first-components.png)
 
 # <small>Case Study:</small> <br />React-driven Living Style Guide
 

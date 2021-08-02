@@ -4,10 +4,10 @@ title: Note to Self Productivity Feature
 overview: In 4 weeks, designed, tested, and launched a unique feature to successfully help writers continue writing across multiple creative sessions.
 skills: user research, user flows, wireframing, prototyping
 date: 2017-03-31
-cover_image: /assets/note_to_self/cover.jpg
+cover_image: /assets/note_to_self/production_v1.gif
 ---
 
-![Work sample from this case study]({{ site.url }}/assets/note_to_self/cover.jpg)
+![Work sample from this case study]({{ site.url }}/assets/note_to_self/production_v1.gif)
 
 # <small>Case Study:</small> <br />Note to Self Productivity Feature
 
