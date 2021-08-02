@@ -761,8 +761,6 @@ You've finally managed to discover the secret to immortality. Suddenly, Death ap
     <img src="{{ site.url }}/assets/note_to_self/build_return_flows.jpg" alt="Prototype B implementation sketch">
   </p>
 
-  <hr>
-
   <p>
     Here&#39;s what made it into production on <a href="https://www.therightmargin.com/?ref=avkux">TheRightMargin in March 2017</a>.
   </p>
@@ -826,8 +824,6 @@ You've finally managed to discover the secret to immortality. Suddenly, Death ap
   </p>
 
 </details>
-
-<hr>
 
 <a href="https://www.therightmargin.com/?ref=avkux" type="button" class="btn btn-success" target="_blank">&#10004; In Production</a>
 
