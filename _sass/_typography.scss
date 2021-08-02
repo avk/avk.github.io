@@ -80,6 +80,10 @@ h4 { margin-top: $leading * 1.5 !important; }
 h5 { margin-top: $leading * 1.0 !important; }
 h6 { margin-top: $leading * 1.0 !important; }
 
+h1:first-of-type {
+  margin-top: $leading / 2 !important;
+}
+
 blockquote {
   border-left: 3px solid $color-primary-2;
   color: $color-neutral-2;
