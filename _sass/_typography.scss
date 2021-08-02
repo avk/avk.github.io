@@ -138,3 +138,22 @@ mark {
   padding-left: 3px;
   padding-right: 3px;
 }
+
+
+
+
+
+.case_study {
+  margin-bottom: $leading * 3;
+  margin-top: $leading;
+
+  .summary {
+    h2 {
+      margin-top: $leading / 2 !important;
+      margin-bottom: $leading / 2;
+    }
+    p {
+      margin-bottom: $leading / 2;
+    }
+  }
+}
