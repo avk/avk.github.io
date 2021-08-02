@@ -96,15 +96,15 @@ blockquote {
   position: relative;
   margin-left: 0.5rem;
 }
-blockquote p:first-child:first-letter {
-  float: left;
-  font-size: ms(5);
-  font-weight: 700;
-  line-height: 1;
-  padding-left: 3px;
-  padding-right: 9px;
-  padding-top: 9px;
-}
+// blockquote p:first-child:first-letter {
+//   float: left;
+//   font-size: ms(5);
+//   font-weight: 700;
+//   line-height: 1;
+//   padding-left: 3px;
+//   padding-right: 9px;
+//   padding-top: 9px;
+// }
 
 // adapted from https://webdevtrick.com/stylish-css-blockquote/
 blockquote:before {
