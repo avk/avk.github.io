@@ -34,12 +34,10 @@ But you’re a dev! Why start with flows? Shouldn’t a designer, a product mana
 
 Vevo presented a great opportunity to show flows in action when we added Google+ as a sign up option last year. The spec was:
 
-```
-  + mimic our existing social login with Facebook
-  + require a Vevo account (linked to a Google+ account)
-  + add the functionality to vevo.com, iOS app, and Android app
-  + implement thorough instrumentation to gauge success
-```
+<pre><code>+ mimic our existing social login with Facebook
++ require a Vevo account (linked to a Google+ account)
++ add the functionality to vevo.com, iOS app, and Android app
++ implement thorough instrumentation to gauge success</code></pre>
 
 Sound straightforward? Here’s the flow I ended up building in OmniGraffle, based on our existing Facebook implementation (GP is Google+):
 
