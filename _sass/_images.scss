@@ -56,6 +56,7 @@
   .cover {
     background-color: $color-neutral-1;
     border-radius: 9px;
+    box-sizing: border-box;
     padding: 12px;
   }
 }
