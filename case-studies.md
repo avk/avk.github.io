@@ -5,7 +5,7 @@ permalink: /case-studies/
 last_modified_at: 2021-07-30
 ---
 
-<h1>Case Studies of Art's <abbr title="User Experience">UX</abbr></h1>
+<h1>Case Studies</h1>
 
 {% assign case_studies = site.case_studies | sort:date | reverse %}
 {% for case_study in case_studies %}
