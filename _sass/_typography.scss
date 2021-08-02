@@ -161,3 +161,21 @@ mark {
     }
   }
 }
+
+
+
+
+
+pre {
+  overflow-x: auto;
+  padding: 12px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+pre,
+code {
+  background-color: $color-neutral-0;
+  border-top: 1px solid $color-primary-1;
+  color: $color-primary-8;
+}

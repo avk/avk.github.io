@@ -94,3 +94,20 @@ In my younger and more vulnerable years my father gave me some advice that I’v
 <p>
   In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since. <mark>Whenever you feel like criticizing anyone</mark>, he told me, just remember that all the people in this world haven’t had the advantages that you’ve had.
 </p>
+
+
+
+
+
+## pre & code
+
+<pre><code>1. Preserves a user’s context so they can continue working by writing or planning.
+2. Does not become annoying or disruptive with repeat use.
+3. Does not force the user to do work they wouldn’t normally do.
+</code></pre>
+
+## code
+
+<p>
+  Here's a normal paragraph with <code>some code embedded within</code> the normal paragraph.
+</p>
