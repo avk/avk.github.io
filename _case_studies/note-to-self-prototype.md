@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Note to Self Productivity Feature
+title: Note to Self—From Research to Launch
 overview: In 4 weeks, designed, tested, and launched a unique feature to successfully help writers continue writing across multiple creative sessions.
 skills: user research, user flows, wireframing, prototyping
 date: 2017-03-31
@@ -9,7 +9,7 @@ cover_image: /assets/note_to_self/production_v1.gif
 
 ![Work sample from this case study]({{ site.url }}/assets/note_to_self/production_v1.gif)
 
-# <small>Case Study:</small> <br />Note to Self Productivity Feature
+# <small>Case Study:</small> <br />Note to Self—From Research to Launch
 
 <a href="https://www.therightmargin.com/?ref=avkux" type="button" class="btn btn-success" target="_blank">&#10004; In Production</a>
 
