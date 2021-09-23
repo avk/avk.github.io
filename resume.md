@@ -7,7 +7,7 @@ last_modified_at: 2021-07-30
 
 # Art's resume
 
-<a href="{{ "/assets/resumes/2021-07-AVK-resume.pdf" | relative_url }}" class="btn btn-primary">
+<a href="{{ "/assets/resumes/2021-09-AVK-resume.pdf" | relative_url }}" class="btn btn-primary">
   Download PDF</a> or explore my <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank">LinkedIn profile</a>.
 
 ## Where I've recently made an impact
