@@ -219,7 +219,6 @@ DEPENDENCIES
   github-pages
   jekyll-sitemap
   minima (~> 2.0)
-  tzinfo-data
 
 RUBY VERSION
    ruby 2.7.1p83
