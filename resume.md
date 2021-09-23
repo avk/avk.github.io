@@ -29,7 +29,7 @@ last_modified_at: 2021-07-30
     <tr>
       <td></td>
       <td colspan="2">
-        Designed encrypted email, files, and SDK experiences for 5K+ customers:
+        Designed encrypted email, files, and SDK experiences for 5K+ organizations:
         <ul>
           <li>Created &amp; maintained a design system in design tools &amp; code with 7 designers and lead front-end engineers across teams &amp; departments</li>
           <li>Wrote story-driven docs &amp; code samples on Developer Hub resulting in long-term SEO improvements and smoother developer onboarding</li>
