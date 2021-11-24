@@ -19,6 +19,11 @@ ul, ol, dl, figure {
   margin-bottom: $leading;
 }
 
+hr {
+  margin-bottom: $leading;
+  margin-top: $leading;
+}
+
 $base-font-family-body: 'Ovo', serif;
 $base-font-family-headings: 'Ovo', serif;
 
