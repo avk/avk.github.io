@@ -40,28 +40,28 @@ Virtru's Secure Reader (<abbr title="Secure Reader">SR</abbr>) is a web app that
     <img
       src="{{ site.url }}/assets/sr_threading/cur_SR_1-email_2_of_2.png"
       alt="Encrypted email 2 of 2 in email client"
-      class="screenshot screenshot-landscape"
+      class="screenshot screenshot-landscape zoomable"
     />
 
     <h3>Step 2. Authenticate & decrypt latest email</h3>
     <img
       src="{{ site.url }}/assets/sr_threading/cur_SR_3-SR_2_of_2.png"
       alt="Decrypted email 2 of 2 in Secure Reader"
-      class="screenshot screenshot-landscape"
+      class="screenshot screenshot-landscape zoomable"
     />
 
     <h3>Step 3. Find previous encrypted email (1 of 2)</h3>
     <img
       src="{{ site.url }}/assets/sr_threading/cur_SR_5-email_1_of_2.png"
       alt="Encrypted email 1 of 2 in email client"
-      class="screenshot screenshot-landscape"
+      class="screenshot screenshot-landscape zoomable"
     />
 
     <h3>Step 4. Authenticate & decrypt previous email (1 of 2)</h3>
     <img
       src="{{ site.url }}/assets/sr_threading/cur_SR_7-SR_1_of_2.png"
       alt="Decrypted email 2 of 2 in Secure Reader"
-      class="screenshot screenshot-landscape"
+      class="screenshot screenshot-landscape zoomable"
     />
   </div>
 
@@ -191,7 +191,7 @@ I was asked to design for Secure Reader (<abbr title="Secure Reader">SR</abbr>) 
     <img
       src="{{ site.url }}/assets/sr_threading/message-states.jpg"
       alt="Proposed transitions for Secure Reader threading"
-      class="screenshot screenshot-landscape"
+      class="screenshot screenshot-landscape zoomable"
     />
   </p>
 
@@ -223,7 +223,7 @@ I was asked to design for Secure Reader (<abbr title="Secure Reader">SR</abbr>) 
 
     <img
       src="{{ site.url }}/assets/sr_threading/mobile/current.png"
-      alt="Current state of Secure Reader - 1 decrypted email, no threading" class="screenshot screenshot-portrait"
+      alt="Current state of Secure Reader - 1 decrypted email, no threading" class="screenshot screenshot-portrait zoomable"
     />
   </p>
 
@@ -232,7 +232,7 @@ I was asked to design for Secure Reader (<abbr title="Secure Reader">SR</abbr>) 
 
     <img
       src="{{ site.url }}/assets/sr_threading/mobile/ideal.png"
-      alt="Ideal state of Secure Reader - 2 decrypted emails in a thread" class="screenshot screenshot-portrait"
+      alt="Ideal state of Secure Reader - 2 decrypted emails in a thread" class="screenshot screenshot-portrait zoomable"
     />
   </p>
 
@@ -242,7 +242,7 @@ I was asked to design for Secure Reader (<abbr title="Secure Reader">SR</abbr>) 
     <img
       src="{{ site.url }}/assets/sr_threading/mobile/states-overview.png"
       alt="Threading states in Secure Reader - unsupported, 1st message, 2nd message, Nth message"
-      class="screenshot screenshot-landscape"
+      class="screenshot screenshot-landscape zoomable"
     />
   </p>
 
@@ -252,7 +252,7 @@ I was asked to design for Secure Reader (<abbr title="Secure Reader">SR</abbr>) 
     <img
       src="{{ site.url }}/assets/sr_threading/mobile/decrypting.png"
       alt="Decrypting the previous message in a thread in Secure Reader"
-      class="screenshot screenshot-portrait"
+      class="screenshot screenshot-portrait zoomable"
     />
   </p>
 
@@ -261,7 +261,7 @@ I was asked to design for Secure Reader (<abbr title="Secure Reader">SR</abbr>) 
 
     <img
       src="{{ site.url }}/assets/sr_threading/mobile/decrypting-decision-tree.png"
-      alt="Numerous checks when decrypting a previous message in a thread in Secure Reader" class="screenshot screenshot-portrait"
+      alt="Numerous checks when decrypting a previous message in a thread in Secure Reader" class="screenshot screenshot-portrait zoomable"
     />
   </p>
 
@@ -271,7 +271,7 @@ I was asked to design for Secure Reader (<abbr title="Secure Reader">SR</abbr>) 
     <img
       src="{{ site.url }}/assets/sr_threading/mobile/SR-threading-hotspots.png"
       alt="Screenshot of dozens of Sketch hotspots to support Secure Reader threading design"
-      class="screenshot screenshot-landscape screenshot-borderless"
+      class="screenshot screenshot-landscape screenshot-borderless zoomable"
     />
 
     &hellip;most error states were as elegant as this&hellip;
@@ -279,7 +279,7 @@ I was asked to design for Secure Reader (<abbr title="Secure Reader">SR</abbr>) 
     <img
       src="{{ site.url }}/assets/sr_threading/mobile/error.png"
       alt="Screenshot of typical error state designed for Secure Reader threading"
-      class="screenshot screenshot-portrait"
+      class="screenshot screenshot-portrait zoomable"
     />
   </p>
 
@@ -328,7 +328,7 @@ I was asked to design for Secure Reader (<abbr title="Secure Reader">SR</abbr>) 
     <img
       src="{{ site.url }}/assets/sr_threading/desktop/decrypting.png"
       alt="Decrypting the previous message in a thread in desktop web Secure Reader"
-      class="screenshot screenshot-landscape"
+      class="screenshot screenshot-landscape zoomable"
     />
   </p>
 
@@ -338,7 +338,7 @@ I was asked to design for Secure Reader (<abbr title="Secure Reader">SR</abbr>) 
     <img
       src="{{ site.url }}/assets/sr_threading/desktop/error.png"
       alt="Screenshot of typical error state designed for desktop web Secure Reader threading"
-      class="screenshot screenshot-landscape"
+      class="screenshot screenshot-landscape zoomable"
     />
   </p>
 
@@ -347,7 +347,7 @@ I was asked to design for Secure Reader (<abbr title="Secure Reader">SR</abbr>) 
 
     <img
       src="{{ site.url }}/assets/sr_threading/desktop/ideal.png"
-      alt="Ideal state of desktop web Secure Reader - 2 decrypted emails in a thread" class="screenshot screenshot-landscape"
+      alt="Ideal state of desktop web Secure Reader - 2 decrypted emails in a thread" class="screenshot screenshot-landscape zoomable"
     />
   </p>
 
@@ -376,7 +376,7 @@ I was asked to design for Secure Reader (<abbr title="Secure Reader">SR</abbr>) 
       <img
         src="{{ site.url }}/assets/sr_threading/usertest/no_threading.png"
         alt="A decrypted message without threading in desktop web Secure Reader"
-        class="screenshot screenshot-landscape"
+        class="screenshot screenshot-landscape zoomable"
       />
     </li>
     <li>
@@ -409,7 +409,7 @@ I was asked to design for Secure Reader (<abbr title="Secure Reader">SR</abbr>) 
       <img
         src="{{ site.url }}/assets/sr_threading/usertest/threading.png"
         alt="A decrypted message with threading support in desktop web Secure Reader"
-        class="screenshot screenshot-landscape"
+        class="screenshot screenshot-landscape zoomable"
       />
     </li>
     <li>
@@ -428,7 +428,7 @@ I was asked to design for Secure Reader (<abbr title="Secure Reader">SR</abbr>) 
     <mark>Our hypotheses were proven correct</mark>, so we proceeded to production.
     <img
       src="{{ site.url }}/assets/sr_threading/usertest/test_results.png"
-      alt="Slack results of high-level takeaways of user test of Secure Reader threading" class="screenshot screenshot-landscape"
+      alt="Slack results of high-level takeaways of user test of Secure Reader threading" class="screenshot screenshot-landscape zoomable"
     />
   </p>
 </details>
@@ -447,7 +447,7 @@ I was asked to design for Secure Reader (<abbr title="Secure Reader">SR</abbr>) 
     <img
       src="{{ site.url }}/assets/sr_threading/data-use.png"
       alt="Screenshot of day 1 - Secure Reader threading available on 43,940 messages, not available for 134,826 messages."
-      class="screenshot screenshot-landscape"
+      class="screenshot screenshot-landscape zoomable"
     />
   </p>
 
@@ -462,7 +462,7 @@ I was asked to design for Secure Reader (<abbr title="Secure Reader">SR</abbr>) 
       <img
         src="{{ site.url }}/assets/sr_threading/data-funnel.png"
         alt="Screenshot of week 1 Secure Reader threading funnel from previous message shown to successfully used"
-        class="screenshot screenshot-landscape"
+        class="screenshot screenshot-landscape zoomable"
       />
 
     </li>
@@ -475,7 +475,7 @@ I was asked to design for Secure Reader (<abbr title="Secure Reader">SR</abbr>) 
       <img
         src="{{ site.url }}/assets/sr_threading/data-depth.png"
         alt="Screenshot of week 1 < 4% people read more than one previous message with Secure Reader threading"
-        class="screenshot screenshot-landscape"
+        class="screenshot screenshot-landscape zoomable"
       />
 
     </li>
@@ -488,7 +488,7 @@ I was asked to design for Secure Reader (<abbr title="Secure Reader">SR</abbr>) 
       <img
         src="{{ site.url }}/assets/sr_threading/data-success-rate.png"
         alt="Screenshot of week 1 98.4% successful decrypts for Secure Reader threading"
-        class="screenshot screenshot-landscape"
+        class="screenshot screenshot-landscape zoomable"
       />
 
     </li>
