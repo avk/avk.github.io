@@ -16,6 +16,28 @@
 
 
 
+
+.screenshot {
+  border: 3px solid $color-neutral-0;
+  display: block;
+  margin-top: 0;
+  margin-bottom: $leading * 2;
+}
+.screenshot-borderless {
+  border: none;
+}
+.screenshot-landscape {
+}
+.screenshot-portrait {
+  margin-left: auto;
+  margin-right: auto;
+  width: 33%;
+}
+
+
+
+
+
 .logos {
   display: grid;
   grid-gap: 36px;
@@ -54,6 +76,7 @@
     box-sizing: border-box;
     padding: 12px;
   }
+
 }
 
 
