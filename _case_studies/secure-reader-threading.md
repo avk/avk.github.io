@@ -19,7 +19,7 @@ cover_image: /assets/sr_threading/SR-threading-cover.png
 
 ## Overview
 
-Virtru's Secure Reader (SR) is a web app that allows reading and replying to encrypted email. Since SR displays only one message at a time, following an encrypted email conversation involves jumping back and forth between two apps—your email client and SR—to read more than one message. Virtru customers (and their email recipients) need to see all encrypted emails in a thread with minimal friction in a performant way, even for long threads.
+Virtru's Secure Reader (<abbr title="Secure Reader">SR</abbr>) is a web app that allows reading and replying to encrypted email. Since <abbr title="Secure Reader">SR</abbr> displays only one message at a time, following an encrypted email conversation involves jumping back and forth between two apps—your email client and <abbr title="Secure Reader">SR</abbr>—to read more than one message. Virtru customers (and their email recipients) need to see all encrypted emails in a thread with minimal friction in a performant way, even for long threads.
 
 ## Skills Used
 
@@ -96,7 +96,7 @@ Virtru's Secure Reader (SR) is a web app that allows reading and replying to enc
 
 # Design Process
 
-I was asked to design for Secure Reader (SR) threading after engineering had already started evaluating technical feasibility and exploring implementations. That is always frustrating, but I used my first discussions and anecdotal research to make sure we built the best slice of this feature, rather than everything various customers thought it should be.
+I was asked to design for Secure Reader (<abbr title="Secure Reader">SR</abbr>) threading after engineering had already started evaluating technical feasibility and exploring implementations. That is always frustrating, but I used my first discussions and anecdotal research to make sure we built the best slice of this feature, rather than everything various customers thought it should be.
 
 ## 1. Choose "threading" definition
 
@@ -143,19 +143,19 @@ I was asked to design for Secure Reader (SR) threading after engineering had alr
     </li>
 
     <li>
-      Both conversation view and quoting preserve context. Either would help SR users understand more about where the currently unlocked message fits in. So which should we do?
+      Both conversation view and quoting preserve context. Either would help <abbr title="Secure Reader">SR</abbr> users understand more about where the currently unlocked message fits in. So which should we do?
     </li>
   </ol>
 
-  <h3>Conversation view as "SR threading"</h3>
+  <h3>Conversation view as "<abbr title="Secure Reader">SR</abbr> threading"</h3>
 
   <h4>Upsides</h4>
 
     <ul>
       <li>Easier to follow the conversation because each message has the same visual weight.</li>
       <li>Existing message design already works for smaller resolutions like mobile web.</li>
-      <li>Future-proofing SR — if each message is treated the same way visually, that leaves room to show policy controls (e.g. revoke, expire, watermark, etc.) for messages where you’re the policy owner.</li>
-      <li>Future-proofing SR — if each message is treated the same way visually, that leaves room to reply to earlier messages directly from SR.</li>
+      <li>Future-proofing <abbr title="Secure Reader">SR</abbr> — if each message is treated the same way visually, that leaves room to show policy controls (e.g. revoke, expire, watermark, etc.) for messages where you’re the policy owner.</li>
+      <li>Future-proofing <abbr title="Secure Reader">SR</abbr> — if each message is treated the same way visually, that leaves room to reply to earlier messages directly from <abbr title="Secure Reader">SR</abbr>.</li>
     </ul>
 
   <h4>Downsides</h4>
@@ -164,7 +164,7 @@ I was asked to design for Secure Reader (SR) threading after engineering had alr
     conversation like an email client. Decrypting every earlier message would make reading the latest message take too long.</li>
   </ul>
 
-  <h3>Quoted content as "SR threading"</h3>
+  <h3>Quoted content as "<abbr title="Secure Reader">SR</abbr> threading"</h3>
 
   <h4>Upsides</h4>
   <ul>
@@ -176,10 +176,10 @@ I was asked to design for Secure Reader (SR) threading after engineering had alr
   <ul>
     <li>Each quoted message shrinks the width available to display the message body (and earlier messages), like Russian nesting dolls.</li>
     <li>Readability suffers for longer conversations.</li>
-    <li>Because SR has to work on mobile web at a minimum resolution of 375x667, there may be no readable mobile layout for longer conversations. Landscape orientation could help here, but if the quotes continue, that will eventually find a limit as well.</li>
+    <li>Because <abbr title="Secure Reader">SR</abbr> has to work on mobile web at a minimum resolution of 375x667, there may be no readable mobile layout for longer conversations. Landscape orientation could help here, but if the quotes continue, that will eventually find a limit as well.</li>
   </ul>
 
-  <mark>I choose conversation view as "SR threading"</mark>, because it had more upsides and felt like a more modern approach.
+  <mark>I choose conversation view as "<abbr title="Secure Reader">SR</abbr> threading"</mark>, because it had more upsides and felt like a more modern approach.
 </details>
 
 ## 2. Account for all message states
@@ -292,7 +292,7 @@ I was asked to design for Secure Reader (SR) threading after engineering had alr
 </p>
 
 <details>
-  <p>Everyone was excited we were bringing threading to Secure Reader (SR). But most people asked why we weren't decrypting the entire thread of previous messages.</p>
+  <p>Everyone was excited we were bringing threading to Secure Reader (<abbr title="Secure Reader">SR</abbr>). But most people asked why we weren't decrypting the entire thread of previous messages.</p>
 
   <p>
     How I defended my design of one previous message at a time:
@@ -455,7 +455,7 @@ I was asked to design for Secure Reader (SR) threading after engineering had alr
 
   <ol>
     <li>
-      How many people that decrypted an SR message that’s part of a thread, used SR threading to read at least one earlier message?
+      How many people that decrypted an <abbr title="Secure Reader">SR</abbr> message that’s part of a thread, used <abbr title="Secure Reader">SR</abbr> threading to read at least one earlier message?
 
       This helped us know <mark>the new UI was being noticed and used.</mark>
 
@@ -481,7 +481,7 @@ I was asked to design for Secure Reader (SR) threading after engineering had alr
     </li>
 
     <li>
-      What is the success rate of decrypting previous messages in SR threading? How does that compare to the success rate of decrypting in SR overall?
+      What is the success rate of decrypting previous messages in <abbr title="Secure Reader">SR</abbr> threading? How does that compare to the success rate of decrypting in <abbr title="Secure Reader">SR</abbr> overall?
 
       This helped prove <mark>we actually solved the user problem of seeing earlier parts of the conversation</mark> without going back to their email.
 
