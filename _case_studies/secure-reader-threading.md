@@ -19,7 +19,7 @@ cover_image: /assets/sr_threading/SR-threading-cover.png
 
 ## Overview
 
-Virtru's Secure Reader (<abbr title="Secure Reader">SR</abbr>) is a web app that allows reading and replying to encrypted email. Since <abbr title="Secure Reader">SR</abbr> displays only one message at a time, following an encrypted email conversation involves jumping back and forth between two apps—your email client and <abbr title="Secure Reader">SR</abbr>—to read more than one message. Virtru customers (and their email recipients) need to see all encrypted emails in a thread with minimal friction in a performant way, even for long threads.
+Virtru's Secure Reader (<abbr title="Secure Reader">SR</abbr>) is a web app that allows reading and replying to encrypted email. But <abbr title="Secure Reader">SR</abbr> displays only one message at a time. Following an encrypted email conversation means jumping between your email client and <abbr title="Secure Reader">SR</abbr> to read more than one message. Virtru customers need to see earlier encrypted emails in a thread with minimal friction in a performant way, even for long threads.
 
 ## Skills Used
 
@@ -68,7 +68,7 @@ Virtru's Secure Reader (<abbr title="Secure Reader">SR</abbr>) is a web app that
   Challenges:
   <ul>
     <li>
-      Understand if users expect "threading" to mean conversation view, quoted content, or something else when they request this feature.
+      Understand if users expect "threading" to mean conversation view, quoted content, or something else.
     </li>
     <li>
       Preserve as much email context as possible.
@@ -96,7 +96,8 @@ Virtru's Secure Reader (<abbr title="Secure Reader">SR</abbr>) is a web app that
 
 # Design Process
 
-I was asked to design for Secure Reader (<abbr title="Secure Reader">SR</abbr>) threading after engineering had already started evaluating technical feasibility and exploring implementations. That is always frustrating, but I used my first discussions and anecdotal research to make sure we built the best slice of this feature, rather than everything various customers thought it should be.
+Product Management asked me to design for Secure Reader (<abbr title="Secure Reader">SR</abbr>) threading in Spring 2021. Engineering had already started evaluating technical feasibility and exploring implementations. My first discussions and anecdotal research ensured we built the best slice of this feature, not everything various customers thought it should be.
+
 
 ## 1. Choose "threading" definition
 
@@ -154,8 +155,8 @@ I was asked to design for Secure Reader (<abbr title="Secure Reader">SR</abbr>) 
     <ul>
       <li>Easier to follow the conversation because each message has the same visual weight.</li>
       <li>Existing message design already works for smaller resolutions like mobile web.</li>
-      <li>Future-proofing <abbr title="Secure Reader">SR</abbr> — if each message is treated the same way visually, that leaves room to show policy controls (e.g. revoke, expire, watermark, etc.) for messages where you’re the policy owner.</li>
-      <li>Future-proofing <abbr title="Secure Reader">SR</abbr> — if each message is treated the same way visually, that leaves room to reply to earlier messages directly from <abbr title="Secure Reader">SR</abbr>.</li>
+      <li>Future-proofing <abbr title="Secure Reader">SR</abbr> — a similar visual treatment of each message leaves room to show security controls (e.g. revoke, expire, watermark, etc.). This enhances the security of messages you send.</li>
+      <li>Future-proofing <abbr title="Secure Reader">SR</abbr> — a similar visual treatment of each message leaves room to reply to earlier messages directly from <abbr title="Secure Reader">SR</abbr>.</li>
     </ul>
 
   <h4>Downsides</h4>
@@ -174,7 +175,7 @@ I was asked to design for Secure Reader (<abbr title="Secure Reader">SR</abbr>) 
 
   <h4>Downsides</h4>
   <ul>
-    <li>Each quoted message shrinks the width available to display the message body (and earlier messages), like Russian nesting dolls.</li>
+    <li>Each quoted message shrinks the width available to display the message body, like Russian nesting dolls.</li>
     <li>Readability suffers for longer conversations.</li>
     <li>Because <abbr title="Secure Reader">SR</abbr> has to work on mobile web at a minimum resolution of 375x667, there may be no readable mobile layout for longer conversations. Landscape orientation could help here, but if the quotes continue, that will eventually find a limit as well.</li>
   </ul>
@@ -237,7 +238,7 @@ I was asked to design for Secure Reader (<abbr title="Secure Reader">SR</abbr>) 
   </p>
 
   <p>
-    We just need a transition affordance, like "Read previous [message]" or "decrypt previous [message]" to start off the process. Ideally, reading previous messages <mark>scales to long threads without serious security or performance penalties</mark>.
+    We just need a transition affordance, like "Read previous [message]" or "decrypt previous [message]" to start off the process. Ideally, reading previous messages <mark>scales to long threads without security or performance penalties</mark>.
 
     <img
       src="{{ site.url }}/assets/sr_threading/mobile/states-overview.png"
@@ -257,7 +258,7 @@ I was asked to design for Secure Reader (<abbr title="Secure Reader">SR</abbr>) 
   </p>
 
   <p>
-    Given the numerous things that can go wrong when trying to decrypt a previous message (as listed in the section above), my designs included many auxiliary screens to describe security logic:
+    Many things can go wrong when trying to decrypt a previous message (as listed in the section above). My designs included many auxiliary screens to describe security logic:
 
     <img
       src="{{ site.url }}/assets/sr_threading/mobile/decrypting-decision-tree.png"
@@ -333,7 +334,7 @@ I was asked to design for Secure Reader (<abbr title="Secure Reader">SR</abbr>) 
   </p>
 
   <p>
-    And an example error state&hellip;
+    An example error state&hellip;
 
     <img
       src="{{ site.url }}/assets/sr_threading/desktop/error.png"
@@ -357,7 +358,7 @@ I was asked to design for Secure Reader (<abbr title="Secure Reader">SR</abbr>) 
 
 <details>
   <p>
-    Before launch, I worked with one of our User Researchers to evaluate the effectiveness of the design with 10 external users. We recruited participants via UserTesting.com and split them into two groups based on what they would see&mdash;<strong>current experience vs. new experience</strong>.
+    Before launch, I worked with one of our User Researchers to evaluate the effectiveness of the design with 10 external users. We recruited  participants via UserTesting.com. We split participants into two groups&mdash;<strong>current experience vs. new experience</strong>.
   </p>
 
   <h3>Current experience&mdash;no threading</h3>
@@ -425,7 +426,7 @@ I was asked to design for Secure Reader (<abbr title="Secure Reader">SR</abbr>) 
   </p>
 
   <p>
-    <mark>Our hypotheses were proven correct</mark>, so we proceeded to production.
+    <mark>Our hypotheses proved accurate</mark>, so we proceeded to production.
     <img
       src="{{ site.url }}/assets/sr_threading/usertest/test_results.png"
       alt="Slack results of high-level takeaways of user test of Secure Reader threading" class="screenshot screenshot-landscape zoomable"
@@ -433,10 +434,10 @@ I was asked to design for Secure Reader (<abbr title="Secure Reader">SR</abbr>) 
   </p>
 </details>
 
-## 7. Monitor production metrics & customer feedback
+## 7. Track production metrics & customer feedback
 
 <p>
-  I advocated for us to <mark>measure more than simply clicks</mark> on the previous message CTA. With my involvement and planning along with our resident product data expert, we were able to instrument the entire threading experience.
+  I advocated for us to <mark>measure more than simple clicks</mark> on the previous message <abbr title="call to action">CTA</abbr>. With my involvement and planning, we were able to instrument the entire threading experience. Our resident product data expert was glad to be included and helped refine events and properties.
 </p>
 
 <details>
