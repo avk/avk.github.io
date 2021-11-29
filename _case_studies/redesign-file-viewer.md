@@ -145,7 +145,7 @@ Wireframe & redesign a file viewer for displaying 50+ file types online&mdash;a 
   </p>
 
   <p>
-    I employed <a href="http://scotthurff.com/posts/why-your-user-interface-is-awkward-youre-ignoring-the-ui-stack">Scott Hurff&#39;s UI Stack concept</a> to structure my wireframes into more thorough states.
+    I employed <a href="https://www.scotthurff.com/posts/why-your-user-interface-is-awkward-youre-ignoring-the-ui-stack/">Scott Hurff&#39;s UI Stack concept</a> to structure my wireframes into more thorough states.
   </p>
 
   <p><img src="{{ site.url }}/assets/file_viewer/ui-stack.jpg" alt="The UI Stack"></p>
