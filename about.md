@@ -38,7 +38,7 @@ Hi, I'm Arthur Klepchukov, a UX designer who loves words, trains, and the promis
   </li>
 
   <li>
-    <a href="{{ '/case_studies/nanowrimo2016' | relative_url }}">
+    <a href="{{ '/case_studies/secure-reader-threading/' | relative_url }}">
       <span class="skill-graphic">📊</span>product metrics</a>
   </li>
 
