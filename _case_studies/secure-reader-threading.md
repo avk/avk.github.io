@@ -356,9 +356,81 @@ I was asked to design for Secure Reader (SR) threading after engineering had alr
 ## 6. Usability test
 
 <details>
-  Describe defining the user test with Emily
+  <p>
+    Before launch, I worked with one of our User Researchers to evaluate the effectiveness of the design with 10 external users. We recruited participants via UserTesting.com and split them into two groups based on what they would see&mdash;<strong>current experience vs. new experience</strong>.
+  </p>
 
-  Include Emily's Slack results
+  <h3>Current experience&mdash;no threading</h3>
+  <ol>
+    <li>
+      <a href="{{ site.url }}/assets/sr_threading/usertest/cur_ux/cur_0.png">See Gmail inbox with unread messages</a>
+    </li>
+    <li>
+      <a href="{{ site.url }}/assets/sr_threading/usertest/cur_ux/cur_1.png">Open Gmail conversation to see latest message encrypted</a>
+    </li>
+    <li>
+      <a href="{{ site.url }}/assets/sr_threading/usertest/cur_ux/cur_2.png">Load Secure Reader in new tab to decrypt</a>
+    </li>
+    <li>
+      See latest message decrypted (2 of 2)
+      <img
+        src="{{ site.url }}/assets/sr_threading/usertest/no_threading.png"
+        alt="A decrypted message without threading in desktop web Secure Reader"
+        class="screenshot screenshot-landscape"
+      />
+    </li>
+    <li>
+      <a href="{{ site.url }}/assets/sr_threading/usertest/cur_ux/cur_4.png">Navigate back to Gmail conversation</a>
+    </li>
+    <li>
+      <a href="{{ site.url }}/assets/sr_threading/usertest/cur_ux/cur_5.png">Expand previous message in Gmail conversation</a>
+    </li>
+    <li>
+      <a href="{{ site.url }}/assets/sr_threading/usertest/cur_ux/cur_6.png">Load Secure Reader in another new tab to decrypt again</a>
+    </li>
+    <li>
+      <a href="{{ site.url }}/assets/sr_threading/usertest/cur_ux/cur_7.png">See previous message decrypted (1 of 2)</a>
+    </li>
+  </ol>
+
+  <h3>New experience&mdash;threaded secure messages</h3>
+  <ol>
+    <li>
+      <a href="{{ site.url }}/assets/sr_threading/usertest/new_ux/new_0.png">See Gmail inbox with unread messages</a>
+    </li>
+    <li>
+      <a href="{{ site.url }}/assets/sr_threading/usertest/new_ux/new_1.png">Open Gmail conversation to see latest message encrypted</a>
+    </li>
+    <li>
+      <a href="{{ site.url }}/assets/sr_threading/usertest/new_ux/new_2.png">Load Secure Reader in new tab to decrypt</a>
+    </li>
+    <li>
+      See latest message decrypted (2 of 2) with link to previous
+      <img
+        src="{{ site.url }}/assets/sr_threading/usertest/threading.png"
+        alt="A decrypted message with threading support in desktop web Secure Reader"
+        class="screenshot screenshot-landscape"
+      />
+    </li>
+    <li>
+      <a href="{{ site.url }}/assets/sr_threading/usertest/new_ux/new_4.png">Load previous message</a>
+    </li>
+    <li>
+      <a href="{{ site.url }}/assets/sr_threading/usertest/new_ux/new_5.png">See previous message decrypted (1 of 2)</a>
+    </li>
+  </ol>
+
+  <p>
+    We hypothesized that participants would spend less time to get to previous messages with the new experience and rank it as easier to use.
+  </p>
+
+  <p>
+    <mark>Our hypotheses were proven correct</mark>, so we proceeded to production.
+    <img
+      src="{{ site.url }}/assets/sr_threading/usertest/test_results.png"
+      alt="Slack results of high-level takeaways of user test of Secure Reader threading" class="screenshot screenshot-landscape"
+    />
+  </p>
 </details>
 
 ## 7. Monitor production metrics & customer feedback
