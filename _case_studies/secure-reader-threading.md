@@ -30,39 +30,39 @@ Virtru's Secure Reader (SR) is a web app that allows reading and replying to enc
 
 ## Problem Definition
 
-<details open>
-  <p>
-    Secure Reader users want to read all the messages in an encrypted email thread even if they open a later message. Currently, users have to find separate emails in their email client and click a link to Secure Reader to decrypt each individual message.
-  </p>
+<p>
+  Secure Reader users want to read all the messages in an encrypted email thread even if they open a later message. Currently, users have to find separate emails in their email client and click a link to Secure Reader to decrypt each individual message.
+</p>
 
+<details>
   <div>
     <h3>Step 1. Find latest encrypted email (2 of 2)</h3>
     <img
       src="{{ site.url }}/assets/sr_threading/cur_SR_1-email_2_of_2.png"
       alt="Encrypted email 2 of 2 in email client"
       class="screenshot screenshot-landscape"
-    >
+    />
 
     <h3>Step 2. Authenticate & decrypt latest email</h3>
     <img
       src="{{ site.url }}/assets/sr_threading/cur_SR_3-SR_2_of_2.png"
       alt="Decrypted email 2 of 2 in Secure Reader"
       class="screenshot screenshot-landscape"
-    >
+    />
 
     <h3>Step 3. Find previous encrypted email (1 of 2)</h3>
     <img
       src="{{ site.url }}/assets/sr_threading/cur_SR_5-email_1_of_2.png"
       alt="Encrypted email 1 of 2 in email client"
       class="screenshot screenshot-landscape"
-    >
+    />
 
     <h3>Step 4. Authenticate & decrypt previous email (1 of 2)</h3>
     <img
       src="{{ site.url }}/assets/sr_threading/cur_SR_7-SR_1_of_2.png"
       alt="Decrypted email 2 of 2 in Secure Reader"
       class="screenshot screenshot-landscape"
-    >
+    />
   </div>
 
   Challenges:
@@ -87,14 +87,12 @@ Virtru's Secure Reader (SR) is a web app that allows reading and replying to enc
 
 ## My Role on the Team
 
-<details>
-  <ul>
-    <li>myself, Senior Interaction Designer to design solutions</li>
-    <li>a Front-end Engineer to implement</li>
-    <li>a Product Manager to prioritize</li>
-    <li>a User Researcher to evaluate</li>
-  </ul>
-</details>
+<ul>
+  <li>myself, Senior Interaction Designer to design solutions</li>
+  <li>a Front-end Engineer to implement</li>
+  <li>a Product Manager to prioritize</li>
+  <li>a User Researcher to evaluate</li>
+</ul>
 
 # Design Process
 
@@ -217,9 +215,9 @@ I was asked to design for Secure Reader (SR) threading after engineering had alr
 
 ## 3. Design for mobile web
 
-<details open>
-  <p>I started with mobile designs; it's <mark>easier to scale up to larger screens than shrink the experience down.</mark></p>
+<p>I started with mobile designs; it's <mark>easier to scale up to larger screens than shrink the experience down.</mark></p>
 
+<details>
   <p>
     If this is our current state (1 of ? messages in a thread decrypted)…
 
@@ -289,7 +287,7 @@ I was asked to design for Secure Reader (SR) threading after engineering had alr
 
 ## 4. Confirm direction with stakeholders
 
-<details open>
+<details>
   Argued for not decrypting more than one message.
   More than one possible solution.
   Performance.
@@ -312,11 +310,11 @@ I was asked to design for Secure Reader (SR) threading after engineering had alr
 
 ## 7. Monitor production metrics & customer feedback
 
-<details open>
-
-  <p>
+<p>
   I advocated for us to <mark>measure more than simply clicks</mark> on the previous message CTA. With my involvement and planning along with our resident product data expert, we were able to instrument the entire threading experience.
-  </p>
+</p>
+
+<details>
 
   <p>  
     Within a day of launching, threading was available for ~33% of encrypted messages:
