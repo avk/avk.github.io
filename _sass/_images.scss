@@ -29,9 +29,13 @@
 .screenshot-landscape {
 }
 .screenshot-portrait {
-  margin-left: auto;
-  margin-right: auto;
-  width: 33%;
+}
+@media (min-width: 768px) {
+  .screenshot-portrait {
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+  }
 }
 
 
