@@ -287,11 +287,34 @@ I was asked to design for Secure Reader (SR) threading after engineering had alr
 
 ## 4. Confirm direction with stakeholders
 
+<p>
+  When I demoed the mobile web design prototype before proceeding, there was pushback from stakeholders. <mark>I persuaded the team to not decrypt more than one previous message at a time.</mark>
+</p>
+
 <details>
-  Argued for not decrypting more than one message.
-  More than one possible solution.
-  Performance.
-  We don't have data on how far back in a thread anyone wants to read.
+  <p>Everyone was excited we were bringing threading to Secure Reader (SR). But most people asked why we weren't decrypting the entire thread of previous messages.</p>
+
+  <p>
+    How I defended my design of one previous message at a time:
+
+    <ol>
+      <li>
+        <strong>Simple enough to learn</strong>
+        <br>
+        We decided to not pause for primary user research up front, but there's more than one possible solution. Customers did not express a preference for how Secure Reader should do email threading. The quoted approach to threading, which we are not pursuing, could be what ultimately works best. So why build the maximum version of conversation view without this clarity?
+      </li>
+      <li>
+        <strong>Performance concerns</strong>
+        <br>
+        How would decrypting more than one message at a time stay quick and accessible for longer threads? We already have at least half a dozen error states for each message, how would we handle errors for multiple messages?
+      </li>
+      <li>
+        <strong>No historical data</strong><br>
+        We had no data on how far back in a thread customers read or want to read. This was not something we tracked in Virtru's other email products.
+      </li>
+    </ol>
+  </p>
+
 </details>
 
 ## 5. Design for desktop web
