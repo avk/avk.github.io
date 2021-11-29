@@ -219,7 +219,7 @@ I was asked to design for Secure Reader (SR) threading after engineering had alr
 
 <details>
   <p>
-    If this is our current state (1 of ? messages in a thread decrypted)…
+    If this is our current state (1 of ? messages in a thread decrypted)&hellip;
 
     <img
       src="{{ site.url }}/assets/sr_threading/mobile/current.png"
@@ -228,7 +228,7 @@ I was asked to design for Secure Reader (SR) threading after engineering had alr
   </p>
 
   <p>
-    An ideal state would be (all messages in a thread decrypted)…
+    An ideal state would be (all messages in a thread decrypted)&hellip;
 
     <img
       src="{{ site.url }}/assets/sr_threading/mobile/ideal.png"
@@ -247,7 +247,7 @@ I was asked to design for Secure Reader (SR) threading after engineering had alr
   </p>
 
   <p>
-    Here's what a transition looks like…
+    Here's what a transition looks like&hellip;
 
     <img
       src="{{ site.url }}/assets/sr_threading/mobile/decrypting.png"
@@ -266,7 +266,7 @@ I was asked to design for Secure Reader (SR) threading after engineering had alr
   </p>
 
   <p>
-    Though the number of interactions and hotspots exploded…
+    Though the number of interactions and hotspots exploded&hellip;
 
     <img
       src="{{ site.url }}/assets/sr_threading/mobile/SR-threading-hotspots.png"
@@ -274,7 +274,7 @@ I was asked to design for Secure Reader (SR) threading after engineering had alr
       class="screenshot screenshot-landscape screenshot-borderless"
     />
 
-    …most error states were as elegant as this…
+    &hellip;most error states were as elegant as this&hellip;
 
     <img
       src="{{ site.url }}/assets/sr_threading/mobile/error.png"
@@ -320,7 +320,37 @@ I was asked to design for Secure Reader (SR) threading after engineering had alr
 ## 5. Design for desktop web
 
 <details>
-  Include same screens as mobile (or user test screens)
+  <p>The mobile screens scaled up nicely to the larger resolution of desktop browsers.</p>
+
+  <p>
+    Here's what a transition looks like&hellip;
+
+    <img
+      src="{{ site.url }}/assets/sr_threading/desktop/decrypting.png"
+      alt="Decrypting the previous message in a thread in desktop web Secure Reader"
+      class="screenshot screenshot-landscape"
+    />
+  </p>
+
+  <p>
+    And an example error state&hellip;
+
+    <img
+      src="{{ site.url }}/assets/sr_threading/desktop/error.png"
+      alt="Screenshot of typical error state designed for desktop web Secure Reader threading"
+      class="screenshot screenshot-landscape"
+    />
+  </p>
+
+  <p>
+    An ideal state (all messages in a thread decrypted)&hellip;
+
+    <img
+      src="{{ site.url }}/assets/sr_threading/desktop/ideal.png"
+      alt="Ideal state of desktop web Secure Reader - 2 decrypted emails in a thread" class="screenshot screenshot-landscape"
+    />
+  </p>
+
 </details>
 
 ## 6. Usability test
