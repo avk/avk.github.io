@@ -452,13 +452,9 @@ I was asked to design for Secure Reader (SR) threading after engineering had alr
 
 # Retrospective
 
-<details>
-  <p>
-    I'm satisfied with the initial impact of this design. I'll revisit the retrospective when I have more distance from this effort.
-  </p>
-</details>
-
-<hr />
+<p>
+  I'm satisfied with the initial impact of this design. I'll revisit the retrospective when I have more distance from this effort.
+</p>
 
 <p>
   <a href="https://www.virtru.com/secure-collaboration/" type="button" class="btn btn-success" target="_blank">&#10004; In Production (2021)</a>
