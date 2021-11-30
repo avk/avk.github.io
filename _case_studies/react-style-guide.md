@@ -11,7 +11,7 @@ cover_image: /assets/sg/first-components.png
 
 # <small>Case Study:</small> <br />React-driven Living Style Guide
 
-<a href="https://www.therightmargin.com/?ref=avkux" type="button" class="btn btn-secondary" target="_blank">&#10004; In Staging</a>
+<a href="https://www.therightmargin.com/?ref=avkux" type="button" class="btn btn-secondary" target="_blank">&#10004; In Staging (2016-20)</a>
 
 > I gave a talk on this topic at the May 2017 [ReactJS San Francisco meetup](https://www.meetup.com/ReactJS-San-Francisco/events/232716790/).
 
@@ -341,6 +341,6 @@ Enabled tighter design-engineering feedback loops, faster regression testing, an
 
 ![TheRightMargin's React-driven style guide]({{ site.url }}/assets/sg/full-style-guide.png)
 
-<a href="https://www.therightmargin.com/?ref=avkux" type="button" class="btn btn-secondary" target="_blank">&#10004; In Staging</a>
+<a href="https://www.therightmargin.com/?ref=avkux" type="button" class="btn btn-secondary" target="_blank">&#10004; In Staging (2016-20)</a>
 
 {% include footer_case_study.md %}

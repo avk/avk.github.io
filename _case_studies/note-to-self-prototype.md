@@ -11,7 +11,7 @@ cover_image: /assets/note_to_self/production_v1.gif
 
 # <small>Case Study:</small> <br />Note to Self—From Research to Launch
 
-<a href="https://www.therightmargin.com/?ref=avkux" type="button" class="btn btn-success" target="_blank">&#10004; In Production</a>
+<a href="https://www.therightmargin.com/?ref=avkux" type="button" class="btn btn-success" target="_blank">&#10004; In Production (2017-20)</a>
 
 ## Overview
 
@@ -823,6 +823,6 @@ You've finally managed to discover the secret to immortality. Suddenly, Death ap
 
 </details>
 
-<a href="https://www.therightmargin.com/?ref=avkux" type="button" class="btn btn-success" target="_blank">&#10004; In Production</a>
+<a href="https://www.therightmargin.com/?ref=avkux" type="button" class="btn btn-success" target="_blank">&#10004; In Production (2017-20)</a>
 
 {% include footer_case_study.md %}

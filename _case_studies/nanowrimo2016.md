@@ -11,7 +11,7 @@ cover_image: /assets/nnwm/cover.png
 
 # <small>Case Study:</small> <br />30-day Novel Challenge
 
-<a href="https://www.therightmargin.com/nanowrimo?ref=avkux" type="button" class="btn btn-success" target="_blank">&#10004; In Production</a>
+<a href="https://www.therightmargin.com/nanowrimo?ref=avkux" type="button" class="btn btn-success" target="_blank">&#10004; In Production (2016-17)</a>
 
 ## Overview
 
@@ -314,6 +314,6 @@ Convince writers to start and finish new 50,000-word novels in 30 days using  ne
 
 ## See the live experience
 
-<a href="https://www.therightmargin.com/nanowrimo?ref=avkux" type="button" class="btn btn-success" target="_blank">&#10004; In Production</a>
+<a href="https://www.therightmargin.com/nanowrimo?ref=avkux" type="button" class="btn btn-success" target="_blank">&#10004; In Production (2016-17)</a>
 
 {% include footer_case_study.md %}

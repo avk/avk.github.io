@@ -11,7 +11,7 @@ cover_image: /assets/file_viewer/production-text-fullscreen.png
 
 # <small>Case Study:</small> <br />Redesign File Viewer for 9,000+ Creative Orgs
 
-<a href="https://www.submittable.com/" type="button" class="btn btn-success" target="_blank">&#10004; In Production</a>
+<a href="https://www.submittable.com/" type="button" class="btn btn-success" target="_blank">&#10004; In Production (2017-now)</a>
 
 ## Overview
 
@@ -331,5 +331,7 @@ Wireframe & redesign a file viewer for displaying 50+ file types online&mdash;a 
 ![New file viewer with text]({{ site.url }}/assets/file_viewer/production-text.png)
 
 ![New file viewer with text in full screen]({{ site.url }}/assets/file_viewer/production-text-fullscreen.png)
+
+<a href="https://www.submittable.com/" type="button" class="btn btn-success" target="_blank">&#10004; In Production (2017-now)</a>
 
 {% include footer_case_study.md %}
