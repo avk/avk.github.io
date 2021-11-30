@@ -15,28 +15,58 @@ cover_image: /assets/file_viewer/production-text-fullscreen.png
 
 # <small>Case Study:</small> <br />Redesign File Viewer for 9,000+ Creative Orgs
 
-<a href="https://www.submittable.com/" type="button" class="btn btn-success" target="_blank">&#10004; In Production (2017-now)</a>
+<a href="https://www.submittable.com/" type="button" class="btn btn-success" target="_blank">&#10004; In Production (2018-now)</a>
 
+
+
+
+
+* [Overview](#1)
+  * [Skills Used](#1.1)
+  * [Problem Definition](#1.2)
+  * [Audience](#1.3)
+  * [My Role on the Team](#1.4)
+  * [Constraints](#1.5)
+
+* [Design Process](#2)
+  1. [Understand and Evolve the Spec](#2.1)
+  2. [Experiment with Paper Cut-Outs](#2.2)
+  3. [Create Wireframes](#2.3)
+  4. [First Mockups](#2.4)
+  5. [Iterate on Mockups](#2.5)
+  6. [Iterate in Parallel with Engineering](#2.6)
+  7. [Iterate After Launch in Response to User Feedback](#2.7)
+
+* [Retrospective](#3)
+* [Before & After](#4)
+
+<hr />
+
+
+
+
+
+<a name="1"></a>
 ## Overview
 
 Wireframe & redesign a file viewer for displaying 50+ file types online&mdash;a core part of the review workflow for 9000+ organizations.
 
-## Skills Used
+<a name="1.1"></a>
+### Skills Used
 
 * wireframing
 * visual design
 
-## Problem Definition
+<a name="1.2"></a>
+### Problem Definition
 
-<details>
   <p>
     Submittable provides online tools to manage submissions and applications. A core part of this product involves reviewing various uploaded files to judge any given submission. Our previous file viewer implementation and interface depended on a Box library that Box would discontinue. This external deadline created an opportunity to revisit the UX for reviewing any kind of file Submittable accepts. The previous file viewer had discordant interfaces for viewing text-based files, images, audio, and video. It was responsible for over 50 distinct file types. We defined success as a consistent interface that was no longer dependent on Box.
   </p>
-</details>
 
-## Audience
+<a name="1.3"></a>
+### Audience
 
-<details>
   <p>
     Our target users were the majority of the 9,000+ Submittable organizations who used our online file viewer to review submissions. This excluded the minority of organizations who reviewed files outside of Submittable—paper, Kindle, or offline. A specific ratio of organizations who used our file viewer to those who reviewed files elsewhere was not available or measured.
   </p>
@@ -46,11 +76,10 @@ Wireframe & redesign a file viewer for displaying 50+ file types online&mdash;a 
   <p>
     No personas existed; due to the strict engineering deadline, we did not invest time to create them.
   </p>
-</details>
 
-## My Role on the Team
+<a name="1.4"></a>
+### My Role on the Team
 
-<details>
   <p>
     As <strong>Senior UX Designer</strong>, in August 2017, I joined a team consisting of:
   </p>
@@ -64,11 +93,10 @@ Wireframe & redesign a file viewer for displaying 50+ file types online&mdash;a 
   <p>
     From August-October, I ran deliverables by the visual designer and the PM. Afterwards, I largely collaborated with engineering on the implementation.
   </p>
-</details>
 
-## Constraints
+<a name="1.5"></a>
+### Constraints
 
-<details>
   <p>Our primary constraints:</p>
 
   <ol>
@@ -77,13 +105,14 @@ Wireframe & redesign a file viewer for displaying 50+ file types online&mdash;a 
     <li>I planned to take one month of paternity leave in early Fall 2017.</li>
     <li>Our only source of user feedback were customer support requests. We did not budget time for prototype or usability testing due to the hard deadline and uncertainty with how much time engineering would need for the new implementation.</li>
   </ol>
-</details>
 
-# Design Process
 
-## Design Deliverables
 
-<details>
+
+
+<a name="2"></a>
+## Design Process
+
   <ol>
     <li>
       Engineering and the PM requested mockups in InVision for viewing:
@@ -100,11 +129,10 @@ Wireframe & redesign a file viewer for displaying 50+ file types online&mdash;a 
     </li>
 
   </ol>
-</details>
 
-## 1. Understand and Evolve the Spec
+<a name="2.1"></a>
+### 1. Understand and Evolve the Spec
 
-<details>
   <p>
     The product manager started a spec with what functionality and UI affordances the new file viewer had to support. She also collected a few UI examples of other viewers in an InVision board. I started capturing screenshots of how our current viewer handled various file types. I noted inconsistencies, got clarifications about historical decisions, and captured cases not covered in the spec. For example, how do we handle files a submitter can upload but our file converter cannot render, such as executables?
   </p>
@@ -116,11 +144,10 @@ Wireframe & redesign a file viewer for displaying 50+ file types online&mdash;a 
       class="screenshot screenshot-landscape zoomable"
     />
   </p>
-</details>
 
-## 2. Experiment with Paper Cut-Outs
+<a name="2.2"></a>
+### 2. Experiment with Paper Cut-Outs
 
-<details>
   <p>
     Due to the increasing number of states across the four file types (text, image, audio, video), I began on paper. I sketched affordances, cut them out, and rearranged them. The goal was to create more consistency across file type controls that are not naturally related.
   </p>
@@ -154,20 +181,18 @@ Wireframe & redesign a file viewer for displaying 50+ file types online&mdash;a 
   </p>
 
   <blockquote>
-    <p>Being in person was invaluable to physically moving around UI affordances in meetings, though I subsequently didn&#39;t capture all the states we experimented with.</p>
+    <p>Being in person was invaluable to physically moving around UI affordances in meetings, though I subsequently didn't capture all the states we experimented with.</p>
   </blockquote>
 
-</details>
+<a name="2.3"></a>
+### 3. Create Wireframes
 
-## 3. Create Wireframes
-
-<details>
   <p>
     There were no wireframes or wireframing process at Submittable. I decided to introduce InVision Freehand to the team since we were already using InVision prototypes. I hoped the monochrome palette would make it clear these weren’t the mocks the team expected from me.
   </p>
 
   <p>
-    I employed <a href="https://www.scotthurff.com/posts/why-your-user-interface-is-awkward-youre-ignoring-the-ui-stack/">Scott Hurff&#39;s UI Stack concept</a> to structure my wireframes into more thorough states.
+    I employed <a href="https://www.scotthurff.com/posts/why-your-user-interface-is-awkward-youre-ignoring-the-ui-stack/">Scott Hurff's UI Stack concept</a> to structure my wireframes into more thorough states.
   </p>
 
   <p><img src="{{ site.url }}/assets/file_viewer/ui-stack.jpg" alt="The UI Stack"></p>
@@ -220,11 +245,13 @@ Wireframe & redesign a file viewer for displaying 50+ file types online&mdash;a 
     />
   </p>
 
-</details>
 
-## 4. First Mockups
 
-<details>
+
+
+<a name="2.4"></a>
+### 4. First Mockups
+
   <p>
     By September 2017, I expected to start paternity leave any day. After I got approval for my wireframes, I proceeded to create the first mockups in Sketch.
   </p>
@@ -244,11 +271,14 @@ Wireframe & redesign a file viewer for displaying 50+ file types online&mdash;a 
   <p>
     When I finished the initial mockups, I walked the visual designer through my InVision screens and Sketch artboards. Then, I went on paternity leave for 30 days.
   </p>
-</details>
 
-## 5. Iterate on Mockups
 
-<details>
+
+
+
+<a name="2.5"></a>
+### 5. Iterate on Mockups
+
   <p>
     In the intervening 30 days, the visual designer had iterated quite a bit on my initial mocks.
   </p>
@@ -280,9 +310,13 @@ Wireframe & redesign a file viewer for displaying 50+ file types online&mdash;a 
       class="screenshot screenshot-landscape zoomable"
     />
   </p>
-</details>
 
-## 6. Iterate in Parallel with Engineering
+
+
+
+
+<a name="2.6"></a>
+### 6. Iterate in Parallel with Engineering
 
 <details>
   <p>
@@ -312,19 +346,24 @@ Wireframe & redesign a file viewer for displaying 50+ file types online&mdash;a 
   <p>There were no substantial UI changes at this phase.</p>
 </details>
 
-## 7. Iterate After Launch in Response to User Feedback
+
+
+
+
+<a name="2.7"></a>
+### 7. Iterate After Launch in Response to User Feedback
 
 <details>
   <p>
-    Our VP of Engineering praised the production release of the new file viewer to being as close to a perfect release as they&#39;ve had.
+    Our VP of Engineering praised the production release of the new file viewer to being as close to a perfect release as they've had.
   </p>
 
   <p>
-    Submittable organizations who&#39;ve been longtime customers praised the file viewer:
+    Submittable organizations who've been longtime customers praised the file viewer:
   </p>
 
   <blockquote>
-    <p>&quot;I&#39;m LIKING what I see so far...&quot; <br />&mdash;a longtime customer</p>
+    <p>&quot;I'm LIKING what I see so far...&quot; <br />&mdash;a longtime customer</p>
   </blockquote>
 
   <p>
@@ -356,7 +395,12 @@ Wireframe & redesign a file viewer for displaying 50+ file types online&mdash;a 
   </p>
 </details>
 
-# Retrospective
+
+
+
+
+<a name="3"></a>
+## Retrospective
 
 <details>
   <p>
@@ -366,11 +410,7 @@ Wireframe & redesign a file viewer for displaying 50+ file types online&mdash;a 
   <p>
     I am satisfied with how the new file viewer looks and works. I'm proud of covering more states, especially loading and error states for users who experience slowness or problems. The mobile redesign was also a step in a more focused direction for 20% of our 2017 traffic.
   </p>
-</details>
 
-## How Would I Improve?
-
-<details>
   <p>
     If I were to do this project again:
   </p>
@@ -378,7 +418,7 @@ Wireframe & redesign a file viewer for displaying 50+ file types online&mdash;a 
   <ol>
     <li>
       <p>
-        <strong>Avoid InVision Freehand for feedback.</strong> Commenting by inserting text is a poor feedback experience that didn&#39;t reflect well on wireframing as an approach. Seeking comments elsewhere would reduce friction when introducing wireframing to a team unfamiliar with the technique.
+        <strong>Avoid InVision Freehand for feedback.</strong> Commenting by inserting text is a poor feedback experience that didn't reflect well on wireframing as an approach. Seeking comments elsewhere would reduce friction when introducing wireframing to a team unfamiliar with the technique.
       </p>
     </li>
     <li>
@@ -396,21 +436,28 @@ Wireframe & redesign a file viewer for displaying 50+ file types online&mdash;a 
           doing a task analysis or otherwise light prototype testing using our InVision mockups
         </li>
         <li>
-          prompting organizations for file viewer feedback via Intercom while they&#39;re in the product
+          prompting organizations for file viewer feedback via Intercom while they're in the product
         </li>
         <li>
-          emailing a follow up survey to organizations who&#39;ve used the new file viewer
+          emailing a follow up survey to organizations who've used the new file viewer
         </li>
       </ul>
 
       <p>
-        We didn&#39;t act on those ideas. Product wasn’t convinced the UI changes were obvious enough such that asking for feedback would be meaningful. I would still pursue some form of follow feedback to test our assumptions, especially at the interaction level.
+        We didn't act on those ideas. Product wasn’t convinced the UI changes were obvious enough such that asking for feedback would be meaningful. I would still pursue some form of follow feedback to test our assumptions, especially at the interaction level.
       </p>
     </li>
   </ol>
 </details>
 
-## Previous file viewer, July 2017:
+
+
+
+
+<a name="4"></a>
+## Before & After
+
+__Previous file viewer, July 2017:__
 
 <img
   src="{{ site.url }}/assets/file_viewer/production-text-before.png"
@@ -418,7 +465,7 @@ Wireframe & redesign a file viewer for displaying 50+ file types online&mdash;a 
   class="screenshot screenshot-landscape screenshot-borderless zoomable"
 />
 
-## New file viewer, January 2018:
+__New file viewer, January 2018:__
 
 <img
   src="{{ site.url }}/assets/file_viewer/production-text.png"
@@ -432,6 +479,6 @@ Wireframe & redesign a file viewer for displaying 50+ file types online&mdash;a 
   class="screenshot screenshot-landscape screenshot-borderless zoomable"
 />
 
-<a href="https://www.submittable.com/" type="button" class="btn btn-success" target="_blank">&#10004; In Production (2017-now)</a>
+<a href="https://www.submittable.com/" type="button" class="btn btn-success" target="_blank">&#10004; In Production (2018-now)</a>
 
 {% include footer_case_study.md %}

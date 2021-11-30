@@ -17,22 +17,65 @@ cover_image: /assets/note_to_self/production_v1.gif
 
 <a href="https://www.therightmargin.com/?ref=avkux" type="button" class="btn btn-success" target="_blank">&#10004; In Production (2017-20)</a>
 
+
+
+
+
+* [Overview](#1)
+  * [Skills Used](#1.1)
+  * [Problem Definition](#1.2)
+  * [Hypothesis](#1.3)
+  * [Design Goals](#1.4)
+  * [Audience](#1.5)
+  * [My Role on the Team](#1.6)
+  * [Constraints](#1.7)
+
+* [Design Process](#2)
+  1. [Recruit Users](#2.1)
+  2. [Gather Supporting Data](#2.2)
+  3. [Design Initial Prototypes](#2.3)
+    * [Prototype A](#2.3.1)
+    * [Prototype B](#2.3.2)
+  4. [Prototype Testing](#2.4)
+    * [Test Script](#2.4.1)
+    * [Synthesis](#2.4.2)
+  5. [Revise Design Goals](#2.5)
+  6. [Sketch Flows & Wireframes](#2.6)
+  7. [Build Initial Production Version](#2.7)
+
+* [Retrospective](#3)
+
+<hr />
+
+
+
+
+
+<a name="1"></a>
 ## Overview
 
 In 4 weeks, designed, tested, and launched a unique feature to successfully help writers continue writing across multiple creative sessions.
 
-## Skills Used
+
+
+
+
+
+<a name="1.1"></a>
+### Skills Used
 
 * user research
 * user flows
 * wireframing
 * prototyping
 
-## Problem Definition
 
-### Pain Points
 
-<details>
+
+
+<a name="1.2"></a>
+### Problem Definition
+
   <p>Coming back to a creative writing project requires remembering:</p>
 
   <ul>
@@ -41,21 +84,26 @@ In 4 weeks, designed, tested, and launched a unique feature to successfully help
     <li>what you wanted to do</li>
     <li>what you want to do now</li>
   </ul>
-</details>
 
+
+
+
+
+<a name="1.3"></a>
 ### Hypothesis
 
-<details>
   <blockquote>
     <p>
       TheRightMargin can bridge writing sessions to help writers retain context and continue writing via a &quot;note to self&quot; prototype.
     </p>
   </blockquote>
-</details>
 
+
+
+
+
+<a name="1.4"></a>
 ### Design Goals
-
-<details>
 
   <p>
     Within TheRightMargin's online writing product:
@@ -86,11 +134,12 @@ In 4 weeks, designed, tested, and launched a unique feature to successfully help
     b. Ties back to smart writing tool
   </code></pre>
 
-</details>
 
-## Audience
 
-<details>
+
+
+<a name="1.5"></a>
+### Audience
 
   <p>
     I hypothesized the following traits of an ideal prototype tester:
@@ -134,11 +183,12 @@ In 4 weeks, designed, tested, and launched a unique feature to successfully help
 
   </ol>
 
-</details>
 
-## My Role on the Team
 
-<details>
+
+
+<a name="1.6"></a>
+### My Role on the Team
 
   <p>
     As Senior UX Designer &amp; Engineer, I worked:
@@ -159,11 +209,12 @@ In 4 weeks, designed, tested, and launched a unique feature to successfully help
     </li>
   </ul>
 
-</details>
 
-## Constraints
 
-<details>
+
+
+<a name="1.7"></a>
+### Constraints
 
   <ol>
     <li>
@@ -177,21 +228,31 @@ In 4 weeks, designed, tested, and launched a unique feature to successfully help
     </li>
   </ol>
 
-</details>
 
-# Design Process
 
-## 1. Recruit Users
 
-<details>
+
+<a name="2"></a>
+## Design Process
+
+
+
+
+
+
+<a name="2.1"></a>
+### 1. Recruit Users
+
   <p>
     Recently, we began to offer users who wrote into support the ability to opt-in to a UX tester bank for future prototypes. We recruited 7 existing users of TheRightMargin from this UX tester bank within the first week. This was a speedy, welcome relief from casting a broad net to recruit any existing users out of the blue or appealing to local or online writing communities. Thus, we quickly overcame our last constraint.
   </p>
-</details>
 
-## 2. Gather Supporting Data
 
-<details>
+
+
+
+<a name="2.2"></a>
+### 2. Gather Supporting Data
 
   <blockquote>
     <p>
@@ -207,6 +268,8 @@ In 4 weeks, designed, tested, and launched a unique feature to successfully help
   <p>
     Our existing product had a corollary that I thought we could learn from—a writing timer. Timed writing exercises are not a new concept to our new product. <strong>I hypothesized that only those who already used timers in their writing used our timer.</strong>
   </p>
+
+<details>
 
   <p>
     I pulled metrics data on users active in the last month who had started or finished TheRightMargin&#39;s writing timer and emailed them:
@@ -253,11 +316,21 @@ Yes I have used the timer and it was the first time I wrote with a timer since h
 
 </details>
 
-## 3. Design Initial Prototypes
+
+
+
+
+<a name="2.3"></a>
+### 3. Design Initial Prototypes
 
 We condensed 10 initial concepts to the following two prototypes.
 
-### Prototype A: when leaving a project, ask users what they want to accomplish when they come back
+
+
+
+
+<a name="2.3.1"></a>
+#### Prototype A: when leaving a project, ask users what they want to accomplish when they come back
 
 <details>
 
@@ -316,7 +389,12 @@ We condensed 10 initial concepts to the following two prototypes.
 
 </details>
 
-### Prototype B: when returning to a project, ask users if the next milestone is still what they want to work on
+
+
+
+
+<a name="2.3.2"></a>
+#### Prototype B: when returning to a project, ask users if the next milestone is still what they want to work on
 
 <details>
 
@@ -368,13 +446,22 @@ We condensed 10 initial concepts to the following two prototypes.
 </details>
 
 
-## 4. Prototype Testing
+
+
+
+<a name="2.4"></a>
+### 4. Prototype Testing
 
 5 of the 7 recruited users were available for an hour-long prototype test via screen sharing.
 
 Rather than rely on static screens, which could not simulate writing, or taking a week (1/4 of our constrained time) to build the first prototype in our product, I tested a version of Prototypes A and B using the following script&hellip;
 
-### Prototype Test Script
+
+
+
+
+<a name="2.4.1"></a>
+#### Test Script
 
 <details>
 
@@ -433,7 +520,12 @@ You've finally managed to discover the secret to immortality. Suddenly, Death ap
 
 </details>
 
-### Prototype Test Synthesis
+
+
+
+
+<a name="2.4.2"></a>
+#### Synthesis
 
 <details>
 
@@ -707,9 +799,12 @@ You've finally managed to discover the secret to immortality. Suddenly, Death ap
 
 </details>
 
-## 5. Revise Design Goals
 
-<details>
+
+
+
+<a name="2.5"></a>
+### 5. Revise Design Goals
 
   <p>
     Based upon what we learned thus far, we revised our design goals. As we learned from timer users, appealing to new behavior was not a good place to start. Uniqueness was virtually guaranteed based on prototype responses and no longer worth emphasizing.
@@ -733,11 +828,12 @@ You've finally managed to discover the secret to immortality. Suddenly, Death ap
 6. This experience should be most useful for projects that you don’t write everyday or longer-form projects
   </code></pre>
 
-</details>
 
-## 6. Build Initial Production Version
 
-<details>
+
+
+<a name="2.6"></a>
+### 6. Sketch Flows & Wireframes
 
   <p>
     The biggest remaining problem from the initial prototype testing was when to present the note to self or context-preserving question. I quickly began to enumerate TheRightMargin workspace UI and settled on a bottom right placement that wouldn&#39;t distract from ongoing writing or conflict with potential commenting features. Here&#39;s my thought process on paper:
@@ -786,6 +882,13 @@ You've finally managed to discover the secret to immortality. Suddenly, Death ap
       class="screenshot screenshot-landscape zoomable"
     />
   </p>
+
+
+
+
+
+<a name="2.7"></a>
+### 7. Build Initial Production Version
 
   <p>
     Here&#39;s what made it into production on <a href="https://www.therightmargin.com/?ref=avkux">TheRightMargin in March 2017</a>.
@@ -838,11 +941,12 @@ You've finally managed to discover the secret to immortality. Suddenly, Death ap
 
   </ol>
 
-</details>
 
+
+
+
+<a name="3"></a>
 ## Retrospective
-
-<details>
 
   <p>
     We hit our goals within our constraints, but it's too early to gauge success without collecting more production metrics and user feedback over a longer period of time.
@@ -855,8 +959,6 @@ You've finally managed to discover the secret to immortality. Suddenly, Death ap
   <p>
     Production feels incomplete without the Prototype B implementation to close the loop on how to rebuild context by drawing attention to the note(s) to self from the previous session, after a reasonable interval of time.
   </p>
-
-</details>
 
 <a href="https://www.therightmargin.com/?ref=avkux" type="button" class="btn btn-success" target="_blank">&#10004; In Production (2017-20)</a>
 

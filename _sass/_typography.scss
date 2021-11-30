@@ -198,6 +198,14 @@ code {
   margin-top: $leading;
 }
 
+a[name] {
+  // why? adjust anchors for fixed header - solution 2 from https://www.wikitechy.com/technology/css-offsetting-html-anchor-adjust-fixed-header/
+  display: block;
+  position: relative;
+  top: -($leading * 2);
+  visibility: hidden;
+}
+
 
 
 

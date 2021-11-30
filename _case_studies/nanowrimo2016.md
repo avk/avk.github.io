@@ -17,35 +17,75 @@ cover_image: /assets/nnwm/cover.png
 
 <a href="https://www.therightmargin.com/nanowrimo?ref=avkux" type="button" class="btn btn-success" target="_blank">&#10004; In Production (2016-17)</a>
 
+
+
+
+
+* [Overview](#1)
+  * [Skills Used](#1.1)
+  * [Problem Definition](#1.2)
+  * [Hypothesis](#1.3)
+  * [Assumptions](#1.4)
+  * [Success Metrics](#1.5)
+  * [Audience & Personas](#1.6)
+  * [My Role on the Team](#1.7)
+  * [Constraints](#1.8)
+
+* [Design Process](#2)
+  * [Advice formation](#2.1)
+  * [Landing page](#2.2)
+  * [From zero-data view to actionable steps](#2.3)
+
+* [Results & Retrospective](#3)
+
+<hr />
+
+
+
+
+
+<a name="1"></a>
 ## Overview
 
 Convince writers to start and finish new 50,000-word novels in 30 days using  new online writing software.
 
-## Skills Used
+
+
+
+
+<a name="1.1"></a>
+### Skills Used
 
 * user flows
 * product metrics
 * visual design
 
-## Problem Definition
 
-<details>
+
+
+
+<a name="1.2"></a>
+### Problem Definition
   <p>
     Every November, hundreds of thousands of writers around the world attempt to write 50,000 words of a new novel by Nov. 30 as part of National Novel Writing Month (NaNoWriMo). Reaching the 50k word count is winning NaNoWriMo. We wanted to entice 2016 NaNoWriMo participants to start (and ideally write) a new 50,000-word novel in 30 days using our online writing software at TheRightMargin.
   </p>
-</details>
 
+
+
+
+
+<a name="1.3"></a>
 ### Hypothesis
-
-<details>
   <p>
     Creating a template of NaNoWriMo best practices, putting those best practices into our software, and giving the template away to NaNoWriMo participants via extended trials (through Nov. 30), would lead to more NaNoWriMo winners and customers for TheRightMargin.
   </p>
-</details>
 
+
+
+
+
+<a name="1.4"></a>
 ### Assumptions
-
-<details>
 
   <ol>
 
@@ -63,11 +103,12 @@ Convince writers to start and finish new 50,000-word novels in 30 days using  ne
 
   </ol>
 
-</details>
 
+
+
+
+<a name="1.5"></a>
 ### Success Metrics
-
-<details>
 
   <ol>
 
@@ -85,11 +126,12 @@ Convince writers to start and finish new 50,000-word novels in 30 days using  ne
 
   </ol>
 
-</details>
 
-## Audience
 
-<details>
+
+
+<a name="1.6"></a>
+### Audience & Personas
 
   <p>
     In November 2015, <a href="http://nanowrimo.org/press#nanofacts">431,626 writers</a> attempted to write 50,000 words to win NaNoWriMo. <a href="http://nanowrimo.org/impact#annualreports">~11.5% reached their goal</a>.
@@ -102,20 +144,16 @@ Convince writers to start and finish new 50,000-word novels in 30 days using  ne
   <p>
     Our writing software at TheRightMargin helps writers break lofty goals (e.g. write a novel) into actionable milestones and tasks, with optional dates and encouragement. We felt like our approach could drastically help NaNoWriMo participants.
   </p>
-
-</details>
-
-### Personas
-
-<details>
   <p>
     We found two NaNoWriMo personas: plotters and pantsers. Plotters prepared before November with research, outlines, and generally making room in their schedules and life for NaNoWriMo. Pantsers may have freed up more time for writing but did not do any preparatory work on their novels before November. We targeted largely plotters before November because it afforded more time to market and they already seemed more aligned with TheRightMargin's product philosophy.
   </p>
-</details>
 
-## My Role on the Team
 
-<details>
+
+
+
+<a name="1.7"></a>
+### My Role on the Team
 
   <p>
     As Senior UX Designer &amp; Engineer, I worked:
@@ -137,27 +175,35 @@ Convince writers to start and finish new 50,000-word novels in 30 days using  ne
 
   </ul>
 
-</details>
 
-## Constraints
 
-<details>
+
+
+<a name="1.8"></a>
+
+### Constraints
   <p>
     Our biggest constraint was time. We wanted to launch both a landing page, new sign up process, and the ability to benefit from NaNoWriMo best practices in-product within 4 weeks. That would give us 2 months to collect sign ups, iterate, and enter November.
   </p>
-</details>
 
-# Design Process
 
-<details>
+
+
+
+<a name="2"></a>
+
+## Design Process
   <p>
     We conducted initial research by tapping into the local writing community, past NaNoWriMo participants via nanowrimo.org forums, meetups, and personal networks, and my personal experience doing similar challenges such as the 3-day Novel Contest. From our initial discussions, we quickly gathered that the plotter persona gave themselves a much higher chance of winning (writing 50,000 words by Nov. 30) by preparing before Nov 1.
   </p>
-</details>
 
-## Advice formation
 
-<details>
+
+
+
+<a name="2.1"></a>
+
+### Advice formation
 
   <p>
     Interviews with past participants, retrospective blog posts, and the nanowrimo.org were our best sources of advice on how to excel at NaNoWriMo. We arranged our takeaways in chronological writing milestones, full of actionable writing tasks, each with prompts to assist the completion of said task. They took the form of this hierarchy:
@@ -202,11 +248,13 @@ Convince writers to start and finish new 50,000-word novels in 30 days using  ne
     Prompt: ...
   </code></pre>
 
-</details>
 
-## Landing page
 
-<details>
+
+
+<a name="2.2"></a>
+
+### Landing page
 
   <p>
     The landing page I designed (<a href="https://www.therightmargin.com/nanowrimo?ref=avkux">live as of April 2017</a>) spoke to preparation being the key to winning, in line with our plotter persona.
@@ -220,11 +268,13 @@ Convince writers to start and finish new 50,000-word novels in 30 days using  ne
     />
   </p>
 
-</details>
 
-## From zero-data view to actionable steps
 
-<details>
+
+
+<a name="2.3"></a>
+
+### From zero-data view to actionable steps
 
   <p>
     We learned that once November started, no one would be seeking new advice so anything we offered had to be baked into the product. So rather than giving NaNoWriMo sign ups an catch-all onboarding experience or a <strong>zero-data</strong> view applicable to any writing project&hellip;
@@ -254,13 +304,13 @@ Convince writers to start and finish new 50,000-word novels in 30 days using  ne
     Because of the new sign up flow, I advocated and implemented tracking NaNoWriMo participants as a new user cohort, so we could compare and contrast their performance and metrics to existing and future users.
   </p>
 
-</details>
 
-## Retrospective
 
-### Success Metrics vs. Results
 
-<details>
+
+<a name="3"></a>
+
+## Results & Retrospective
 
   <ol>
 
@@ -325,8 +375,6 @@ Convince writers to start and finish new 50,000-word novels in 30 days using  ne
   <p>
     If I were to do this again, I would focus my efforts on testing our content to drive repeat use—perhaps treat our in-product NaNoWriMo advice as a funnel itself and look for leaks.
   </p>
-
-</details>
 
 <a href="https://www.therightmargin.com/nanowrimo?ref=avkux" type="button" class="btn btn-success" target="_blank">&#10004; In Production (2016-17)</a>
 

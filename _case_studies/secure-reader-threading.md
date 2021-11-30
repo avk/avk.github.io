@@ -17,18 +17,55 @@ cover_image: /assets/sr_threading/SR-threading-cover.png
 
 <a href="https://www.virtru.com/secure-collaboration/" type="button" class="btn btn-success" target="_blank">&#10004; In Production (2021)</a>
 
+
+
+
+
+* [Overview](#1)
+  * [Skills Used](#1.1)
+  * [Problem Definition](#1.2)
+  * [My Role on the Team](#1.3)
+
+* [Design Process](#2)
+  1. [Choose "threading" definition](#2.1)
+  2. [Account for all message states](#2.2)
+  3. [Design for mobile web](#2.3)
+  4. [Confirm direction with stakeholders](#2.4)
+  5. [Design for desktop web](#2.5)
+  6. [Usability test](#2.6)
+  7. [Track production metrics & customer feedback](#2.7)
+
+* [Retrospective](#3)
+
+<hr />
+
+
+
+
+
+<a name="1"></a>
 ## Overview
 
 Virtru's Secure Reader (<abbr title="Secure Reader">SR</abbr>) is a web app that allows reading and replying to encrypted email. But <abbr title="Secure Reader">SR</abbr> displays only one message at a time. Following an encrypted email conversation means jumping between your email client and <abbr title="Secure Reader">SR</abbr> to read more than one message. Virtru customers need to see earlier encrypted emails in a thread with minimal friction in a performant way, even for long threads.
 
-## Skills Used
+
+
+
+
+<a name="1.1"></a>
+### Skills Used
 
 * user flows  
 * visual design
 * product metrics
 * usability testing
 
-## Problem Definition
+
+
+
+
+<a name="1.2"></a>
+### Problem Definition
 
 <p>
   Secure Reader users want to read all the messages in an encrypted email thread even if they open a later message. Currently, users have to find separate emails in their email client and click a link to Secure Reader to decrypt each individual message.
@@ -36,28 +73,28 @@ Virtru's Secure Reader (<abbr title="Secure Reader">SR</abbr>) is a web app that
 
 <details>
   <div>
-    <h3>Step 1. Find latest encrypted email (2 of 2)</h3>
+    <h4>Step 1. Find latest encrypted email (2 of 2)</h4>
     <img
       src="{{ site.url }}/assets/sr_threading/cur_SR_1-email_2_of_2.png"
       alt="Encrypted email 2 of 2 in email client"
       class="screenshot screenshot-landscape zoomable"
     />
 
-    <h3>Step 2. Authenticate & decrypt latest email</h3>
+    <h4>Step 2. Authenticate & decrypt latest email</h4>
     <img
       src="{{ site.url }}/assets/sr_threading/cur_SR_3-SR_2_of_2.png"
       alt="Decrypted email 2 of 2 in Secure Reader"
       class="screenshot screenshot-landscape zoomable"
     />
 
-    <h3>Step 3. Find previous encrypted email (1 of 2)</h3>
+    <h4>Step 3. Find previous encrypted email (1 of 2)</h4>
     <img
       src="{{ site.url }}/assets/sr_threading/cur_SR_5-email_1_of_2.png"
       alt="Encrypted email 1 of 2 in email client"
       class="screenshot screenshot-landscape zoomable"
     />
 
-    <h3>Step 4. Authenticate & decrypt previous email (1 of 2)</h3>
+    <h4>Step 4. Authenticate & decrypt previous email (1 of 2)</h4>
     <img
       src="{{ site.url }}/assets/sr_threading/cur_SR_7-SR_1_of_2.png"
       alt="Decrypted email 2 of 2 in Secure Reader"
@@ -85,7 +122,12 @@ Virtru's Secure Reader (<abbr title="Secure Reader">SR</abbr>) is a web app that
   </ul>
 </details>
 
-## My Role on the Team
+
+
+
+
+<a name="1.3"></a>
+### My Role on the Team
 
 <ul>
   <li>myself, Senior Interaction Designer to design solutions</li>
@@ -94,63 +136,75 @@ Virtru's Secure Reader (<abbr title="Secure Reader">SR</abbr>) is a web app that
   <li>a User Researcher to evaluate</li>
 </ul>
 
-# Design Process
+
+
+
+
+<a name="2"></a>
+## Design Process
 
 Product Management asked me to design for Secure Reader (<abbr title="Secure Reader">SR</abbr>) threading in Spring 2021. Engineering had already started evaluating technical feasibility and exploring implementations. My first discussions and anecdotal research ensured we built the best slice of this feature, not everything various customers thought it should be.
 
 
-## 1. Choose "threading" definition
+
+
+
+<a name="2.1"></a>
+### 1. Choose "threading" definition
+
+The first problem was that email "threading" is ambiguous.
 
 <details>
-  <h3>Email "threading" is ambiguous</h3>
 
-  <ol>
-    <li>
-      <p>Conversation view in Gmail and Outlook</p>
+  <h4>Conversation view in Gmail and Outlook</h4>
 
-      <img
-        src="{{ site.url }}/assets/sr_threading/defn/conversation-view.png"
-        alt="Gmail conversation view example of threading - 5 messages"
-        class="screenshot screenshot-landscape"
-      />
+  <img
+    src="{{ site.url }}/assets/sr_threading/defn/conversation-view.png"
+    alt="Gmail conversation view example of threading - 5 messages"
+    class="screenshot screenshot-landscape"
+  />
 
-      <ul>
-        <li>Messages with a shared subject line are displayed in a list where each message is given a similar visual treatment.</li>
-        <li>Earlier messages are visible by default.</li>
-        <li>Messages may or may not have quoted content in the body of each</li>
-        email. Expanding the quoted content shows earlier messages.
-        <li>Typically chronological (oldest to newest)</li>
-      </ul>
-    </li>
+  <ul>
+    <li>Messages with a shared subject line are displayed in a list where each message is given a similar visual treatment.</li>
+    <li>Earlier messages are visible by default.</li>
+    <li>Messages may or may not have quoted content in the body of each</li>
+    email. Expanding the quoted content shows earlier messages.
+    <li>Typically chronological (oldest to newest)</li>
+  </ul>
 
-    <li>
-      <p>Quoted content in the body of an email</p>
 
-      <img
-        src="{{ site.url }}/assets/sr_threading/defn/quoting.png"
-        alt="Quoted email example of threading - 2 messages"
-        class="screenshot screenshot-landscape"
-      />
 
-      <ul>
-        <li>When composing a reply or forward, most email clients insert the</li>
-        previous message body as a quote into the bottom of the new email.
-        <li>When reading an email with a quoted message, earlier messages are</li>
-        collapsed by default.
-        <li>Quoted messages are given different visual treatment from the</li>
-        currently viewed or composed message.
-        <li>Typically reverse chronological (newest to oldest)</li>
-      </ul>
-    </li>
 
-    <li>
-      Both conversation view and quoting preserve context. Either would help <abbr title="Secure Reader">SR</abbr> users understand more about where the currently unlocked message fits in. So which should we do?
-    </li>
-  </ol>
 
-  <h3>Conversation view as "<abbr title="Secure Reader">SR</abbr> threading"</h3>
+  <h4>Quoted content in the body of an email</h4>
 
-  <h4>Upsides</h4>
+  <img
+    src="{{ site.url }}/assets/sr_threading/defn/quoting.png"
+    alt="Quoted email example of threading - 2 messages"
+    class="screenshot screenshot-landscape"
+  />
+
+  <ul>
+    <li>When composing a reply or forward, most email clients insert the</li>
+    previous message body as a quote into the bottom of the new email.
+    <li>When reading an email with a quoted message, earlier messages are</li>
+    collapsed by default.
+    <li>Quoted messages are given different visual treatment from the</li>
+    currently viewed or composed message.
+    <li>Typically reverse chronological (newest to oldest)</li>
+  </ul>
+
+  <blockquote>
+    Both conversation view and quoting preserve context. Either would help <abbr title="Secure Reader">SR</abbr> users understand more about where the currently unlocked message fits in. So which should we do?
+  </blockquote>
+
+
+
+
+
+  <h4>Conversation view as "<abbr title="Secure Reader">SR</abbr> threading"</h4>
+
+  <strong>Upsides</strong>
 
     <ul>
       <li>Easier to follow the conversation because each message has the same visual weight.</li>
@@ -159,21 +213,25 @@ Product Management asked me to design for Secure Reader (<abbr title="Secure Rea
       <li>Future-proofing <abbr title="Secure Reader">SR</abbr> — a similar visual treatment of each message leaves room to reply to earlier messages directly from <abbr title="Secure Reader">SR</abbr>.</li>
     </ul>
 
-  <h4>Downsides</h4>
+  <strong>Downsides</strong>
   <ul>
     <li>For performance reasons, we shouldn’t load the entire
     conversation like an email client. Decrypting every earlier message would make reading the latest message take too long.</li>
   </ul>
 
-  <h3>Quoted content as "<abbr title="Secure Reader">SR</abbr> threading"</h3>
 
-  <h4>Upsides</h4>
+
+
+
+  <h4>Quoted content as "<abbr title="Secure Reader">SR</abbr> threading"</h4>
+
+  <strong>Upsides</strong>
   <ul>
     <li>Since the UI emphasizes the current message and not earlier ones, it’s faster to read.</li>
     <li>Also faster to scan for and read in cases where earlier messages aren’t useful or necessary to the context of the current message.</li>
   </ul>
 
-  <h4>Downsides</h4>
+  <strong>Downsides</strong>
   <ul>
     <li>Each quoted message shrinks the width available to display the message body, like Russian nesting dolls.</li>
     <li>Readability suffers for longer conversations.</li>
@@ -183,9 +241,13 @@ Product Management asked me to design for Secure Reader (<abbr title="Secure Rea
   <mark>I choose conversation view as "<abbr title="Secure Reader">SR</abbr> threading"</mark>, because it had more upsides and felt like a more modern approach.
 </details>
 
-## 2. Account for all message states
 
-<details>
+
+
+
+<a name="2.2"></a>
+### 2. Account for all message states
+
   <p>
     I sketched out the message states in my notebook as I understood them. Engineering helped me confirm and revise the possible transitions:
 
@@ -212,13 +274,16 @@ Product Management asked me to design for Secure Reader (<abbr title="Secure Rea
     <li>can decrypt</li>
   </ul>
   </p>
-</details>
 
-## 3. Design for mobile web
+
+
+
+
+<a name="2.3"></a>
+### 3. Design for mobile web
 
 <p>I started with mobile designs; it's <mark>easier to scale up to larger screens than shrink the experience down.</mark></p>
 
-<details>
   <p>
     If this is our current state (1 of ? messages in a thread decrypted)&hellip;
 
@@ -284,9 +349,12 @@ Product Management asked me to design for Secure Reader (<abbr title="Secure Rea
     />
   </p>
 
-</details>
 
-## 4. Confirm direction with stakeholders
+
+
+
+<a name="2.4"></a>
+### 4. Confirm direction with stakeholders
 
 <p>
   When I demoed the mobile web design prototype before proceeding, there was pushback from stakeholders. <mark>I persuaded the team to not decrypt more than one previous message at a time.</mark>
@@ -318,10 +386,16 @@ Product Management asked me to design for Secure Reader (<abbr title="Secure Rea
 
 </details>
 
-## 5. Design for desktop web
+
+
+
+
+<a name="2.5"></a>
+### 5. Design for desktop web
+
+<p>The mobile screens scaled up nicely to the larger resolution of desktop browsers.</p>
 
 <details>
-  <p>The mobile screens scaled up nicely to the larger resolution of desktop browsers.</p>
 
   <p>
     Here's what a transition looks like&hellip;
@@ -354,14 +428,19 @@ Product Management asked me to design for Secure Reader (<abbr title="Secure Rea
 
 </details>
 
-## 6. Usability test
+
+
+
+
+<a name="2.6"></a>
+### 6. Usability test
+
+<p>
+  Before launch, I worked with one of our User Researchers to evaluate the effectiveness of the design with 10 external users. We recruited  participants via UserTesting.com. We split participants into two groups&mdash;<strong>current experience vs. new experience</strong>.
+</p>
 
 <details>
-  <p>
-    Before launch, I worked with one of our User Researchers to evaluate the effectiveness of the design with 10 external users. We recruited  participants via UserTesting.com. We split participants into two groups&mdash;<strong>current experience vs. new experience</strong>.
-  </p>
-
-  <h3>Current experience&mdash;no threading</h3>
+  <h4>Current experience&mdash;no threading</h4>
   <ol>
     <li>
       <a href="{{ site.url }}/assets/sr_threading/usertest/cur_ux/cur_0.png">See Gmail inbox with unread messages</a>
@@ -394,7 +473,7 @@ Product Management asked me to design for Secure Reader (<abbr title="Secure Rea
     </li>
   </ol>
 
-  <h3>New experience&mdash;threaded secure messages</h3>
+  <h4>New experience&mdash;threaded secure messages</h4>
   <ol>
     <li>
       <a href="{{ site.url }}/assets/sr_threading/usertest/new_ux/new_0.png">See Gmail inbox with unread messages</a>
@@ -434,13 +513,16 @@ Product Management asked me to design for Secure Reader (<abbr title="Secure Rea
   </p>
 </details>
 
-## 7. Track production metrics & customer feedback
+
+
+
+
+<a name="2.7"></a>
+### 7. Track production metrics & customer feedback
 
 <p>
   I advocated for us to <mark>measure more than simple clicks</mark> on the previous message <abbr title="call to action">CTA</abbr>. With my involvement and planning, we were able to instrument the entire threading experience. Our resident product data expert was glad to be included and helped refine events and properties.
 </p>
-
-<details>
 
   <p>  
     Within a day of launching, threading was available for ~33% of encrypted messages:
@@ -452,7 +534,7 @@ Product Management asked me to design for Secure Reader (<abbr title="Secure Rea
     />
   </p>
 
-  <h3>Quantitative answers I sought</h3>
+  <h4>Quantitative answers I sought</h4>
 
   <ol>
     <li>
@@ -495,7 +577,7 @@ Product Management asked me to design for Secure Reader (<abbr title="Secure Rea
     </li>
   </ol>
 
-  <h3>Qualitative feedback</h3>
+  <h4>Qualitative feedback</h4>
 
   <blockquote>
     <p>
@@ -521,9 +603,12 @@ Product Management asked me to design for Secure Reader (<abbr title="Secure Rea
     <cite>- Virtru <abbr title="Senior Vice President">SVP</abbr> of Customer Success</cite>
   </blockquote>
 
-</details>
 
-# Retrospective
+
+
+
+<a name="3"></a>
+## Retrospective
 
 <p>
   I'm satisfied with the initial impact of this design. I'll revisit the retrospective when I have more distance from this effort.
