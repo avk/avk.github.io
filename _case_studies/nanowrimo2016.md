@@ -7,7 +7,11 @@ date: 2017-04-30
 cover_image: /assets/nnwm/cover.png
 ---
 
-![Work sample from this case study]({{ site.url }}/assets/nnwm/cover.png)
+<img
+  src="{{ site.url }}/assets/nnwm/cover.png"
+  alt="Work sample from this case study"
+  class="screenshot screenshot-landscape"
+/>
 
 # <small>Case Study:</small> <br />30-day Novel Challenge
 
@@ -209,7 +213,11 @@ Convince writers to start and finish new 50,000-word novels in 30 days using  ne
   </p>
 
   <p>
-    <img src="{{ site.url }}/assets/nnwm/nnwm-lp.png" alt="NaNoWriMo 2016 Landing Page for TheRightMargin">
+    <img
+      src="{{ site.url }}/assets/nnwm/nnwm-lp.png"
+      alt="NaNoWriMo 2016 Landing Page for TheRightMargin"
+      class="screenshot screenshot-landscape zoomable"
+    />
   </p>
 
 </details>
@@ -223,7 +231,11 @@ Convince writers to start and finish new 50,000-word novels in 30 days using  ne
   </p>
 
   <p>
-    <img src="{{ site.url }}/assets/nnwm/zero-data.png" alt="TheRightMargin&#39;s zero-data view">
+    <img
+      src="{{ site.url }}/assets/nnwm/zero-data.png"
+      alt="TheRightMargin UI - zero-data view"
+      class="screenshot screenshot-landscape zoomable"
+    />
   </p>
 
   <p>
@@ -231,7 +243,11 @@ Convince writers to start and finish new 50,000-word novels in 30 days using  ne
   </p>
 
   <p>
-    <img src="{{ site.url }}/assets/nnwm/nnwm-data.png" alt="TheRightMargin&#39;s new NaNoWriMo project">
+    <img
+      src="{{ site.url }}/assets/nnwm/nnwm-data.png"
+      alt="TheRightMargin UI - new NaNoWriMo project"
+      class="screenshot screenshot-landscape zoomable"
+    />
   </p>
 
   <p>
@@ -311,8 +327,6 @@ Convince writers to start and finish new 50,000-word novels in 30 days using  ne
   </p>
 
 </details>
-
-## See the live experience
 
 <a href="https://www.therightmargin.com/nanowrimo?ref=avkux" type="button" class="btn btn-success" target="_blank">&#10004; In Production (2016-17)</a>
 

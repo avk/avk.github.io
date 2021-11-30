@@ -7,7 +7,11 @@ date: 2017-03-31
 cover_image: /assets/note_to_self/production_v1.gif
 ---
 
-![Work sample from this case study]({{ site.url }}/assets/note_to_self/production_v1.gif)
+<img
+  src="{{ site.url }}/assets/note_to_self/production_v1.gif"
+  alt="Work sample from this case study"
+  class="screenshot screenshot-landscape"
+/>
 
 # <small>Case Study:</small> <br />Note to Self—From Research to Launch
 
@@ -291,7 +295,11 @@ We condensed 10 initial concepts to the following two prototypes.
   </ol>
 
   <p>
-    <img src="{{ site.url }}/assets/note_to_self/prototype_a.jpg" alt="Prototype A flow">
+    <img
+      src="{{ site.url }}/assets/note_to_self/prototype_a.jpg"
+      alt="Prototype A flow"
+      class="screenshot screenshot-landscape zoomable"
+    />
   </p>
 
   <p>
@@ -341,7 +349,11 @@ We condensed 10 initial concepts to the following two prototypes.
   </ol>
 
   <p>
-    <img src="{{ site.url }}/assets/note_to_self/prototype_b.jpg" alt="Prototype B flow">
+    <img
+      src="{{ site.url }}/assets/note_to_self/prototype_b.jpg"
+      alt="Prototype B flow"
+      class="screenshot screenshot-landscape zoomable"
+    />
   </p>
 
   <p>
@@ -732,7 +744,11 @@ You've finally managed to discover the secret to immortality. Suddenly, Death ap
   </p>
 
   <p>
-    <img src="{{ site.url }}/assets/note_to_self/build_placement.jpg" alt="Where should we ask the question?">
+    <img
+      src="{{ site.url }}/assets/note_to_self/build_placement.jpg"
+      alt="Where should we ask the question?"
+      class="screenshot screenshot-landscape zoomable"
+    />
   </p>
 
   <p>
@@ -740,7 +756,11 @@ You've finally managed to discover the secret to immortality. Suddenly, Death ap
   </p>
 
   <p>
-    <img src="{{ site.url }}/assets/note_to_self/build_ui.jpg" alt="Note to self entry points">
+    <img
+      src="{{ site.url }}/assets/note_to_self/build_ui.jpg"
+      alt="Note to self entry points"
+      class="screenshot screenshot-landscape zoomable"
+    />
   </p>
 
   <p>
@@ -748,7 +768,11 @@ You've finally managed to discover the secret to immortality. Suddenly, Death ap
   </p>
 
   <p>
-    <img src="{{ site.url }}/assets/note_to_self/build_leave_flows.jpg" alt="Note to self states and flows">
+    <img
+      src="{{ site.url }}/assets/note_to_self/build_leave_flows.jpg"
+      alt="Note to self states and flows"
+      class="screenshot screenshot-landscape zoomable"
+    />
   </p>
 
   <p>
@@ -756,7 +780,11 @@ You've finally managed to discover the secret to immortality. Suddenly, Death ap
   </p>
 
   <p>
-    <img src="{{ site.url }}/assets/note_to_self/build_return_flows.jpg" alt="Prototype B implementation sketch">
+    <img
+      src="{{ site.url }}/assets/note_to_self/build_return_flows.jpg"
+      alt="Prototype B implementation sketch"
+      class="screenshot screenshot-landscape zoomable"
+    />
   </p>
 
   <p>
@@ -772,7 +800,11 @@ You've finally managed to discover the secret to immortality. Suddenly, Death ap
   </p>
 
   <p>
-    <img src="{{ site.url }}/assets/note_to_self/production_pulse.gif" alt="Production build v1">
+    <img
+      src="{{ site.url }}/assets/note_to_self/production_pulse.gif"
+      alt="Production build v1"
+      class="screenshot screenshot-landscape zoomable"
+    />
   </p>
 
   <p>
@@ -780,7 +812,10 @@ You've finally managed to discover the secret to immortality. Suddenly, Death ap
   </p>
 
   <p>
-    <img src="{{ site.url }}/assets/note_to_self/production_v1.gif" alt="Production build v1">
+    <img
+      src="{{ site.url }}/assets/note_to_self/production_v1.gif" alt="Production build v1"
+      class="screenshot screenshot-landscape zoomable"
+    />
   </p>
 
   <p>

@@ -7,7 +7,11 @@ date: 2018-01-31
 cover_image: /assets/file_viewer/production-text-fullscreen.png
 ---
 
-![Work sample from this case study]({{ site.url }}/assets/file_viewer/production-text-fullscreen.png)
+<img
+  src="{{ site.url }}/assets/file_viewer/production-text-fullscreen.png"
+  alt="Work sample from this case study"
+  class="screenshot screenshot-landscape"
+/>
 
 # <small>Case Study:</small> <br />Redesign File Viewer for 9,000+ Creative Orgs
 
@@ -105,7 +109,13 @@ Wireframe & redesign a file viewer for displaying 50+ file types online&mdash;a 
     The product manager started a spec with what functionality and UI affordances the new file viewer had to support. She also collected a few UI examples of other viewers in an InVision board. I started capturing screenshots of how our current viewer handled various file types. I noted inconsistencies, got clarifications about historical decisions, and captured cases not covered in the spec. For example, how do we handle files a submitter can upload but our file converter cannot render, such as executables?
   </p>
 
-  <p><img src="{{ site.url }}/assets/file_viewer/initial-notes.jpg" alt="Notes on current UI"></p>
+  <p>
+    <img
+      src="{{ site.url }}/assets/file_viewer/initial-notes.jpg"
+      alt="Notes on current UI"
+      class="screenshot screenshot-landscape zoomable"
+    />
+  </p>
 </details>
 
 ## 2. Experiment with Paper Cut-Outs
@@ -119,13 +129,25 @@ Wireframe & redesign a file viewer for displaying 50+ file types online&mdash;a 
     <p>Can we find consistency across affordances like previous/next page in a document and volume controls in audio &amp; video?</p>
   </blockquote>
 
-  <p><img src="{{ site.url }}/assets/file_viewer/paper-ui.jpg" alt="Reorder-able paper affordances"></p>
+  <p>
+    <img
+      src="{{ site.url }}/assets/file_viewer/paper-ui.jpg"
+      alt="Reorder-able paper affordances"
+      class="screenshot screenshot-landscape zoomable"
+    />
+  </p>
 
   <p>
     Afterwards, I worked bottom-up from the smallest UI elements to larger patterns. I played with different hierarchies within the file viewers.
   </p>
 
-  <p><img src="{{ site.url }}/assets/file_viewer/hierarchy-concepts.jpg" alt="Hierarchy concept sketches"></p>
+  <p>
+    <img
+      src="{{ site.url }}/assets/file_viewer/hierarchy-concepts.jpg"
+      alt="Hierarchy concept sketches"
+      class="screenshot screenshot-landscape zoomable"
+    />
+  </p>
 
   <p>
     I shared these concepts in person with the PM, the visual designer. I proceeded to wireframes without significant feedback.
@@ -154,9 +176,21 @@ Wireframe & redesign a file viewer for displaying 50+ file types online&mdash;a 
     I surprised my team with the number of states I covered. They wondered how these states rendered in our current viewer. Thus, I included a screenshot of the current state before each wireframed screen.
   </p>
 
-  <p><img src="{{ site.url }}/assets/file_viewer/wires-1.png" alt="Initial wireframes in Freehand"></p>
+  <p>
+    <img
+      src="{{ site.url }}/assets/file_viewer/wires-1.png"
+      alt="Initial wireframes in Freehand"
+      class="screenshot screenshot-landscape zoomable"
+    />
+  </p>
 
-  <p><img src="{{ site.url }}/assets/file_viewer/wires-1-compare.png" alt="Detailed wireframes in Freehand"></p>
+  <p>
+    <img
+      src="{{ site.url }}/assets/file_viewer/wires-1-compare.png"
+      alt="Detailed wireframes in Freehand"
+      class="screenshot screenshot-landscape zoomable"
+    />
+  </p>
 
   <blockquote>
     <p>Freehand made it easy to show many low-fi screens at once, but quite difficult to leave comments.</p>
@@ -170,9 +204,21 @@ Wireframe & redesign a file viewer for displaying 50+ file types online&mdash;a 
     Only at this point did the visual designer inform me that we would also need mobile web designs for the viewer. I regretted not seeking that clarification up front in the spec, but added the mobile states:
   </p>
 
-  <p><img src="{{ site.url }}/assets/file_viewer/wires-2-mobile.png" alt="Mobile wireframes in Freehand"></p>
+  <p>
+    <img
+      src="{{ site.url }}/assets/file_viewer/wires-2-mobile.png"
+      alt="Mobile wireframes in Freehand"
+      class="screenshot screenshot-landscape zoomable"
+    />
+  </p>
 
-  <p><img src="{{ site.url }}/assets/file_viewer/wires-2-mobile-detail.png" alt="Detailed mobile wireframes in Freehand"></p>
+  <p>
+    <img
+      src="{{ site.url }}/assets/file_viewer/wires-2-mobile-detail.png"
+      alt="Detailed mobile wireframes in Freehand"
+      class="screenshot screenshot-landscape zoomable"
+    />
+  </p>
 
 </details>
 
@@ -187,7 +233,13 @@ Wireframe & redesign a file viewer for displaying 50+ file types online&mdash;a 
     I started with viewing text files. Engineering agreed that text files were crucial and they would start with that viewer experience.
   </p>
 
-  <p><img src="{{ site.url }}/assets/file_viewer/mocks-1.png" alt="My first mockups"></p>
+  <p>
+    <img
+      src="{{ site.url }}/assets/file_viewer/mocks-1.png"
+      alt="My first mockups"
+      class="screenshot screenshot-landscape zoomable"
+    />
+  </p>
 
   <p>
     When I finished the initial mockups, I walked the visual designer through my InVision screens and Sketch artboards. Then, I went on paternity leave for 30 days.
@@ -201,15 +253,33 @@ Wireframe & redesign a file viewer for displaying 50+ file types online&mdash;a 
     In the intervening 30 days, the visual designer had iterated quite a bit on my initial mocks.
   </p>
 
-  <p><img src="{{ site.url }}/assets/file_viewer/mocks-iterated.png" alt="Mockup iterations during my leave"></p>
+  <p>
+    <img
+      src="{{ site.url }}/assets/file_viewer/mocks-iterated.png"
+      alt="Mockup iterations during my leave"
+      class="screenshot screenshot-landscape zoomable"
+    />
+  </p>
 
   <p>
     I returned from paternity leave just as the visual designer announced she was departing from the company. I iterated on the final visual details to the satisfaction of product and engineering.
   </p>
 
-  <p><img src="{{ site.url }}/assets/file_viewer/mocks-final.png" alt="My final mockups"></p>
+  <p>
+    <img
+      src="{{ site.url }}/assets/file_viewer/mocks-final.png"
+      alt="My final mockups"
+      class="screenshot screenshot-landscape zoomable"
+    />
+  </p>
 
-  <p><img src="{{ site.url }}/assets/file_viewer/mocks-final-mobile.png" alt="My final mobile mockups"></p>
+  <p>
+    <img
+      src="{{ site.url }}/assets/file_viewer/mocks-final-mobile.png"
+      alt="My final mobile mockups"
+      class="screenshot screenshot-landscape zoomable"
+    />
+  </p>
 </details>
 
 ## 6. Iterate in Parallel with Engineering
@@ -231,7 +301,13 @@ Wireframe & redesign a file viewer for displaying 50+ file types online&mdash;a 
     The process worked well for the two of us. We worked through the list, encouraging other stakeholders to provide input. They did so and followed my format.
   </p>
 
-  <p><img src="{{ site.url }}/assets/file_viewer/eng-diffs.png" alt="Observed-expected feedback example"></p>
+  <p>
+    <img
+      src="{{ site.url }}/assets/file_viewer/eng-diffs.png"
+      alt="Observed-expected feedback example"
+      class="screenshot screenshot-landscape zoomable"
+    />
+  </p>
 
   <p>There were no substantial UI changes at this phase.</p>
 </details>
@@ -255,13 +331,25 @@ Wireframe & redesign a file viewer for displaying 50+ file types online&mdash;a 
     Most customer support requests involved backend issues (e.g. missing fonts, unsupported files). The only prominent UI issue came from the bottom toolbar when viewing text files:
   </p>
 
-  <p><img src="{{ site.url }}/assets/file_viewer/notch-problem.png" alt="Reading issue from bottom toolbar"></p>
+  <p>
+    <img
+      src="{{ site.url }}/assets/file_viewer/notch-problem.png"
+      alt="Reading issue from bottom toolbar"
+      class="screenshot screenshot-landscape zoomable"
+    />
+  </p>
 
   <p>
     I suggested a few alternatives to our own innocent &quot;notch&quot; problem:
   </p>
 
-  <p><img src="{{ site.url }}/assets/file_viewer/notch-solutions.png" alt="Reading issue solutions"></p>
+  <p>
+    <img
+      src="{{ site.url }}/assets/file_viewer/notch-solutions.png"
+      alt="Reading issue solutions"
+      class="screenshot screenshot-landscape zoomable"
+    />
+  </p>
 
   <p>
     We expanded the toolbar to be full width. This reduced the viewing area by one line of text but never interfered with the reading experience.
@@ -324,13 +412,25 @@ Wireframe & redesign a file viewer for displaying 50+ file types online&mdash;a 
 
 ## Previous file viewer, July 2017:
 
-![2017 file viewer with text]({{ site.url }}/assets/file_viewer/production-text-before.png)
+<img
+  src="{{ site.url }}/assets/file_viewer/production-text-before.png"
+  alt="2017 file viewer with text"
+  class="screenshot screenshot-landscape screenshot-borderless zoomable"
+/>
 
 ## New file viewer, January 2018:
 
-![New file viewer with text]({{ site.url }}/assets/file_viewer/production-text.png)
+<img
+  src="{{ site.url }}/assets/file_viewer/production-text.png"
+  alt="New file viewer with text"
+  class="screenshot screenshot-landscape screenshot-borderless zoomable"
+/>
 
-![New file viewer with text in full screen]({{ site.url }}/assets/file_viewer/production-text-fullscreen.png)
+<img
+  src="{{ site.url }}/assets/file_viewer/production-text-fullscreen.png"
+  alt="New file viewer with text in full screen"
+  class="screenshot screenshot-landscape screenshot-borderless zoomable"
+/>
 
 <a href="https://www.submittable.com/" type="button" class="btn btn-success" target="_blank">&#10004; In Production (2017-now)</a>
 
