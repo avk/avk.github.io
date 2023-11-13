@@ -5,6 +5,7 @@ overview: Introduced user flows to improve an overlooked and under-tested sign u
 skills: user flows, product metrics
 date: 2014-10-12
 cover_image: /assets/vevo_flows/cover.png
+active: true
 ---
 
 ![Work sample from this case study]({{ site.url }}/assets/vevo_flows/cover.png)

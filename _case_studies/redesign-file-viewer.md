@@ -5,6 +5,7 @@ overview: 50+ file types consistently displayed on desktop & mobile in "as close
 skills: wireframing, visual design
 date: 2018-01-31
 cover_image: /assets/file_viewer/production-text-fullscreen.png
+active: true
 ---
 
 <img

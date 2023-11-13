@@ -5,6 +5,7 @@ overview: 27% sign up rate, 6x increase in time on site, and 7 new novels drafte
 skills: user flows, product metrics, visual design
 date: 2017-04-30
 cover_image: /assets/nnwm/cover.png
+active: true
 ---
 
 <img

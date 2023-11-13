@@ -5,6 +5,7 @@ overview: Solved an encryption usability problem that closed enterprise customer
 skills: user flows, visual design, product metrics, usability testing
 date: 2021-05-21
 cover_image: /assets/sr_threading/SR-threading-cover.png
+active: true
 ---
 
 <img

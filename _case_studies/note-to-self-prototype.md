@@ -5,6 +5,7 @@ overview: In 4 weeks, designed, tested, and launched a unique feature to success
 skills: user research, user flows, wireframing, prototyping
 date: 2017-03-31
 cover_image: /assets/note_to_self/production_v1.gif
+active: false
 ---
 
 <img

@@ -7,7 +7,8 @@ last_modified_at: 2021-07-30
 
 <h1>Case studies</h1>
 
-{% assign case_studies = site.case_studies | sort:date | reverse %}
+{% assign case_studies = site.case_studies | sort:date | reverse | where:
+"active", true %}
 {% for case_study in case_studies %}
 
   <article class="case_study">

@@ -5,6 +5,7 @@ overview: Enabled tighter design-engineering feedback loops, faster regression t
 skills: prototyping, engineering
 date: 2015-12-20
 cover_image: /assets/sg/first-components.png
+active: false
 ---
 
 ![Work sample from this case study]({{ site.url }}/assets/sg/first-components.png)
