@@ -12,7 +12,7 @@ last_modified_at: 2021-07-28
 
 # About me
 
-Hi, I'm Arthur Klepchukov, a UX designer who loves words, trains, and the promise of an empty page. <mark>Discovering the right things to create is more fun than building unvalidated visions.</mark> I'm often the first to ask why, seek metrics, or start sketching flows. I crave understanding user goals, business needs, and how a product or service can fit into the broader world.
+Hi, I'm Arthur Klepchukov, a UX designer who loves words, trains, and the promise of an empty page. <mark>Discovering the right things to create is more fun than building unvalidated visions.</mark> I'm often the first to ask why, seek metrics, or start sketching flows. I crave understanding user goals, business needs, and how a product can fit into the broader world.
 
 
 
