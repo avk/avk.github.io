@@ -52,7 +52,7 @@ My perpetual interests include: effective writing, typography, information archi
 
 ## What shapes my designs
 
-* <mark>3-time startup founder</mark>
+* <mark>4-time startup founder</mark>
 * worked across industries: government, music videos, academia, travel, creative writing
 * <mark>moved 20+ times</mark> and lived in various parts of the United States
 * graduated from <mark><abbr title="University of California, Berkeley">UC Berkeley</abbr></mark>—Cognitive Science, <abbr title="Bachelor of Arts">B.A.</abbr> & Computer Science, minor
