@@ -2,12 +2,12 @@
 layout: default
 title: resume
 permalink: /resume/
-last_modified_at: 2021-07-30
+last_modified_at: 2023-11-01
 ---
 
 # Art's resume
 
-<a href="{{ "/assets/resumes/2021-09-AVK-resume.pdf" | relative_url }}" class="btn btn-primary">
+<a href="{{ "/assets/resumes/2023-11_AVK-resume.pdf" | relative_url }}" class="btn btn-primary">
   Download PDF</a> or explore my <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank">LinkedIn profile</a>.
 
 ## Where I've recently made an impact
@@ -22,7 +22,25 @@ last_modified_at: 2021-07-30
   </thead>
   <tbody>
     <tr>
-      <td>10.2018-<br>present</td>
+      <td>01.2022-<br>present</td>
+      <td>Staff Product Designer @ Okta</td>
+      <td>Remote</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td colspan="2">
+        Lead designer for a suite of new products in the Desktop Multi-factor Authentication (MFA) market that:
+        <ul>
+          <li>Generated $1mm ARR prebookings in the first 7 weeks since announcement</li>
+          <li>Secured users from their first, daily interaction with their work Mac or PC</li>
+          <li>Applied Windows &amp; macOS platform UI conventions to differentiate based on competitive research</li>
+          <li>Evaluated with end users &amp; IT administrators via usability testing and private betas</li>
+          <li>Mentored another designer to clarify problems and prototype solutions in this market</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>10.2018-<br>12.2021</td>
       <td>Senior Interaction Designer @ Virtru</td>
       <td>Washington, DC <br>&amp; Remote</td>
     </tr>
@@ -105,8 +123,8 @@ last_modified_at: 2021-07-30
       </td>
     </tr>
     <tr>
-      <td>2009-<br>2014</td>
-      <td>Founded 3 startups—creative tools, social media, travel</td>
+      <td>2009-<br>2021</td>
+      <td>Founded 4 startups—creative tools, social media, travel, productivity</td>
     </tr>
     <tr>
       <td>2006-<br>2009</td>
