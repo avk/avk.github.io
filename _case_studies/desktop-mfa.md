@@ -112,9 +112,11 @@ I advocated for this opportunity to speak to one of Okta's strengths&mdash;vendo
 
 
 
-### TBD
+### Constraints
 
-TBD
+Following the Windows and macOS interface conventions came with heavy constraints. On Windows login, we were limited to [strictly 10 basic UI elements](https://learn.microsoft.com/en-us/windows/win32/api/credentialprovider/ne-credentialprovider-credential_provider_field_type) and <mark>couldn't even include images or customize the login font in any way</mark>.
+
+On macOS login, we could use the UI elements of any macOS app, but had to either cover up the username &amp; password fields or emulate the entire login window, down to the colorful background image that varies with each release.
 
 
 
