@@ -120,6 +120,32 @@ On macOS login, we could use the UI elements of any macOS app, but had to either
 
 
 
+### Prototyping for feasibility
+
+My macOS and Windows prototypes in Figma mixed UI with authentication logic; both were fully clickable. Interactive logic was crucial since my prototype shared and informed the code engineers would eventually build. I presented these prototypes to the team on a weekly basis to confirm feasibility, eliminate unnecessary states, and ensure I delivered UI for every critical path.
+
+Extensive prototyping allowed us to <mark>simulate and test a complete user experience before we committed to code</mark>.
+
+<img
+  src="{{ site.url }}/assets/mfa/macOS-logic-frame.png"
+  alt="screenshot of logic frame"
+  class="screenshot screenshot-landscape zoomable"
+/>
+
+<img
+  src="{{ site.url }}/assets/mfa/macOS-logic-with-UI.jpg"
+  alt="screenshot of logic frame next to UI frame with prototype connections visible"
+  class="screenshot screenshot-landscape zoomable"
+/>
+
+<img
+  src="{{ site.url }}/assets/mfa/macOS-prototype.jpg"
+  alt="screenshot of zoomed out prototype with all connections visible"
+  class="screenshot screenshot-landscape zoomable"
+/>
+
+
+
 ## Retrospective
 
 lessons learned — did you reach success metrics? Work through the right problem? What would you do better if you could do it again?
