@@ -122,7 +122,9 @@ On macOS login, we could use the UI elements of any macOS app, but had to either
 
 ### Prototyping for feasibility
 
-My macOS and Windows prototypes in Figma mixed UI with authentication logic; both were fully clickable. Interactive logic was crucial since my prototype shared and informed the code engineers would eventually build. I presented these prototypes to the team on a weekly basis to confirm feasibility, eliminate unnecessary states, and ensure I delivered UI for every critical path.
+I prototyped early in low fidelity to clarify what was possible and needed from our solution.
+
+<mark>My prototypes mixed UI with authentication logic</mark>; both were fully clickable. Interactive logic was crucial since my prototype shared and informed the code engineers would eventually build. I presented these prototypes to the team on a weekly basis to confirm feasibility, eliminate unnecessary states, and ensure I delivered UI for every critical path.
 
 Extensive prototyping allowed us to <mark>simulate and test a complete user experience before we committed to code</mark>.
 
@@ -143,6 +145,30 @@ Extensive prototyping allowed us to <mark>simulate and test a complete user expe
   alt="screenshot of zoomed out prototype with all connections visible"
   class="screenshot screenshot-landscape zoomable"
 />
+
+
+
+### Rethinking enrollment with usability testing
+
+Usability testing my Windows prototype with representative users found a key challenge. End users had 50 logins to enroll in additional security after being logged in. Not only did users defer enrollment until the count was low, they expected to enroll when the count reached 0. <mark><span class="decision">Decision</span>: meet end user expectations to minimize error states and troubleshooting costs.</mark>
+
+macOS engineers revisited the feasibility of starting with enrollment during login.  I found inspiration in the macOS Setup interface, which also appears before users are logged in. 
+
+<img
+  src="{{ site.url }}/assets/mfa/macOS-setup.png"
+  alt="screenshot of macOS setup screen before login"
+  class="screenshot screenshot-landscape zoomable"
+/>
+
+This became how we introduced ourselves and enrolled users:
+
+<img
+  src="{{ site.url }}/assets/mfa/macOS-enrollment.png"
+  alt="screenshot of custom macOS enrollment screen before login"
+  class="screenshot screenshot-landscape zoomable"
+/>
+
+Usability testing my macOS prototype eliminated all the enrollment friction we found with the original Windows approach. This approach also simplified the code and implementation logic, making it easier to QA and document.
 
 
 
