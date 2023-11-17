@@ -172,9 +172,29 @@ Usability testing my macOS prototype eliminated all the enrollment friction we f
 
 
 
-## Retrospective
+### Outcomes &amp; Market Feedback
 
-lessons learned — did you reach success metrics? Work through the right problem? What would you do better if you could do it again?
+Following the Windows and macOS interface conventions led to interfaces that felt fully integrated into the existing, familiar, trusted login experience. In beta testing, administrators shared comments like <mark>"it looks like you partenered with Microsoft [or Apple],"</mark> even when we weren't soliciting UI feedback.
+
+<img
+  src="{{ site.url }}/assets/mfa/macOS-FS-factors.png"
+  alt="screenshot of custom macOS Desktop MFA factors"
+  class="screenshot screenshot-landscape zoomable"
+/>
+
+<img
+  src="{{ site.url }}/assets/mfa/macOS-FS-offline.png"
+  alt="screenshot of custom macOS device access code input"
+  class="screenshot screenshot-landscape zoomable"
+/>
+
+<mark>We generated $1mm <abbr title="Annual Recurring Revenue">ARR</abbr> in the first 7 weeks</mark> after the product announcement in Washington, D.C.
+
+<img
+  src="{{ site.url }}/assets/mfa/on-stage.jpg"
+  alt="Desktop MFA shown off on stage at Okta City Tour DC"
+  class="screenshot screenshot-landscape zoomable"
+/>
 
 
 
