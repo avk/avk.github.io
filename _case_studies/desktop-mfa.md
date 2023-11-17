@@ -1,35 +1,42 @@
 ---
 layout: default
-title: Protecting Every macOS Login with Desktop MFA 
+title: Protecting Every Login to macOS &amp; Windows
 overview: Generated $1mm ARR in first 7 weeks by protecting users on every login to their Mac or PC
 skills: prototyping, visual design, usability testing
 date: 2023-10-05
+cover_image: /assets/mfa/macOS-FS-factors.png
 active: true
 ---
 
-# <small>Case Study:</small> <br />Protecting Every macOS Login with Desktop MFA
+# <small>Case Study:</small> <br />{{ page.title }}
 
 <a href="https://www.okta.com/products/device-access/" type="button" class="btn btn-success" target="_blank">&#10004; In Production (2023)</a>
 
 
 
 * [Overview](#1)
-  * [Problem Definition](#1.1)
-  * [Skills Used](#1.2)
-  * [My Role on the Team](#1.3)
+  * [Problem](#1.1)
+  * [Audience & Needs](#1.2)
+  * [Skills](#1.3)
+  * [Team](#1.4)
 
 * [Design Process](#2)
+  * [Competitive Research](#2.1)
+  * [Constraints](#2.2)
+  * [Prototyping](#2.3)
+  * [Usability testing](#2.4)
+
+* [Outcomes](#3)
 
 
-* [Retrospective](#3)
 
-
-
+<a name="1"></a>
 ## Overview
 
 
 
-### Problem Definition
+<a name="1.1"></a>
+### Problem
 
 <img
   src="{{ site.url }}/assets/mfa/macOS-pw-login.png"
@@ -41,6 +48,7 @@ Passwords are no longer enough to protect employees logging into their work Mac 
 
 
 
+<a name="1.2"></a>
 ### Audience & Needs
 
 Protecting every desktop login with <abbr title="Multi-Factor Authentication">MFA</abbr> affects administrators and end users. 
@@ -69,7 +77,8 @@ Protecting every desktop login with <abbr title="Multi-Factor Authentication">MF
 
 
 
-### Skills Used
+<a name="1.3"></a>
+### Skills
 
 * <mark>prototyping</mark>
 * <mark>visual design</mark>
@@ -77,7 +86,8 @@ Protecting every desktop login with <abbr title="Multi-Factor Authentication">MF
 
 
 
-### My Role on the Team
+<a name="1.4"></a>
+### Team
 
 My team at Okta:
 
@@ -88,10 +98,12 @@ My team at Okta:
 
 
 
+<a name="2"></a>
 ## Design Process
 
 
 
+<a name="2.1"></a>
 ### Competitive Research
 
 We weren't the first to market with Desktop <abbr title="Multi-Factor Authentication">MFA</abbr>. But each competitor used a custom interface, rather than following Windows or macOS conventions. 
@@ -112,6 +124,7 @@ I advocated for this opportunity to speak to one of Okta's strengths&mdash;vendo
 
 
 
+<a name="2.2"></a>
 ### Constraints
 
 Following the Windows and macOS interface conventions came with heavy constraints. On Windows login, we were limited to [strictly 10 basic UI elements](https://learn.microsoft.com/en-us/windows/win32/api/credentialprovider/ne-credentialprovider-credential_provider_field_type) and <mark>couldn't even include images or customize the login font in any way</mark>.
@@ -120,6 +133,7 @@ On macOS login, we could use the UI elements of any macOS app, but had to either
 
 
 
+<a name="2.3"></a>
 ### Prototyping for feasibility
 
 I prototyped early in low fidelity to clarify what was possible and needed from our solution.
@@ -148,7 +162,8 @@ Extensive prototyping allowed us to <mark>simulate and test a complete user expe
 
 
 
-### Rethinking enrollment with usability testing
+<a name="2.4"></a>
+### Usability testing improved enrollment
 
 Usability testing my Windows prototype with representative users found a key challenge. End users had 50 logins to enroll in additional security after being logged in. Not only did users defer enrollment until the count was low, they expected to enroll when the count reached 0. <mark><span class="decision">Decision</span>: meet end user expectations to minimize error states and troubleshooting costs.</mark>
 
@@ -172,7 +187,8 @@ Usability testing my macOS prototype eliminated all the enrollment friction we f
 
 
 
-### Outcomes &amp; Market Feedback
+<a name="3"></a>
+## Outcomes &amp; Market Feedback
 
 Following the Windows and macOS interface conventions led to interfaces that felt fully integrated into the existing, familiar, trusted login experience. In beta testing, administrators shared comments like <mark>"it looks like you partenered with Microsoft [or Apple],"</mark> even when we weren't soliciting UI feedback.
 
