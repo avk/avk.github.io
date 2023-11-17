@@ -9,7 +9,7 @@ active: true
 
 # <small>Case Study:</small> <br />Protecting Every macOS Login with Desktop MFA
 
-<a href="#" type="button" class="btn btn-success" target="_blank">&#10004; In Production (2023)</a>
+<a href="https://www.okta.com/products/device-access/" type="button" class="btn btn-success" target="_blank">&#10004; In Production (2023)</a>
 
 
 
@@ -178,6 +178,6 @@ lessons learned — did you reach success metrics? Work through the right pr
 
 
 
-<a href="#" type="button" class="btn btn-success" target="_blank">&#10004; In Production (2023)</a>
+<a href="https://www.okta.com/products/device-access/" type="button" class="btn btn-success" target="_blank">&#10004; In Production (2023)</a>
 
 {% include footer_case_study.md %}
