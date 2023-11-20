@@ -29,15 +29,17 @@ last_modified_at: 2021-07-30
         </a>
       </h2>
 
-      <p>
+      <div>
         <strong>Approach</strong>:&nbsp;
         {%- assign skills = case_study.skills | split:", " -%}
+        <ul class="skills">
         {%- for skill in skills -%}
-          <mark>
-            {{ skill }}
-          </mark>{% if forloop.last == false %},&nbsp;{% endif %}
+          <li>
+            <mark class="skills__skill">{{ skill }}</mark>
+          </li>
         {%- endfor -%}
-      </p>
+        </ul>
+      </div>
 
       <p>
         <strong>Impact</strong>:
