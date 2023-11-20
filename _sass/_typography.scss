@@ -153,8 +153,20 @@ mark {
 
 
 .case_study {
+  display: flex;
+  flex-direction: column;
+  gap: $leading / 3;
   margin-bottom: $leading * 3;
   margin-top: $leading;
+
+  a, 
+  .summary {
+    flex: 50%;
+  }
+
+  & > a {
+    border-bottom: none !important;
+  }
 
   .summary {
     h2 {
@@ -164,6 +176,16 @@ mark {
     p {
       margin-bottom: $leading / 2;
     }
+    a {
+      display: inline-block;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .case_study {
+    flex-direction: row;
+    gap: $leading;
   }
 }
 
