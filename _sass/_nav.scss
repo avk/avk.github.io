@@ -59,17 +59,19 @@ a.btn {
 a.btn-primary,
 .btn-success,
 a.btn-success {
-  background-color: $color-primary-1;
+  background-color: $color-interactive;
   border-color: transparent;
-  color: $color-primary-8;
+  color: $color-lighest;
 
   &:hover {
-    background-color: $color-interactive;
-    color: $color-lighest;
+    background-color: $color-primary-1;
+    color: $color-darkest;
   }
 
   &:focus {
-    outline: 1px solid $color-darkest;
+    background-color: $color-lighest;
+    color: $color-darkest;
+    outline: 3px solid $color-interactive;
   }
 
   &:active {

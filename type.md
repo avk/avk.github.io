@@ -58,8 +58,6 @@ In my younger and more vulnerable years my father gave me some advice that I’v
 
 
 
-
-
 ## Inline elements
 
 ### strong
@@ -96,6 +94,16 @@ In my younger and more vulnerable years my father gave me some advice that I’v
 </p>
 
 
+
+## Actions
+
+### Links
+
+<a href="#">Link</a>
+
+### Buttons
+
+<a href="https://www.okta.com/products/device-access/" type="button" class="btn btn-success" target="_blank">✔ In Production (2023)</a>
 
 
 
