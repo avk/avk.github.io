@@ -18,6 +18,12 @@ ul, ol, dl, figure {
   line-height: $leading;
   margin-bottom: $leading;
 }
+h2, h3 { 
+  margin-bottom: $leading / 2;
+}
+h4, h5, h6 {
+  margin-bottom: $leading / 3;
+}
 
 hr {
   margin-bottom: $leading;
