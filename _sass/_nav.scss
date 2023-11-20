@@ -29,6 +29,14 @@ a:active {
   color: $color-visited;
   outline: none;
 }
+h1 a:link,
+h2 a:link,
+h3 a:link,
+h4 a:link,
+h5 a:link,
+h6 a:link {
+  border-bottom: none;
+}
 
 
 
