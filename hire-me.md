@@ -12,7 +12,7 @@ last_modified_at: 2021-07-28
   />
 </figure>
 
-# Let's design together
+# How we'll design together
 
 {% include contact_cta.html %}
 
@@ -22,10 +22,8 @@ last_modified_at: 2021-07-28
 
 <article>
 
-  <h2>How we'll work together</h2>
-
   <section class="testimonial">
-    <h3>Leaders</h3>
+    <h2>Leaders</h2>
 
     <blockquote>
       <p>
@@ -44,7 +42,7 @@ last_modified_at: 2021-07-28
 
 
   <section class="testimonial">
-    <h3>Designers</h3>
+    <h2>Designers</h2>
 
     <blockquote>
       <p>
@@ -63,7 +61,7 @@ last_modified_at: 2021-07-28
 
 
   <section class="testimonial">
-    <h3>Marketers</h3>
+    <h2>Marketers</h2>
 
     <blockquote>
       <p>
@@ -82,7 +80,7 @@ last_modified_at: 2021-07-28
 
 
   <section class="testimonial">
-    <h3>Engineers</h3>
+    <h2>Engineers</h2>
 
     <blockquote>
       <p>
