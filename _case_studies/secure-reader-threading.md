@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Secure Threading for Encrypted Email
-overview: Solved an encryption usability problem that closed enterprise customers like Equifax and Dish Network, delighted Capital One and Verizon, and had a 98+% success rate.
+overview: Solved an encryption usability problem that closed enterprise customers like Equifax and Dish Network, delighted Capital One and Verizon, and had a <mark>98+% success rate</mark>.
 skills: user flows, visual design, product metrics, usability testing
 date: 2021-05-21
 cover_image: /assets/sr_threading/SR-threading-cover.png

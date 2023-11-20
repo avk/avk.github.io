@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Protecting Every Login to macOS &amp; Windows
-overview: Generated $1mm ARR in first 7 weeks by protecting users on every login to their Mac or PC
+overview: Generated <mark>$1mm ARR</mark> in first 7 weeks by protecting users on every login to their Mac or PC.
 skills: prototyping, visual design, usability testing
 date: 2023-10-05
 cover_image: /assets/mfa/macOS-FS-factors.png
