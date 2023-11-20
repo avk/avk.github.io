@@ -58,6 +58,21 @@ last_modified_at: 2021-07-28
 
 
 
+  <section class="testimonial">
+    <h2>Engineers</h2>
+
+    <blockquote>
+      <p>
+        Art is one of the best teammates I&apos;ve ever worked with. He always looks out for the team&apos;s best interest and is <mark>a natural leader, pushing anyone he is working with to the next level.</mark> As an engineer he is detailed oriented and always looking to up his game with best practices and improvements in tooling and workflow. He also has a passion for UX and truly cares about the user.
+      </p>
+      <cite>
+        &mdash;
+        <a href="https://www.linkedin.com/in/elyse-kolker-gordon/" target="_blank">
+          Elyse Kolker Gordon</a>, <strong>Web Lead</strong>, Vevo
+      </cite>
+    </blockquote>
+  </section>
+
 
 
   <section class="testimonial">
@@ -71,25 +86,6 @@ last_modified_at: 2021-07-28
         &mdash;
         <a href="https://www.linkedin.com/in/wb-sullivan/" target="_blank">
           Will Sullivan</a>, <strong>Head of Marketing</strong>, TheRightMargin
-      </cite>
-    </blockquote>
-  </section>
-
-
-
-
-
-  <section class="testimonial">
-    <h2>Engineers</h2>
-
-    <blockquote>
-      <p>
-        Art is one of the best teammates I&apos;ve ever worked with. He always looks out for the team&apos;s best interest and is <mark>a natural leader, pushing anyone he is working with to the next level.</mark> As an engineer he is detailed oriented and always looking to up his game with best practices and improvements in tooling and workflow. He also has a passion for UX and truly cares about the user.
-      </p>
-      <cite>
-        &mdash;
-        <a href="https://www.linkedin.com/in/elyse-kolker-gordon/" target="_blank">
-          Elyse Kolker Gordon</a>, <strong>Web Lead</strong>, Vevo
       </cite>
     </blockquote>
   </section>
