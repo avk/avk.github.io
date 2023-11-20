@@ -140,10 +140,10 @@ $header-height: 60px;
 
 @media (min-width: 768px) {
   .site-nav .page-link {
-    border-bottom-style: dashed;
-    padding: 12px;
+    padding: 16px;
   }
   .site-nav .current-page {
+    border-bottom: 5px solid $color-primary-1;
     &:after {
       content: "";
     }
