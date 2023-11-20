@@ -10,7 +10,7 @@ last_modified_at: 2021-07-28
   src="{{ site.url }}/assets/2019-AVK-square.jpg"
   alt="Arthur Klepchukov head shot, December 2018" />
 
-# About me
+# About
 
 Hi, I'm Arthur Klepchukov, a UX designer who loves words, trains, and the promise of an empty page. <mark>Discovering the right things to create is more fun than building unvalidated visions.</mark> I'm often the first to ask why, seek metrics, or start sketching flows. I crave understanding user goals, business needs, and how a product can fit into the broader world.
 

@@ -5,7 +5,7 @@ permalink: /resume/
 last_modified_at: 2023-11-01
 ---
 
-# Art's resume
+# Resume
 
 <a href="{{ "/assets/resumes/2023-11_AVK-resume.pdf" | relative_url }}" class="btn btn-primary">
   Download PDF</a> or explore my <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank">LinkedIn profile</a>.
