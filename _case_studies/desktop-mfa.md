@@ -8,6 +8,12 @@ cover_image: /assets/mfa/macOS-FS-factors.png
 active: true
 ---
 
+<img
+  src="{{ site.url }}/assets/mfa/macOS-FS-factors.png"
+  alt="Work sample from this case study"
+  class="screenshot screenshot-landscape"
+/>
+
 # <small>Case Study:</small> <br />{{ page.title }}
 
 <a href="https://www.okta.com/products/device-access/" type="button" class="btn btn-success" target="_blank">&#10004; In Production (2023)</a>
