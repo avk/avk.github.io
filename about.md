@@ -23,23 +23,23 @@ Hi, I'm Arthur Klepchukov, a UX designer who loves words, trains, and the promis
 <ul class="about-skills">
 
   <li>
-    <a href="{{ '/case_studies/flows_beyond_designers/' | relative_url }}">
-      <span class="skill-graphic">🌊</span>user flows</a>
+    <a href="{{ '/case_studies/desktop-mfa' | relative_url }}">
+      <span class="skill-graphic">&asymp;</span>user flows</a>
   </li>
 
   <li>
     <a href="{{ '/case_studies/redesign-file-viewer' | relative_url }}">
-      <span class="skill-graphic">🏗</span>wireframes</a>
+      <span class="skill-graphic">#</span>wireframes</a>
   </li>
 
   <li>
-    <a href="{{ '/case_studies/note-to-self-prototype' | relative_url }}">
-      <span class="skill-graphic">💥</span>prototypes</a>
+    <a href="{{ '/case_studies/desktop-mfa' | relative_url }}">
+      <span class="skill-graphic">&raquo;</span>prototypes</a>
   </li>
 
   <li>
     <a href="{{ '/case_studies/secure-reader-threading/' | relative_url }}">
-      <span class="skill-graphic">📊</span>product metrics</a>
+      <span class="skill-graphic">&cent;</span>product metrics</a>
   </li>
 
 </ul>
