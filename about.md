@@ -58,4 +58,4 @@ My perpetual interests include: effective writing, typography, information archi
 * graduated from <mark><abbr title="University of California, Berkeley">UC Berkeley</abbr></mark>—Cognitive Science, <abbr title="Bachelor of Arts">B.A.</abbr> & Computer Science, minor
 * host writing meetups and read at open mic nights
 * fluent in Russian
-* regulary <a href="https://arsenalofwords.com/" target="_blank">get my writing published</a>
+* regularly <a href="https://arsenalofwords.com/" target="_blank">get my writing published</a>
