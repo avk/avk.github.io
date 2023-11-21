@@ -95,6 +95,39 @@ h1:first-of-type {
   margin-top: $leading / 2 !important;
 }
 
+.slanted-headline {
+  font-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important;
+  font-size: 5rem !important;
+}
+.hero-line1 {
+  font-weight: 400;
+  line-height: 3rem;
+}
+.hero-line2 {
+  font-variant-caps: all-small-caps;
+  line-height: 2rem;
+  text-shadow: 3px 3px 0px #333;
+}
+.hero-cta {
+  font-size: 2rem;
+  font-weight: normal;
+  letter-spacing: 0.1rem;
+  line-height: 2.5rem;
+  padding-inline: 2rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .slanted-headline {
+    font-size: 8rem !important;
+  }
+  .hero-line1 {
+    line-height: 6rem;
+  }
+  .hero-line2 {
+    line-height: 2.5rem;
+  }
+}
+
 blockquote {
   border-left: 3px solid $color-primary-2;
   color: $color-neutral-2;
