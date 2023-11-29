@@ -128,6 +128,8 @@ We weren't the first to market with Desktop <abbr title="Multi-Factor Authentica
 
 I advocated for this opportunity to speak to one of Okta's strengths&mdash;vendor neutrality. <mark><span class="decision">DECISION</span>: follow the Windows and macOS interface conventions</mark>, because end users probably trust them more than any security product.
 
+This also moved us closer to the product positioning of "Okta Inside" (<em>à la "Intel Inside"</em>) and the eventual goal of shipping Okta with every laptop.
+
 
 
 <a name="2.2"></a>
