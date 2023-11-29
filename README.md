@@ -35,3 +35,12 @@ Commit & push to master.
 1. Merge to master
 
 1. Push master to deploy
+
+
+
+# Styles
+
+- uses Sass heavily (from `_sass/`)
+- see which Jekyll theme (e.g. Minima) is in use, which may ship its own styles
+- Sass variables used are in `assets/css/style.scss`
+
