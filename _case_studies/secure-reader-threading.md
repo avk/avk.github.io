@@ -25,7 +25,7 @@ active: true
 * [Overview](#1)
   * [Skills Used](#1.1)
   * [Problem Definition](#1.2)
-  * [My Role on the Team](#1.3)
+  * [Team](#1.3)
 
 * [Design Process](#2)
   1. [Choose "threading" definition](#2.1)
@@ -128,10 +128,10 @@ Virtru's Secure Reader (<abbr title="Secure Reader">SR</abbr>) is a web app that
 
 
 <a name="1.3"></a>
-### My Role on the Team
+### Team
 
 <ul>
-  <li>myself, Senior Interaction Designer to design solutions</li>
+  <li><mark>Senior Interaction Designer</mark> (me) to design solutions</li>
   <li>a Front-end Engineer to implement</li>
   <li>a Product Manager to prioritize</li>
   <li>a User Researcher to evaluate</li>

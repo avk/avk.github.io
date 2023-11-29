@@ -29,7 +29,7 @@ active: true
   * [Assumptions](#1.4)
   * [Success Metrics](#1.5)
   * [Audience & Personas](#1.6)
-  * [My Role on the Team](#1.7)
+  * [Team](#1.7)
   * [Constraints](#1.8)
 
 * [Design Process](#2)
@@ -154,10 +154,10 @@ Convince writers to start and finish new 50,000-word novels in 30 days using  ne
 
 
 <a name="1.7"></a>
-### My Role on the Team
+### Team
 
   <p>
-    As Senior UX Designer &amp; Engineer, I worked:
+    As <mark>Senior UX Engineer</mark>, I worked:
   </p>
 
   <ul>

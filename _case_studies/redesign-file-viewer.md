@@ -26,7 +26,7 @@ active: true
   * [Skills Used](#1.1)
   * [Problem Definition](#1.2)
   * [Audience](#1.3)
-  * [My Role on the Team](#1.4)
+  * [Team](#1.4)
   * [Constraints](#1.5)
 
 * [Design Process](#2)
@@ -79,10 +79,10 @@ Wireframe & redesign a file viewer for displaying 50+ file types online&mdash;a 
   </p>
 
 <a name="1.4"></a>
-### My Role on the Team
+### Team
 
   <p>
-    As <strong>Senior UX Designer</strong>, in August 2017, I joined a team consisting of:
+    As <mark>Senior UX Designer</mark>, in August 2017, I joined a team consisting of:
   </p>
 
   <ul>
