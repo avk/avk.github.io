@@ -4,7 +4,7 @@
 // https://www.modularscale.com/
 $modularscale: (
   base: 1em,
-  ratio: 1.2
+  ratio: 1.25
 );
 
 // for vertical rhythm
@@ -45,14 +45,22 @@ body {
   line-height: $line-height !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
   color: $color-primary-8;
+  font-weight: 400 !important;
+}
 
+h2, h3, h4, h5, h6 {
+  color: $color-neutral-3;
+  font-weight: 700 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
   font-family: $base-font-family-headings !important;
 
   // font-size: set individually
 
-  font-weight: 700 !important;
+  // font-weight: 700 !important;
 
   // letter-spacing: set individually
 
