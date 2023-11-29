@@ -57,9 +57,9 @@ Convince writers to start and finish new 50,000-word novels in 30 days using  ne
 <a name="1.1"></a>
 ### Skills Used
 
-* user flows
-* product metrics
-* visual design
+* <mark>user flows</mark>
+* <mark>product metrics</mark>
+* <mark>visual design</mark>
 
 
 
@@ -68,7 +68,7 @@ Convince writers to start and finish new 50,000-word novels in 30 days using  ne
 <a name="1.2"></a>
 ### Problem Definition
   <p>
-    Every November, hundreds of thousands of writers around the world attempt to write 50,000 words of a new novel by Nov. 30 as part of National Novel Writing Month (NaNoWriMo). Reaching the 50k word count is winning NaNoWriMo. We wanted to entice 2016 NaNoWriMo participants to start (and ideally write) a new 50,000-word novel in 30 days using our online writing software at TheRightMargin.
+    Every November, hundreds of thousands of writers around the world attempt to <mark>write 50,000 words of a new novel by Nov. 30</mark> as part of National Novel Writing Month (NaNoWriMo). Reaching the 50k word count is winning NaNoWriMo. We wanted to entice 2016 NaNoWriMo participants to start (and ideally write) a new 50,000-word novel in 30 days using our online writing software at TheRightMargin.
   </p>
 
 
@@ -91,15 +91,15 @@ Convince writers to start and finish new 50,000-word novels in 30 days using  ne
   <ol>
 
     <li>
-      Our inbound marketing can generate enough traffic without expensive NaNoWriMo sponsorship.
+      Our <mark>inbound marketing</mark> can generate enough traffic without expensive NaNoWriMo sponsorship.
     </li>
 
     <li>
-      Our writing software features present unique value for novel writers to reimagine their 50,000-word goal as a series of actionable milestones and tasks.
+      Our <mark>writing software features</mark> present unique value for novel writers to reimagine their 50,000-word goal as a series of actionable milestones and tasks.
     </li>
 
     <li>
-      An extended trial will help new users win NaNoWriMo and convert to customers.
+      An <mark>extended trial</mark> will help new users win NaNoWriMo and convert to customers.
     </li>
 
   </ol>
@@ -139,14 +139,14 @@ Convince writers to start and finish new 50,000-word novels in 30 days using  ne
   </p>
 
   <p>
-    In our initial discussion with past NaNoWriMo participants, we learned that many were inundated with resources before and during NaNoWriMo. Those that had prepared before November found themselves in a much better position to make progress during November, even if they didn&#39;t win. There was no consistently in tools used, though most people wrote digitally to keep track of their daily and overall word count.
+    In our initial discussion with past NaNoWriMo participants, we learned that <mark>many were inundated with resources before and during NaNoWriMo</mark>. Those that had prepared before November found themselves in a much better position to make progress during November, even if they didn&#39;t win. There was no consistently in tools used, though most people wrote digitally to keep track of their daily and overall word count.
   </p>
 
   <p>
     Our writing software at TheRightMargin helps writers break lofty goals (e.g. write a novel) into actionable milestones and tasks, with optional dates and encouragement. We felt like our approach could drastically help NaNoWriMo participants.
   </p>
   <p>
-    We found two NaNoWriMo personas: plotters and pantsers. Plotters prepared before November with research, outlines, and generally making room in their schedules and life for NaNoWriMo. Pantsers may have freed up more time for writing but did not do any preparatory work on their novels before November. We targeted largely plotters before November because it afforded more time to market and they already seemed more aligned with TheRightMargin's product philosophy.
+    We found two NaNoWriMo personas: plotters and pantsers. Plotters prepared before November with research, outlines, and generally making room in their schedules and life for NaNoWriMo. Pantsers may have freed up more time for writing but did not do any preparatory work on their novels before November. <mark>We targeted plotters before November, because it afforded more time to market</mark> and they already seemed more aligned with TheRightMargin's product philosophy.
   </p>
 
 
@@ -195,7 +195,7 @@ Convince writers to start and finish new 50,000-word novels in 30 days using  ne
 
 ## Design Process
   <p>
-    We conducted initial research by tapping into the local writing community, past NaNoWriMo participants via nanowrimo.org forums, meetups, and personal networks, and my personal experience doing similar challenges such as the 3-day Novel Contest. From our initial discussions, we quickly gathered that the plotter persona gave themselves a much higher chance of winning (writing 50,000 words by Nov. 30) by preparing before Nov 1.
+    We conducted initial research by tapping into the local writing community, past NaNoWriMo participants via nanowrimo.org forums, meetups, and personal networks, and my personal experience doing similar challenges such as the 3-day Novel Contest. From our initial discussions, we quickly gathered that <mark>the plotter persona gave themselves a much higher chance of winning (writing 50,000 words by Nov. 30) by preparing before Nov 1.</mark>
   </p>
 
 
@@ -207,7 +207,7 @@ Convince writers to start and finish new 50,000-word novels in 30 days using  ne
 ### Advice formation
 
   <p>
-    Interviews with past participants, retrospective blog posts, and the nanowrimo.org were our best sources of advice on how to excel at NaNoWriMo. We arranged our takeaways in chronological writing milestones, full of actionable writing tasks, each with prompts to assist the completion of said task. They took the form of this hierarchy:
+    Interviews with past participants, retrospective blog posts, and the nanowrimo.org were our best sources of advice on how to excel at NaNoWriMo. <mark>We arranged our takeaways in chronological writing milestones, full of actionable writing tasks,</mark> each with prompts to assist the completion of said task. They took the form of this hierarchy:
   </p>
 
   <p>
@@ -290,7 +290,7 @@ Convince writers to start and finish new 50,000-word novels in 30 days using  ne
   </p>
 
   <p>
-    &hellip;we incorporated the best practices we learned into a writing project tailored to NaNoWriMo:
+    &hellip;we <mark>incorporated the best practices we learned</mark> into a writing project tailored to NaNoWriMo:
   </p>
 
   <p>
@@ -302,7 +302,7 @@ Convince writers to start and finish new 50,000-word novels in 30 days using  ne
   </p>
 
   <p>
-    Because of the new sign up flow, I advocated and implemented tracking NaNoWriMo participants as a new user cohort, so we could compare and contrast their performance and metrics to existing and future users.
+    Because of the new sign up flow, I advocated and implemented <mark>tracking NaNoWriMo participants as a new user cohort</mark>, so we could compare and contrast their performance and metrics to existing and future users.
   </p>
 
 
@@ -317,50 +317,50 @@ Convince writers to start and finish new 50,000-word novels in 30 days using  ne
 
     <li>
       <p>
-        Goal: 250 sign ups via a custom landing page
+        Goal: <br>
+        250 sign ups via a custom landing page
       </p>
 
-      <blockquote>
-        <p>
-          271 sign ups at a 27% conversion from visitor to trial
-        </p>
-      </blockquote>
+      <p>
+        Outcome: <br>
+        271 sign ups at a <mark>27% conversion from visitor to trial</mark>
+      </p>
     </li>
 
     <li>
       <p>
-        Goal: Increased average time on site (&gt; 5 minutes)
+        Goal: <br>
+        Increased average time on site (&gt; 5 minutes)
       </p>
 
-      <blockquote>
-        <p>
-          Average time on site increased to &gt; 30 minutes
-        </p>
-      </blockquote>
+      <p>
+        Outcome: <br>
+        <mark>Average time on site increased to &gt; 30 minutes</mark>
+      </p>
     </li>
 
     <li>
       <p>
-        Goal: 10% of trials to convert to customers
+        Goal: <br>
+        10% of trials to convert to customers
       </p>
 
-      <blockquote>
-        <p>
-          1.1% conversion from trial to customer
-        </p>
-      </blockquote>
+      <p>
+        Outcome: <br>
+        1.1% conversion from trial to customer
+      </p>
     </li>
 
     <li>
       <p>
-        Goal: none set for NaNoWriMo winners
+        Goal: <br>
+        none set for NaNoWriMo winners
       </p>
 
-      <blockquote>
-        <p>
-          7 participants wrote at least 50,000 words and won NaNoWriMo
-        </p>
-      </blockquote>
+      <p>
+        Outcome: <br>
+        <mark>7 participants wrote at least 50,000 words</mark> and won NaNoWriMo
+      </p>
     </li>
 
   </ol>
