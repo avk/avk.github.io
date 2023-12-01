@@ -47,7 +47,7 @@ active: true
 <a name="1"></a>
 ## Overview
 
-Virtru's Secure Reader (<abbr title="Secure Reader">SR</abbr>) is a web app that allows reading and replying to encrypted email. But <abbr title="Secure Reader">SR</abbr> displays only one message at a time. Following an encrypted email conversation means jumping between your email client and <abbr title="Secure Reader">SR</abbr> to read more than one message. Virtru customers need to see earlier encrypted emails in a thread with minimal friction in a performant way, even for long threads.
+Virtru's Secure Reader (<abbr title="Secure Reader">SR</abbr>) is a web app that allows reading and replying to encrypted email. But <abbr title="Secure Reader">SR</abbr> displays only one message at a time. Following an encrypted email conversation means <mark>jumping between your email client and <abbr title="Secure Reader">SR</abbr> to read more than one message</mark>. Virtru customers need to see earlier encrypted emails in a thread with minimal friction in a performant way, even for long threads.
 
 
 
@@ -56,10 +56,10 @@ Virtru's Secure Reader (<abbr title="Secure Reader">SR</abbr>) is a web app that
 <a name="1.1"></a>
 ### Skills Used
 
-* user flows  
-* visual design
-* product metrics
-* usability testing
+* <mark>user flows</mark>
+* <mark>visual design</mark>
+* <mark>product metrics</mark>
+* <mark>usability testing</mark>
 
 
 
